@@ -21,8 +21,8 @@ I have been always interested in connecting my academic work to its social envir
 
 ## Contact
 
-Departament de Matemàtiques i Informàtica
-Facultat de Matemàtiques i Informàtica
-Universitat de Barcelona
-Gran Via 585, 08007 Barcelona
-jordi.vitria at ub.edu
+Departament de Matemàtiques i Informàtica <br />
+Facultat de Matemàtiques i Informàtica  <br />
+Universitat de Barcelona <br />
+Gran Via 585, 08007 Barcelona <br />
+jordi.vitria at ub.edu <br />
