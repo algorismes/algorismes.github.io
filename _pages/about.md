@@ -14,4 +14,7 @@ From 1991 to 2006, I taught Computer Vision and Artificial Intelligence in the C
 
 My research, when personal computers had 128KB of memory, was originally oriented towards digital image analysis and how to extract quantitative information from them, but soon evolved towards computer vision problems. After a postdoctoral year at the University of California at Berkeley in 1993, I focused on Bayesian methods for computer vision methods. Now, I am the head of a research group working in deep learning, computer vision and machine learning.
 
+> **My research statement**
+> To understand the fundamental processes underlying the visual perception of objects to derive new computer vision algorithms that, one day, may enable machines to see.
+
 I have been always interested in connecting my academic work to its social environment, and since 1993 I have been involved in several projects to transfer academic knowledge to industrial production, medical diagnose and media applications.
