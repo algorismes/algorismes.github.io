@@ -1,3 +1,13 @@
+---
+permalink: /research/
+title: "Research Supervision"
+author_profile: true
+redirect_from: 
+  - /md/
+  - /research.html
+---
+
+
 ## PhD Positions
 I'm always interested to receive PhD student applications, so feel free to email me with any questions.
 
