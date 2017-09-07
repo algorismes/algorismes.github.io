@@ -20,8 +20,13 @@ My research, when personal computers had 128KB of memory, was originally oriente
 I have been always interested in connecting my academic work to its social environment, and since 1993 I have been involved in several projects to transfer academic knowledge to industrial production, medical diagnose and media applications.
 
 ## Contact
+
 Departament de Matemàtiques i Informàtica
+
 Facultat de Matemàtiques i Informàtica
+
 Universitat de Barcelona
+
 Gran Via 585, 08007 Barcelona
+
 jordi.vitria at ub.edu
