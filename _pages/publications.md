@@ -13,7 +13,9 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 + We have presented the result of a collaboration with BBVA D&A in the Workshop on Machine Learning for Spatiotemporal Forecasting as part of the NIPS 2016 conference. Our contribution is entitled <u><a href="https://www.bbvadata.com/there-is-no-such-thing-as-a-certain-prediction/"> "Evaluating uncertainty scores for deep regression networks in financial short time series forecasting"</a></u>.
 
-+ We have develop a deep learning model that achieves state of the art classification results in a novel image modality, endoluminal images: Seguí, Santi, Michal Drozdzal, Guillem Pascual, Petia Radeva, Carolina Malagelada, Fernando Azpiroz and Jordi Vitrià. “Generic feature learning for wireless capsule endoscopy analysis.” Computers in biology and medicine 79 (2016): 163-172. https://arxiv.org/abs/1607.07604
++ Seguí, Santi, Michal Drozdzal, Guillem Pascual, Petia Radeva, Carolina Malagelada, Fernando Azpiroz and Jordi Vitrià. <u><a href="https://arxiv.org/abs/1607.07604">“Generic feature learning for wireless capsule endoscopy analysis.”</a></u> Computers in biology and medicine 79 (2016): 163-172. 
+In this paper
+
 
 
 
