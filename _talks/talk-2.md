@@ -1,5 +1,5 @@
 ---
-title: "Talk 2"
+title: "Tutorial"
 collection: talks
 type: "Tutorial"
 permalink: /talks/talk-2
