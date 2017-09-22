@@ -1,7 +1,7 @@
 ---
 title: "Talk 2"
 collection: talks
-type: "Talk"
+type: "Tutorial"
 permalink: /talks/talk-2
 venue: "Seventh European Business Intelligence & Big Data Summer School (eBISS 2017)"
 date: 2017-07-06
