@@ -8,4 +8,5 @@ date: 2016-09-01
 location: "Barcelona, Catalonia"
 ---
 
-http://www.ub.edu/senesciencia/noticia/a-data-world/
+[A world of data](http://www.ub.edu/senesciencia/noticia/a-data-world/) // Interview with Jordi Vitrià, Professor of Applied Mathematics and Analysis at University of Barcelona
+
