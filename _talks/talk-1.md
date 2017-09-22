@@ -1,10 +1,10 @@
 ---
 title: "Interview"
 collection: talks
-type: "Talk"
+type: "Interview"
 permalink: /talks/talk-1
 venue: "Revista Senèsciència"
-date: 2012-03-01
+date: 2016-09
 location: "Barcelona, Catalonia"
 ---
 
