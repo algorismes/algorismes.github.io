@@ -1,11 +1,13 @@
 ---
-title: "Conference Proceeding talk 3 on Relevant Topic in Your Field"
+title: "Tutorial"
 collection: talks
-type: "Conference proceedings talk"
+type: "Tutorial"
 permalink: /talks/talk-3
-venue: "Testing Institute of America 2014 Annual Conference"
-date: 2014-03-01
-location: "Los Angeles, CA"
+venue: "Universitat de Barcelona"
+date: 2017-07-12
+location: "Universitat de Barcelona, Catalonia"
 ---
 
-This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.
+[Deep Learning from Scratch](http://www.ub.edu/datascience/deep/)
+
+Deep learning is one of the fastest growing areas of machine learning and a hot topic in both academia and industry. We have designed a two-day course that covers the basics of deep learning by using a hands-on approach.
