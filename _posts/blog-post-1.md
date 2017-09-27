@@ -1,4 +1,5 @@
-----
+@@ -1,20 +0,0 @@
+ ----
  -title: 'Blog Post number 4'
  -date: 2015-08-14
  -permalink: /posts/2012/08/blog-post-4/
