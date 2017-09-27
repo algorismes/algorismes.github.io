@@ -22,14 +22,14 @@ I'm afraid that I'm no longer taking intern students.
 ## Past Students
 + Ekaterina Zaytseva, Mathematical Modeller at Red Bull Racing & Red Bull Technology, London, UK.
 + Mario Rojas, Post-doctoral research assistant, Dublin City University.
-+ Àgata Lapedriza. Associate Profesor, Universitat Oberta de Catalunya.
-+ Xavier Baró, Associate Profesor, Universitat Oberta de Catalunya.
-+ David Masip, Associate Profesor, Universitat Oberta de Catalunya.
-+ David Guillamet, Machine Vision Department, Infaimon, Barcelona.
-+ Marco Bressan, Chief Data Scientist, BBVA, Spain.
-+ Aleix Martinez, Associate Professor, Ohio State University, USA.
-+ Xavier Roca, Associate Professor, Computer Science Dept. UAB.
-+ Santi Seguí, Lecturer, Universitat de Barcelona.
-+ Maria Vanrell, Associate Professor, Computer Science Dept. UAB.
++ [Àgata Lapedriza](http://sunai.uoc.edu/~agata/). Associate Profesor, Universitat Oberta de Catalunya & Visiting researcher at the Massachusetts Institute of Technology (MIT).
++ [Xavier Baró](http://sunai.uoc.edu/), Associate Profesor, Universitat Oberta de Catalunya.
++ [David Masip](http://www.cvc.uab.es/~davidm/), Associate Profesor, Universitat Oberta de Catalunya.
++ [David Guillamet](https://www.linkedin.com/in/davidguillamet/?ppe=1), Chief Data Scientist, Bodas.net, Barcelona.
++ [Marco Bressan](https://www.linkedin.com/in/mbressan/?ppe=1), Chief Data Scientist, Satellogic, Spain.
++ [Aleix Martinez](http://www2.ece.ohio-state.edu/~aleix/), Professor, Ohio State University, USA.
++ [Xavier Roca](https://www.linkedin.com/in/xavierroca/?ppe=1), Associate Professor, Computer Science Dept. UAB, CEO & Co-Founder Visual Tagging. 
++ [Santi Seguí](http://www.cvc.uab.es/people/ssegui/), Lecturer, Universitat de Barcelona.
++ [Maria Vanrell](http://www.cat.uab.cat/~maria/), Associate Professor, Computer Science Dept. UAB.
 + Xavier Sànchez, Associate Professor, Computer Science Dept. UAB.
-+ Xavier Binefa, Associate Professor, Computer Science Dept. UPF.
++ [Xavier Binefa](https://www.upf.edu/web/etic/entry/-/-/53910/409/xavier-binefa), Associate Professor, Computer Science Dept. UPF.
