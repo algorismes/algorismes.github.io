@@ -26,7 +26,7 @@ I'm afraid that I'm no longer taking intern students.
 + [Xavier Baró](http://sunai.uoc.edu/), Associate Profesor, Universitat Oberta de Catalunya.
 + [David Masip](http://www.cvc.uab.es/~davidm/), Associate Profesor, Universitat Oberta de Catalunya.
 + [David Guillamet](https://www.linkedin.com/in/davidguillamet/?ppe=1), Chief Data Scientist, [Bodas.net](https://www.bodas.net/), Barcelona.
-+ [Marco Bressan](https://www.linkedin.com/in/mbressan/?ppe=1), Chief Data Scientist, [Satellogic](https://www.satellogic.com/), Spain. Former Chief Data Scientist at [BBVA](https://www.bbva.com/en/). 
++ [Marco Bressan](https://www.linkedin.com/in/mbressan/?ppe=1), Chief Data Scientist, [Satellogic](https://www.satellogic.com/). Former Chief Data Scientist at [BBVA](https://www.bbva.com/en/). 
 + [Aleix Martinez](http://www2.ece.ohio-state.edu/~aleix/), Professor, Ohio State University, USA.
 + [Xavier Roca](https://www.linkedin.com/in/xavierroca/?ppe=1), Associate Professor, Computer Science Dept. UAB, CEO & Co-Founder [Visual Tagging](https://visual-tagging.com/en). 
 + [Santi Seguí](http://www.cvc.uab.es/people/ssegui/),  Associate Professor (interin), Universitat de Barcelona.
