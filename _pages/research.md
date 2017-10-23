@@ -20,7 +20,7 @@ I'm afraid that I'm no longer taking intern students.
 + Jose Mena. PhD Student, EURECAT/Universitat de Barcelona. Working on Information Retrieval and Neural Word Representation.
 
 ## Past Students
-+ Ekaterina Zaytseva, Mathematical Modeller at Red Bull Racing & Red Bull Technology, London, UK.
++ [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Mathematical Modeller at Red Bull Racing & Red Bull Technology, London, UK.
 + Mario Rojas, Post-doctoral research assistant, Dublin City University.
 + [Àgata Lapedriza](http://sunai.uoc.edu/~agata/). Associate Profesor, Universitat Oberta de Catalunya & Visiting researcher at the Massachusetts Institute of Technology (MIT).
 + [Xavier Baró](http://sunai.uoc.edu/), Associate Profesor, Universitat Oberta de Catalunya.
