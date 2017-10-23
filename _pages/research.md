@@ -15,9 +15,9 @@ I'm always interested to receive PhD student applications, so feel free to email
 I'm afraid that I'm no longer taking intern students.
 
 ## Present Students
-+ Guillem Pascual, Universitat de Barcelona.
-+ Àxel Brando. PhD Student, BBVA/Universitat de Barcelona.
-+ Jose Mena. PhD Student, EURECAT/Universitat de Barcelona.
++ Guillem Pascual, Universitat de Barcelona. Working on Probabilistic Convolutional Neural Networks. 
++ Àxel Brando. PhD Student, BBVA/Universitat de Barcelona. Working on Prediction of Times Series using Deep Learning. 
++ Jose Mena. PhD Student, EURECAT/Universitat de Barcelona. Working on Information Retrieval and Neural Word Representation.
 
 ## Past Students
 + Ekaterina Zaytseva, Mathematical Modeller at Red Bull Racing & Red Bull Technology, London, UK.
