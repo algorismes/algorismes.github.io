@@ -10,6 +10,6 @@ location: "Big Data Congress, Barcelona, Catalonia"
 
 [Connecting Talent and Companies: A view from the trenches](https://bigdatacongress.barcelona/programa/)
 
-![GitHub Logo](/images/bd2017-1.jpg)
+![BigDataCongress2017](/images/bd2017-1.jpg)
 
 [Slides](https://github.com/algorismes/algorismes.github.io/blob/master/_talks/BigDataCongress2017.pdf)
