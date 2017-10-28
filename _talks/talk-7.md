@@ -13,3 +13,5 @@ location: "Big Data Congress, Barcelona, Catalonia"
 [Slides](https://github.com/algorismes/algorismes.github.io/blob/master/_talks/BigDataCongress2017.pdf)
 
 <img src="https://raw.githubusercontent.com/algorismes/algorismes.github.io/master/images/bd2017-1.png" width="480">
+
+<img src="https://raw.githubusercontent.com/algorismes/algorismes.github.io/master/images/bd2017-2.png" width="480">
