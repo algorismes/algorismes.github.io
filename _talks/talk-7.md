@@ -10,9 +10,9 @@ location: "Big Data Congress, Barcelona, Catalonia"
 
 [Connecting Talent and Companies: A view from the trenches](https://bigdatacongress.barcelona/programa/)
 
-<img src="https://github.com/algorismes/algorismes.github.io/blob/master/images/bd2017-1.jpg" width="48">
+<img src="https://github.com/algorismes/algorismes.github.io/blob/master/images/bd2017-1.png" width="48">
 
 [Slides](https://github.com/algorismes/algorismes.github.io/blob/master/_talks/BigDataCongress2017.pdf)
 
-![BigDataCongress](https://github.com/algorismes/algorismes.github.io/blob/master/images/bd2017-1.png)
+[Image](https://github.com/algorismes/algorismes.github.io/blob/master/images/bd2017-1.png)
 
