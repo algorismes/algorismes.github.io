@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-> PhD Open Position: 2018 INPhINIT DOCTORAL CALL 2017
+> PhD Open Position: [2018 INPhINIT Doctoral Call 2017](https://bgsmath.cat/event/inphinit-doctoral-fellowship-call/)
 
 In 2007, I joined the University of Barcelona (UB) as Full Professor, where I teach an introductory course on Algorithms and advanced courses on Data Science. From April 2011 to January 2016 I served as Head of the Applied Mathematics and Analysis Department, UB. Now, I am member of the new Mathematics & Computer Science Department at UB.
 
