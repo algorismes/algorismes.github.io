@@ -10,7 +10,7 @@ redirect_from:
 
 >  If you are an undergraduate student and are interested in deep learning, there is a PhD Open Position: [2018 INPhINIT Doctoral Call 2017](https://bgsmath.cat/event/inphinit-doctoral-fellowship-call/). Look for the "Interpretable deep learning" proposal and apply before the end of January, 2018.
 
-In 2007, Jordi Vitrià joined the University of Barcelona (UB) as Full Professor, where he teaches an introductory course on Algorithms and advanced courses on Data Science and Deep Learning. From April 2011 to January 2016 he served as Head of the Applied Mathematics and Analysis Department, UB. Now, he is member of the new Mathematics & Computer Science Department at UB. He is also Director of the Master in Foundations of Data Science and co-director of the Big Data and Data Science Postgraduate course at the UB. 
+In 2007, Jordi Vitrià joined the University of Barcelona (UB) as Full Professor, where he teaches an introductory course on Algorithms and advanced courses on Data Science and Deep Learning. From April 2011 to January 2016 he served as Head of the Applied Mathematics and Analysis Department, UB. Now, he is member of the new Mathematics & Computer Science Department at UB. He is also Director of the [Master in Foundations of Data Science](http://www.ub.edu/datascience/master/) and co-director of the [Big Data and Data Science Postgraduate course](http://www.ub.edu/datascience/postgraduate) at the UB. 
 
 From 1991 to 2006, He taught Computer Vision and Artificial Intelligence in the Computer Science Department at the Universitat Autònoma de Barcelona (UAB). He has also been in charge of doctoral and master studies (until September 2007) at the Computer Science Department, UAB.
 
