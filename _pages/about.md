@@ -10,8 +10,6 @@ redirect_from:
 
 >  If you are an undergraduate student and are interested in deep learning, there is a PhD Open Position: [2018 INPhINIT Doctoral Call 2017](https://bgsmath.cat/event/inphinit-doctoral-fellowship-call/). Look for the "Interpretable deep learning" proposal and apply before the end of January, 2018.
 
-Jordi Vitrià Marca
-
 In 2007, Jordi Vitrià joined the University of Barcelona (UB) as Full Professor, where he teaches an introductory course on Algorithms and advanced courses on Data Science and Deep Learning. From April 2011 to January 2016 he served as Head of the Applied Mathematics and Analysis Department, UB. Now, he is member of the new Mathematics & Computer Science Department at UB. He is also Director of the Master in Foundations of Data Science and co-director of the Big Data and Data Science Postgraduate course at the UB. 
 
 From 1991 to 2006, He taught Computer Vision and Artificial Intelligence in the Computer Science Department at the Universitat Autònoma de Barcelona (UAB). He has also been in charge of doctoral and master studies (until September 2007) at the Computer Science Department, UAB.
@@ -21,7 +19,7 @@ His research, when personal computers had 128KB of memory, was originally orient
 > **My research statement**
 > To understand the fundamental processes underlying the visual perception of objects to derive new computer vision algorithms that, one day, may enable machines to see.
 
-He has been always interested in connecting his academic work to the social environment, and since 1993 he has been involved in a large number of projects to transfer academic knowledge to industrial production, medical diagnose and media applications. He is now director of the DataScience@UB group, technology transfer group that is supported by the Generalitat de Catalunya. During the last years the DataScience@UB group has been actively collaborating with companies such as BBVA, IBM, TUV Rheinland, Telefonica, Vodafone, ICGC, Bodas.net, Given Imaging, correYvuela, Ajuntament de Barcelona, 7ideas, etc.     
+He has been always interested in connecting his academic work to the social environment, and since 1993 he has been involved in a large number of projects to transfer academic knowledge to industrial production, medical diagnose and media applications. He is now director of the [DataScience@UB group](http://datascience.barcelona), technology transfer group that is supported by the Generalitat de Catalunya. During the last years the DataScience@UB group has been actively collaborating with companies such as BBVA, IBM, TUV Rheinland, Telefonica, Vodafone, ICGC, Bodas.net, Given Imaging, correYvuela, Ajuntament de Barcelona, 7ideas, etc.     
 
 ## Contact
 
