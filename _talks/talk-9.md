@@ -4,7 +4,7 @@ collection: Interview
 type: "Interview"
 permalink: /talks/talk-9
 venue: "Penta News (BGSMath Newsletter)"
-date: 2017-12-14
+date: 2018-5-10
 location: "Barcelona"
 ---
 
