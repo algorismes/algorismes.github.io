@@ -9,7 +9,7 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlights
 
-+ Guillem Pascual, Santi Seguí, Jordi Vitria. Uncertainty Gated Network for Land Cover Segmentation. Poster at DeepGlobe CVPR 2018 workshop. 
++ Guillem Pascual, Santi Seguí, Jordi Vitria. <u><a href="http://deepglobe.org/index.html">Uncertainty Gated Network for Land Cover Segmentation</a></u>. Poster at DeepGlobe CVPR 2018 workshop. 
 
 + We (E.Puertas, S.Seguí, O.Pujol and J.Vitrià) have written a book entitled <u><a href="https://tienda.rbacoleccionables.com/mundo-matematico-ng-2016-050.html">"El Poder de los datos : del big data al aprendizaje profundo"</a></u> for RBA Editores & National Geographic. The book has already been translated to <u><a href="http://www.ourmathematicalworld.co.uk/#issues">English</a></u> and Italian!
 
