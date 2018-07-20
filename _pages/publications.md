@@ -9,6 +9,10 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlights
 
++ Axel Brando, Jose A. Rodrıguez-Serrano, Mauricio Ciprian, Roberto Maestre and Jordi Vitrià, Uncertainty Modelling in Deep Networks for Short and Noisy Time Series Forecasting. ECMLPKDD 2018. 
+
++ Jordi Vitrià. Let’s Open the Black Box of Deep Learning! In Business Intelligence and Big Data, Edited by Zimanyi, Esteban. Springer International Publishing. 2018.
+
 + Guillem Pascual, Santi Seguí, Jordi Vitria. <u><a href="https://arxiv.org/abs/1805.11348">Uncertainty Gated Network for Land Cover Segmentation</a></u>. Poster at DeepGlobe CVPR 2018 workshop. 
 
 + We (E.Puertas, S.Seguí, O.Pujol and J.Vitrià) have written a book entitled <u><a href="https://tienda.rbacoleccionables.com/mundo-matematico-ng-2016-050.html">"El Poder de los datos : del big data al aprendizaje profundo"</a></u> for RBA Editores & National Geographic. The book has already been translated to <u><a href="http://www.ourmathematicalworld.co.uk/#issues">English</a></u> and Italian!
