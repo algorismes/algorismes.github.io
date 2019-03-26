@@ -34,4 +34,4 @@ Facultat de Matemàtiques i Informàtica  <br />
 Universitat de Barcelona <br />
 Gran Via 585, 08007 Barcelona <br />
 email: jordi.vitria at ub.edu <br />
-tweeter: @bitenmascarado <br />
+tweeter: [@bitenmascarado](https://twitter.com/bitenmascarado) <br />
