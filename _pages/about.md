@@ -19,6 +19,14 @@ His research, when personal computers had 128KB of memory, was originally orient
 
 He has been always interested in connecting his academic work to the social environment, and since 1993 he has been involved in a large number of projects to transfer academic knowledge to industrial production, medical diagnose and media applications. He is now director of the [DataScience@UB group](http://datascience.barcelona/en) technology transfer group that is supported by the Generalitat de Catalunya. During the last years the DataScience@UB group has been actively collaborating with companies such as BBVA, IBM, TUV Rheinland, Telefonica, Vodafone, ICGC, Bodas.net, Given Imaging, correYvuela, Ajuntament de Barcelona, 7ideas, etc.     
 
+**Highlights**
+
+Feb. 2019 - A project on artificial intelligence enables the improvement of [colorectal cancer screening](http://www.fbg.ub.edu/en/news/project-artificial-intelligence-enables-the-improvement-of-colorectal-cancer-screening/). 
+
+<iframe src="https://player.vimeo.com/video/311499465" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/311499465">[DataScience] Endoscopy</a> from <a href="https://vimeo.com/giny">Giny Comunicaci&oacute;</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
 ## Contact
 
 Departament de Matemàtiques i Informàtica <br />
