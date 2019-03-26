@@ -9,7 +9,7 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlights
 
-+ Axel Brando, Jose A. Rodrıguez-Serrano, Mauricio Ciprian, Roberto Maestre and Jordi Vitrià, Uncertainty Modelling in Deep Networks for Short and Noisy Time Series Forecasting. ECMLPKDD 2018. 
++ Axel Brando, Jose A. Rodrıguez-Serrano, Mauricio Ciprian, Roberto Maestre and Jordi Vitrià, <u><a href="https://arxiv.org/pdf/1807.09011.pdf"> "Uncertainty Modelling in Deep Networks for Short and Noisy Time Series Forecasting"</a></u>. ECMLPKDD 2018. 
 
 + Jordi Vitrià. Let’s Open the Black Box of Deep Learning! In Business Intelligence and Big Data, Edited by Zimanyi, Esteban. Springer International Publishing. 2018.
 
