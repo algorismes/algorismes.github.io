@@ -33,4 +33,5 @@ Departament de Matemàtiques i Informàtica <br />
 Facultat de Matemàtiques i Informàtica  <br />
 Universitat de Barcelona <br />
 Gran Via 585, 08007 Barcelona <br />
-jordi.vitria at ub.edu <br />
+email: jordi.vitria at ub.edu <br />
+tweeter: @bitenmascarado <br />
