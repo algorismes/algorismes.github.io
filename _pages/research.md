@@ -15,9 +15,11 @@ I'm always interested to receive PhD student applications, so feel free to email
 I'm afraid that I'm no longer taking intern students.
 
 ## Present Students
-+ Guillem Pascual, Universitat de Barcelona. Working on Probabilistic Convolutional Neural Networks. 
-+ Àxel Brando. PhD Student, BBVA/Universitat de Barcelona. Working on Prediction of Times Series using Deep Learning. 
-+ Jose Mena. PhD Student, EURECAT/Universitat de Barcelona. Working on Information Retrieval and Neural Word Representation.
++ Guillem Pascual, Universitat de Barcelona. Working on Probabilistic Convolutional Neural Networks. Co-direction with S.Seguí (UB).
++ Àxel Brando. PhD Student, BBVA/Universitat de Barcelona. Working on Prediction of Times Series using Deep Learning. Co-direction with J.A.Rodriguez (BBVA).
++ Jose Mena. PhD Student, EURECAT/Universitat de Barcelona. Working on Information Retrieval and Neural Word Representation. Co-direction with O.Pujol (UB).
++ Carlos Garcia, PhD Student, ICGC/Universitat de Barcelona. Working on Deep Learning for Remote Sensing Applications. Co-direction with O.Mora(ICGC).
++ Álvaro Parafita, PhD Student, UB. Working on Explainable Deep Learning.
 
 ## Past Students
 + [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Mathematical Modeller at Red Bull Racing & Red Bull Technology, London, UK.
