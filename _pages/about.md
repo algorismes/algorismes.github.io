@@ -17,7 +17,7 @@ His research, when personal computers had 128KB of memory, was originally orient
 > **My research statement**
 > To understand the fundamental processes underlying the visual perception of objects to derive new computer vision algorithms that, one day, may enable machines to see.
 
-He has been always interested in connecting his academic work to the social environment, and since 1993 he has been involved in a large number of projects to transfer academic knowledge to industrial production, medical diagnose and media applications. He is now director of the [DataScience@UB group](http://datascience.barcelona/en) technology transfer group that is supported by the Generalitat de Catalunya. During the last years the DataScience@UB group has been actively collaborating with companies such as BBVA, IBM, TUV Rheinland, Telefonica, Vodafone, ICGC, Bodas.net, Given Imaging, correYvuela, Ajuntament de Barcelona, 7ideas, etc.     
+He has been always interested in connecting his academic work to the social environment, and since 1993 he has been involved in a large number of projects to transfer academic knowledge to industrial production, medical diagnose and media applications. He is now director of the [DataScience@UB group](http://datascience.barcelona/en) technology transfer group that is supported by the Generalitat de Catalunya (TECNIO Center). During the last years the DataScience@UB group has been actively collaborating with companies such as BBVA, IBM, TUV Rheinland, Telefonica, Vodafone, ICGC, Bodas.net, Given Imaging, correYvuela, Ajuntament de Barcelona, 7ideas, etc.     
 
 # Highlights
 
