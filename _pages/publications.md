@@ -9,6 +9,9 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlights
 
++ José Mena Roldán, Marc Torrent-Moreno, Daniel González Vidal, Laura Portell Penadés, Oriol Pujol Vila and Jordi Vitrià Marca. Analysis of Vocational Education and Training and the labour market in Catalonia. A Data-driven approach.
+The 4th Workshop on Data Science for Social Good - SoGood 2019.
+
 + José Mena, Axel Brando, Oriol Pujol and Jordi Vitrià. Uncertainty estimation for black-box classification models: a use case for sentiment analysis. IbPRIA 2019. 
 
 + Axel Brando, Jose A. Rodríguez-Serrano, Jordi Vitrià. Detecting Unusual Expense Categoriesfor Financial Advice Apps. 2nd KDD Workshop on Anomaly Detection in Finance, 2019.
