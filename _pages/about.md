@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Jordi Vitrià is a Full Professor the University of Barcelona (UB), which he joined in 2007, and where he teaches an introductory course on Algorithms and advanced courses on Data Science and Deep Learning. From April 2011 to January 2016 he served as UB'a Head of the Applied Mathematics and Analysis Department. He is now a member of the new Mathematics & Computer Science Department at UB. He is also the director of the Master's in Foundations of Data Science and co-director of the Big Data and Data Science Postgraduate course at UB.
+Jordi Vitrià is a Full Professor the University of Barcelona (UB), which he joined in 2007, and where he teaches an introductory course on Algorithms and advanced courses on Data Science and Deep Learning. From April 2011 to January 2016 he served as UB'a Head of the Applied Mathematics and Analysis Department. He is now a member of the new Mathematics & Computer Science Department at UB. He is also the director of the Master in Foundations of Data Science and co-director of the Big Data and Data Science Postgraduate course at UB.
 
 From 1991 to 2006, he taught Computer Vision and Artificial Intelligence in the Computer Science Department at the Universitat Autònoma de Barcelona (UAB). He was also in charge of doctoral and master studies in that department until September 2007.
 
@@ -24,6 +24,11 @@ Feb. 2019 - Our project on artificial intelligence enables the improvement of [c
 
 <iframe src="https://player.vimeo.com/video/311499465" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/311499465">[DataScience] Endoscopy</a> from <a href="https://vimeo.com/giny">Giny Comunicaci&oacute;</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+July 2019 - Master in Foundations of Data Science
+
+<iframe src="https://player.vimeo.com/video/311499465" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/329128171">[DataScience] Endoscopy</a> from <a href="https://vimeo.com/giny">Giny Comunicaci&oacute;</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
 ## Contact
