@@ -27,7 +27,7 @@ Feb. 2019 - Our project on artificial intelligence enables the improvement of [c
 
 July 2019 - Master in Foundations of Data Science
 
-<iframe src="https://player.vimeo.com/video/311499465" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/329128171" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/329128171">[DataScience] </p>
 
 
