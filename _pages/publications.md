@@ -11,7 +11,7 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 + José Mena Roldán, Oriol Pujol Vila and Jordi Vitrià Marca. Dirichlet uncertainty wrappers for actionable algorithmaccuracy accountability and auditability. ACM FAT* Conference | 2020. 
 
-+ Axel Brando, Jose A Rodriguez, Jordi Vitria, Alberto Rubio. MuñozModelling heterogeneous distributions with an Uncountable Mixture of Asymmetric Laplacians. NeurIPS | 2019.
++ Axel Brando, Jose A Rodriguez, Jordi Vitria, Alberto Rubio. Modelling heterogeneous distributions with an Uncountable Mixture of Asymmetric Laplacians. NeurIPS | 2019.
 
 + P. Laiz, S.seguí, J.Vitrià. Using the triplet loss for domain adaptation in WCE. ICCV 2019 Workshop on Visual Recognition for Medical Images, Seoul, 2019.
 
