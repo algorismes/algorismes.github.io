@@ -7,7 +7,9 @@ author_profile: true
 
 You can find most of my articles on <u><a href="https://scholar.google.com/citations?user=BZfj2c8AAAAJ">my Google Scholar profile</a>.</u>
 
-## Current Highlights
+## Current Highlighs
+
++ J.Vitrià. <u><a href="https://theconversation.com/que-sabe-de-usted-su-robot-aspirador-129652">¿Que sabe usted de su robot aspirador? </a>.</u> The Coversation. 2020.
 
 + José Mena Roldán, Oriol Pujol Vila and Jordi Vitrià Marca. Dirichlet uncertainty wrappers for actionable algorithmaccuracy accountability and auditability. ACM FAT* Conference, 2020. 
 
