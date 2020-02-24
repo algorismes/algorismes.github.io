@@ -11,13 +11,13 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 + J.Vitrià. <u><a href="https://theconversation.com/que-sabe-de-usted-su-robot-aspirador-129652">¿Que sabe usted de su robot aspirador? </a>.</u> The Conversation. 2020.
 
-+ José Mena Roldán, Oriol Pujol Vila and Jordi Vitrià Marca. Dirichlet uncertainty wrappers for actionable algorithmaccuracy accountability and auditability. ACM FAT* Conference, 2020. 
++ José Mena Roldán, Oriol Pujol Vila and Jordi Vitrià Marca. <u><a href="https://arxiv.org/abs/1912.12628">Dirichlet uncertainty wrappers for actionable algorithm accuracy accountability and auditability</a>.</u> ACM FAT* Conference, 2020. 
 
-+ Axel Brando, Jose A Rodriguez, Jordi Vitria, Alberto Rubio. Modelling heterogeneous distributions with an Uncountable Mixture of Asymmetric Laplacians. NeurIPS, 2019.
++ Axel Brando, Jose A Rodriguez, Jordi Vitria, Alberto Rubio. <u><a href="https://papers.nips.cc/paper/9087-modelling-heterogeneous-distributions-with-an-uncountable-mixture-of-asymmetric-laplacians.pdf">Modelling heterogeneous distributions with an Uncountable Mixture of Asymmetric Laplacians</a>.</u> NeurIPS, 2019.
 
-+ P. Laiz, S.seguí, J.Vitrià. Using the triplet loss for domain adaptation in WCE. ICCV 2019 Workshop on Visual Recognition for Medical Images, Seoul, 2019.
++ P. Laiz, S.seguí, J.Vitrià. <u><a href="http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Laiz_Using_the_Triplet_Loss_for_Domain_Adaptation_in_WCE_ICCVW_2019_paper.pdf"> Using the triplet loss for domain adaptation in WCE</a>.</u> ICCV 2019 Workshop on Visual Recognition for Medical Images, Seoul, 2019.
 
-+ Álvaro Parafita, Jordi Vitrià. <u><a href="https://arxiv.org/abs/1909.08891">Explaining Visual Models by Causal Attribution</a>.</u>. 2019 ICCV Workshop on Interpretating and Explaining Visual Artificial Intelligence Models, Seoul, 2019.
++ Álvaro Parafita, Jordi Vitrià. <u><a href="https://arxiv.org/abs/1909.08891">Explaining Visual Models by Causal Attribution</a>.</u> 2019 ICCV Workshop on Interpretating and Explaining Visual Artificial Intelligence Models, Seoul, 2019.
 
 + José Mena Roldán, Marc Torrent-Moreno, Daniel González Vidal, Laura Portell Penadés, Oriol Pujol Vila and Jordi Vitrià Marca. Analysis of Vocational Education and Training and the labour market in Catalonia. A Data-driven approach.
 The 4th Workshop on Data Science for Social Good - SoGood 2019.
