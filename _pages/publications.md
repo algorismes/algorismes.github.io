@@ -9,6 +9,8 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlighs
 
++ J. Mena, O. Pujol and J. Vitrià, <u><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9097854"> Uncertainty-based Rejection Wrappers for Black-box Classifiers</a>,</u> in IEEE Access, doi: 10.1109/ACCESS.2020.2996495.
+
 + J.Vitrià. <u><a href="https://theconversation.com/que-sabe-de-usted-su-robot-aspirador-129652">¿Que sabe usted de su robot aspirador? </a>.</u> The Conversation. 2020.
 
 + José Mena Roldán, Oriol Pujol Vila and Jordi Vitrià Marca. <u><a href="https://arxiv.org/abs/1912.12628">Dirichlet uncertainty wrappers for actionable algorithm accuracy accountability and auditability</a>.</u> ACM FAT* Conference, 2020. 
