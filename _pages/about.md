@@ -20,14 +20,15 @@ He has been always interested in connecting his academic work to the local techn
 
 # Highlights
 
+July 2019 - Master in Foundations of Data Science
+
+<iframe src="https://player.vimeo.com/video/329128171" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 Feb. 2019 - Our project on artificial intelligence enables the improvement of [colorectal cancer screening](http://www.fbg.ub.edu/en/news/project-artificial-intelligence-enables-the-improvement-of-colorectal-cancer-screening/). 
 
 <iframe src="https://player.vimeo.com/video/311499465" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/311499465">[DataScience] Endoscopy</a> from <a href="https://vimeo.com/giny">Giny Comunicaci&oacute;</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-July 2019 - Master in Foundations of Data Science
-
-<iframe src="https://player.vimeo.com/video/329128171" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 ## Contact
