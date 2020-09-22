@@ -20,7 +20,7 @@ He has been always interested in connecting his academic work to the local techn
 
 # Highlights
 
-**September 2020** - An [app](https://rb.gy/5mkfbj) developed by [@ICGCat](https://www.icgc.cat/) that combines satellite data, big data, and artificial intelligence in order to monitor the use of water resources has won the top prize at this year’s @esa Space App Camp.  This work is part of a successful industrial doctorate collaboration between @ICGCat and @datascienceUB @UniBarcelona @MatesInfoUB about the use of advanced deep learning methods for analyzing satellite data. 
+**September 2020** - An [app](https://rb.gy/5mkfbj) developed by [@ICGCat](https://www.icgc.cat/) that combines satellite data, big data, and artificial intelligence in order to monitor the use of water resources has won the top prize at this year’s European Space Agency [@esa](https://www.esa.int/) Space App Camp.  This work is part of a successful industrial doctorate collaboration between @ICGCat and @datascienceUB @UniBarcelona @MatesInfoUB about the use of advanced deep learning methods for analyzing satellite data. 
 
 
 <iframe src="https://rb.gy/5mkfbj" width="800" height="360" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
