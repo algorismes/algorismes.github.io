@@ -20,20 +20,20 @@ He has been always interested in connecting his academic work to the local techn
 
 # Highlights
 
-September 2020 - An app developed by @ICGCat that combines satellite data, big data, and artificial intelligence in order to monitor the use of water resources has won the top prize at this year’s @esa Space App Camp.  This work is part of a successful industrial doctorate collaboration between @ICGCat and @datascienceUB @UniBarcelona @MatesInfoUB about the use of advanced deep learning methods for analyzing satellite data. 
+**September 2020** - An app developed by @ICGCat that combines satellite data, big data, and artificial intelligence in order to monitor the use of water resources has won the top prize at this year’s @esa Space App Camp.  This work is part of a successful industrial doctorate collaboration between @ICGCat and @datascienceUB @UniBarcelona @MatesInfoUB about the use of advanced deep learning methods for analyzing satellite data. 
 
 
 <iframe src="https://rb.gy/5mkfbj" width="740" height="360" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ---
 
-July 2019 - Master in Foundations of Data Science
+**July 2019** - Master in Foundations of Data Science
 
 <iframe src="https://player.vimeo.com/video/329128171" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ---
 
-Feb. 2019 - Our project on artificial intelligence enables the improvement of [colorectal cancer screening](http://www.fbg.ub.edu/en/news/project-artificial-intelligence-enables-the-improvement-of-colorectal-cancer-screening/). 
+**Feb. 2019** - Our project on artificial intelligence enables the improvement of [colorectal cancer screening](http://www.fbg.ub.edu/en/news/project-artificial-intelligence-enables-the-improvement-of-colorectal-cancer-screening/). 
 
 <iframe src="https://player.vimeo.com/video/311499465" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/311499465">[DataScience] Endoscopy</a> from <a href="https://vimeo.com/giny">Giny Comunicaci&oacute;</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
