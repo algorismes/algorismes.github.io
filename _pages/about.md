@@ -25,8 +25,14 @@ He has been always interested in connecting his academic work to the local techn
 
 <iframe src="https://rb.gy/5mkfbj" width="800" height="360" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-In the news: [Telenoticies TV3](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-vespre-15102020/video/6064402/) (in Catalan, min. 45)
-
+In the news: 
++ [Telenoticies TV3](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-vespre-15102020/video/6064402/) (in Catalan, min. 45)
++ [Sostenible](Diputació de Barcelona)(https://www.sostenible.cat/noticia/linstitut-cartografic-i-geologic-i-la-ub-premiats-per-un-projecte-sobre-la-sobreexplotacio)
++ [La Vanguardia](https://www.lavanguardia.com/vida/20200929/483759482305/icgc-y-ub-premiados-por-un-proyecto-sobre-la-sobreexplotacion-de-acuiferos.html)
++ [El Punt/Avui](https://www.elpuntavui.cat/territori/article/11-mediambient/1862925-l-any-hidrologic-es-tanca-amb-un-30-mes-de-pluja.html)
++ [Newsbreak](https://www.newsbreak.com/news/2066379744261/quifer-app-grabs-top-prize-at-2020-space-app-camp)
++ [soziokulturfuturist](https://soziokulturfuturist.wordpress.com/2020/09/21/quifer-app-grabs-top-prize-at-2020-space-app-camp/)
++ [AZO Space iof Innovation](https://space-of-innovation.com/quifer-app-wins-double-at-first-virtual-esa-space-app-camp/)
 ---
 
 **July 2019** - Master in Foundations of Data Science
