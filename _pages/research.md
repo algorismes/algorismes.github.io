@@ -18,8 +18,8 @@ I'm afraid that I'm no longer taking intern students.
 + [Guillem Pascual](https://github.com/gpascualg), Universitat de Barcelona. Working on Road Detection from Remote Sensing Images. Co-direction with S.Seguí (UB).
 + [Àxel Brando](http://axelbrando.github.io/). PhD Student, BBVA/Universitat de Barcelona. Working on Prediction of Times Series using Deep Learning. Co-direction with J.A.Rodriguez (BBVA).
 + Carlos Garcia, PhD Student, ICGC/Universitat de Barcelona. Working on Deep Learning for Remote Sensing Applications. Co-direction with O.Mora(ICGC).
-+ [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), PhD Student, UB. Working on Explainable Deep Learning.
-+ [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, UB. Working on Context-Aware Recommenders.
++ [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), PhD Student, Universitat de Barcelona. Working on Explainable Deep Learning.
++ [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Working on Context-Aware Recommenders.
 + [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), PhD Student, Telefonica I+D/Universitat de Barcelona. Working on Outlier Detection. Co-direction with S.Seguí (UB).
 
 ## Past Students
