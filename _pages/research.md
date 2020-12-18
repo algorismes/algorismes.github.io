@@ -25,7 +25,7 @@ I'm afraid that I'm no longer taking intern students.
 
 ## Past Students
 + [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Data Engineer Tech Lead at SCRM Lidl International Hub. 
-+ [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Mathematical Modeller at Red Bull Racing & Red Bull Technology, London, UK.
++ [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Engineer at SportPesa Racing Point F1 Team, UK.
 + Mario Rojas, Post-doctoral research assistant, Dublin City University.
 + [Àgata Lapedriza](http://sunai.uoc.edu/~agata/). Associate Profesor, Universitat Oberta de Catalunya & Visiting researcher at the Massachusetts Institute of Technology (MIT).
 + [Xavier Baró](http://sunai.uoc.edu/), Associate Profesor, Universitat Oberta de Catalunya.
