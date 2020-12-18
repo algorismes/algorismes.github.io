@@ -21,7 +21,7 @@ I'm afraid that I'm no longer taking intern students.
 + [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), PhD Student, Universitat de Barcelona. Working on Explainable Deep Learning.
 + [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Working on Context-Aware Recommenders.
 + [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), PhD Student, Telefonica I+D/Universitat de Barcelona. Working on Outlier Detection. Co-direction with S.Seguí (UB).
-+ [Anna Cascarano](https://es.linkedin.com/in/anna-maria-cascarano-194149187), PhD Student, Universitat de Barcelona. Working on Longitudinal Data Prediction. Co-direction with Karim Lekadir.
++ [Anna Cascarano](https://es.linkedin.com/in/anna-maria-cascarano-194149187), PhD Student, Universitat de Barcelona. Working on prediction of disease risk from longitudinal data. Co-direction with Karim Lekadir(UB).
 
 ## Past Students
 + [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Data Engineer Tech Lead at SCRM Lidl International Hub. 
