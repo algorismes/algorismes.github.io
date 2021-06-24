@@ -30,8 +30,7 @@ He has been always interested in connecting his academic work to the local techn
 
 **July 2021** - We are part of one of the 38 winning projects of the [Artificial Intelligence in Health & Care NHS Award](https://www.gov.uk/government/news/36-million-boost-for-ai-technologies-to-revolutionise-nhs-care): Detecting bowel cancer – using AI to analyse video recordings of the gastrointestinal tract, taken from a swallowable camera, to target bowel cancer and other gastrointestinal diseases.
 
-![](E4E2eS2XIAk1NGV.jpg![E4E2eS2XIAk1NGV](https://user-images.githubusercontent.com/5478512/123311775-db9ef280-d527-11eb-86a0-6b0b036e0c6f.jpg)
-)
+![.](https://user-images.githubusercontent.com/5478512/123311775-db9ef280-d527-11eb-86a0-6b0b036e0c6f.jpg)
 
 
 **September 2020** - An [app](https://rb.gy/5mkfbj) developed by [@ICGCat](https://www.icgc.cat/) that combines satellite data, big data, and artificial intelligence in order to monitor the use of water resources has won the top prize at this year’s European Space Agency [@esa](https://www.esa.int/) Space App Camp.  This work is part of a successful industrial doctorate collaboration between @ICGCat and @datascienceUB @UniBarcelona @MatesInfoUB about the use of advanced deep learning methods for analyzing satellite data. 
