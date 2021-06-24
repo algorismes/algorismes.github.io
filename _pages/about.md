@@ -35,6 +35,7 @@ He has been always interested in connecting his academic work to the local techn
 <iframe src="https://rb.gy/5mkfbj" width="800" height="360" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 In the news: 
+
 + [Telenoticies TV3](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-vespre-15102020/video/6064402/) (in Catalan, min. 45)
 + [Sostenible](https://www.sostenible.cat/noticia/linstitut-cartografic-i-geologic-i-la-ub-premiats-per-un-projecte-sobre-la-sobreexplotacio)(Diputació de Barcelona)
 + [La Vanguardia](https://www.lavanguardia.com/vida/20200929/483759482305/icgc-y-ub-premiados-por-un-proyecto-sobre-la-sobreexplotacion-de-acuiferos.html)
