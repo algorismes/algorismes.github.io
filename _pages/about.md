@@ -20,9 +20,15 @@ He has been always interested in connecting his academic work to the local techn
 
 ## Public service and other activities
 
-+ 2021. Consultant to [DataCity Lab](https://www.datacitylab.com/) for the [reduction of energy poverty](https://www.datacitylab.com/energy-poverty-barcelona) of the vulnerable population in Barcelona.
++ Consultant to [DataCity Lab](https://www.datacitylab.com/) for the [reduction of energy poverty](https://www.datacitylab.com/energy-poverty-barcelona) of the vulnerable population in Barcelona. 2021.
++ Member of the Advisory Committee for Unique Infrastructures, Ministerio de Ciencia e Innovación, Spain. 2021-...
++ Member of the Advisory Committee for Next Generation EU Strategy at the Universitat de Barcelona.
 
 # Highlights
+
+---
+
+**July 2021** - 
 
 **September 2020** - An [app](https://rb.gy/5mkfbj) developed by [@ICGCat](https://www.icgc.cat/) that combines satellite data, big data, and artificial intelligence in order to monitor the use of water resources has won the top prize at this year’s European Space Agency [@esa](https://www.esa.int/) Space App Camp.  This work is part of a successful industrial doctorate collaboration between @ICGCat and @datascienceUB @UniBarcelona @MatesInfoUB about the use of advanced deep learning methods for analyzing satellite data. 
 
@@ -36,6 +42,8 @@ In the news:
 + [Newsbreak](https://www.newsbreak.com/news/2066379744261/quifer-app-grabs-top-prize-at-2020-space-app-camp)
 + [soziokulturfuturist](https://soziokulturfuturist.wordpress.com/2020/09/21/quifer-app-grabs-top-prize-at-2020-space-app-camp/)
 + [AZO Space iof Innovation](https://space-of-innovation.com/quifer-app-wins-double-at-first-virtual-esa-space-app-camp/)
++ .
+
 ---
 
 **July 2019** - Master in Foundations of Data Science
