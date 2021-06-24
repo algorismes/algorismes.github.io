@@ -18,13 +18,15 @@ His research, when personal computers had 128KB of memory, was originally orient
 
 He has been always interested in connecting his academic work to the local technological ecosystem, and since 1993 he has been involved in a large number of projects to transfer academic knowledge to industrial production, medical diagnoses and media applications. He is now director of the DataScience@UB group technology transfer group that is supported by the Generalitat de Catalunya (TECNIO Center). During the last years the DataScience@UB group has been actively collaborating with companies such as BBVA, IBM, TUV Rheinland, Telefonica, Vodafone, ICGC, Bodas.net, Given Imaging, correYvuela, Ajuntament de Barcelona, 7ideas, etc. He is currently involved in the organization of several events to to make Barcelona into the AI hub it has the potential to be, such BCN.AI, Open Data Barcelona, and Data Council Barcelona. 
 
+## Public service and other activities
+
++ 2021. Consultant to [DataCity Lab](https://www.datacitylab.com/) for the [reduction of energy poverty](https://www.datacitylab.com/energy-poverty-barcelona) of the vulnerable population in Barcelona.
+
 # Highlights
 
 **September 2020** - An [app](https://rb.gy/5mkfbj) developed by [@ICGCat](https://www.icgc.cat/) that combines satellite data, big data, and artificial intelligence in order to monitor the use of water resources has won the top prize at this year’s European Space Agency [@esa](https://www.esa.int/) Space App Camp.  This work is part of a successful industrial doctorate collaboration between @ICGCat and @datascienceUB @UniBarcelona @MatesInfoUB about the use of advanced deep learning methods for analyzing satellite data. 
 
-
 <iframe src="https://rb.gy/5mkfbj" width="800" height="360" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 
 In the news: 
 + [Telenoticies TV3](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-vespre-15102020/video/6064402/) (in Catalan, min. 45)
