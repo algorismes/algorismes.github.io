@@ -20,6 +20,7 @@ He has been always interested in connecting his academic work to the local techn
 
 ## Public service and other activities
 
++ Member of the [AISTATS 2022](http://aistats.org/aistats2022/index.html) (Artificial Intelligence and Statistics) Organizing Committee (Sponsorship Chair). 
 + Consultant to [DataCity Lab](https://www.datacitylab.com/) for the [reduction of energy poverty](https://www.datacitylab.com/energy-poverty-barcelona) of the vulnerable population in Barcelona. 2021.
 + Member of the Advisory Committee for Unique Infrastructures, Ministerio de Ciencia e Innovación, Spain.
 + Member of the Advisory Committee for Next Generation EU Strategy at the Universitat de Barcelona.
