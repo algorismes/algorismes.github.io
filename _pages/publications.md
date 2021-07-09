@@ -9,6 +9,8 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlighs
 
++ Duran, P. G., Karatzoglou, A., Vitrià, J., Xin, X., & Arapakis, I. (2021). Graph Convolutional Embeddings for Recommender System, in IEEE Access (accepted for publication). 
+
 + Parafita, Á., & Vitrià, J. (2021). Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness. CCIA 2021. 
 
 + Parafita, Á., & Vitrià, J. (2020). [Causal Inference with Deep Causal Graphs](https://arxiv.org/abs/2006.08380). arXiv e-prints.
