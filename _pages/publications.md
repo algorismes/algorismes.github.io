@@ -9,6 +9,8 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlighs
 
++ Parafita, Á., & Vitrià, J. (2021). Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness. CCIA 2021. 
+
 + Parafita, Á., & Vitrià, J. (2020). [Causal Inference with Deep Causal Graphs](https://arxiv.org/abs/2006.08380). arXiv e-prints.
 
 + Laiz, P., Vitrià, J., Wenzek, H., Malagelada, C., Azpiroz, F., & Seguí, S. (2020). [WCE polyp detection with triplet based embeddings](https://www.sciencedirect.com/science/article/abs/pii/S0895611120300896). Computerized Medical Imaging and Graphics, 86, 101794.
