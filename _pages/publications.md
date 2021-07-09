@@ -13,9 +13,9 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 + Parafita, Á., & Vitrià, J. (2021). Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness. CCIA 2021. 
 
-+ Parafita, Á., & Vitrià, J. (2020). <u><a href="https://arxiv.org/abs/2006.08380">Causal Inference with Deep Causal Graphs">. arXiv e-prints.
++ Parafita, Á., & Vitrià, J. (2020). <u><a href="https://arxiv.org/abs/2006.08380">Causal Inference with Deep Causal Graphs</a>.</u>. arXiv e-prints.
 
-+ Laiz, P., Vitrià, J., Wenzek, H., Malagelada, C., Azpiroz, F., & Seguí, S. (2020). <u><a href="https://www.sciencedirect.com/science/article/abs/pii/S0895611120300896">WCE polyp detection with triplet based embeddings">. Computerized Medical Imaging and Graphics, 86, 101794.
++ Laiz, P., Vitrià, J., Wenzek, H., Malagelada, C., Azpiroz, F., & Seguí, S. (2020). <u><a href="https://www.sciencedirect.com/science/article/abs/pii/S0895611120300896">WCE polyp detection with triplet based embeddings</a>.</u>. Computerized Medical Imaging and Graphics, 86, 101794.
 
 + J. Mena, O. Pujol and J. Vitrià, <u><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9097854"> Uncertainty-based Rejection Wrappers for Black-box Classifiers</a>,</u> in IEEE Access, doi: 10.1109/ACCESS.2020.2996495.
 
