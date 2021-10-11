@@ -11,10 +11,10 @@ redirect_from:
 ## PhD Positions
 I'm always interested to receive PhD student applications, so feel free to email me with any questions.
 
-## Internships
-I'm afraid that I'm no longer taking intern students.
+## PostDoc Interns
++ [Jordi Mur] Trained as a physicist, specializing in quantum technology (measurement, computing) and non-equilibrium statistical mechanics. He is currently developing data science tools for quantifying causal relationships in areas of technological innovation and public policy evaluation.
 
-## Present Students
+## Present PhD Students
 + [Guillem Pascual](https://github.com/gpascualg), Universitat de Barcelona. Working on Road Detection from Remote Sensing Images. Co-direction with S.Seguí (UB).
 + [Àxel Brando](http://axelbrando.github.io/). PhD Student, BBVA/Universitat de Barcelona. Working on Prediction of Times Series using Deep Learning. Co-direction with J.A.Rodriguez (BBVA).
 + Carlos Garcia, PhD Student, ICGC/Universitat de Barcelona. Working on Deep Learning for Remote Sensing Applications. Co-direction with O.Mora(ICGC).
