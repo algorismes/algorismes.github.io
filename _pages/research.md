@@ -12,7 +12,7 @@ redirect_from:
 I'm always interested to receive PhD student applications, so feel free to email me with any questions.
 
 ## PostDoc Interns
-+ [Jordi Mur] Trained as a physicist, specializing in quantum technology (measurement, computing) and non-equilibrium statistical mechanics. He is currently developing data science tools for quantifying causal relationships in areas of technological innovation and public policy evaluation.
++ **Jordi Mur**. Trained as a physicist, specializing in quantum technology (measurement, computing) and non-equilibrium statistical mechanics. He is currently developing data science tools for quantifying causal relationships in areas of technological innovation and public policy evaluation.
 
 ## Present PhD Students
 + [Guillem Pascual](https://github.com/gpascualg), Universitat de Barcelona. Working on Road Detection from Remote Sensing Images. Co-direction with S.Seguí (UB).
