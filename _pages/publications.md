@@ -9,6 +9,13 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlighs
 
++ J. Mur, J.Vitrià. *What's on the telly? Causality for recommender systems in public-service media
+corporations*, Causal Data Science Meeting 2021, November 15–16, 2021. The workshop will be online, jointly organized by Maastricht University and Copenhagen Business School.
+
++ M. Pedemonte, J. Vitrià, and A. Parafita. "Algorithmic Causal Effect Identification with `causaleffect`." arXiv preprint arXiv:2107.04632 (2021).
+
++ J. Mena, O. Pujol, and J. Vitrià. 2021. A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective. ACM Comput. Surv. 54, 9, DOI:https://doi.org/10.1145/3477140
+
 + Duran, P. G., Karatzoglou, A., Vitrià, J., Xin, X., & Arapakis, I. (2021). <u><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9481221">Graph Convolutional Embeddings for Recommender System</a></u>, in IEEE Access. 
 
 + Parafita, Á., & Vitrià, J. (2021). Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness. CCIA 2021. 
