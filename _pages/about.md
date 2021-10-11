@@ -29,6 +29,15 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
+**October 2021** - Accepted papers-
+
++ J. Mur, J.Vitrià. *What's on the telly? Causality for recommender systems in public-service media
+corporations*, Causal Data Science Meeting 2021, November 15–16, 2021. The workshop will be online, jointly organized by Maastricht University and Copenhagen Business School.
+
++ M. Pedemonte, J. Vitrià, and A. Parafita. "Algorithmic Causal Effect Identification with `causaleffect`." arXiv preprint arXiv:2107.04632 (2021).
+
++ J. Mena, O. Pujol, and J. Vitrià. 2021. A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective. ACM Comput. Surv. 54, 9, DOI:https://doi.org/10.1145/3477140
+
 **July 2021** - We are part of one of the 38 winning projects of the [Artificial Intelligence in Health & Care NHS Award](https://www.gov.uk/government/news/36-million-boost-for-ai-technologies-to-revolutionise-nhs-care): Detecting bowel cancer – using AI to analyse video recordings of the gastrointestinal tract, taken from a swallowable camera, to target bowel cancer and other gastrointestinal diseases.
 
 ![.](https://user-images.githubusercontent.com/5478512/123311775-db9ef280-d527-11eb-86a0-6b0b036e0c6f.jpg)
