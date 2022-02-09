@@ -14,8 +14,8 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 + Brando, Axel; Gimeno, Joan; Rodriguez-Serrano, Jose; Vitria, Jordi.
 <u><a href="https://arxiv.org/pdf/2201.12848.pdf">Deep Non-crossing Quantiles through the Partial Derivative</a></u>.  AISTATS 2022. arXiv preprint  arXiv:2201.12848. 
 
-+ J. Mur, J.Vitrià. *What's on the telly? Causality for recommender systems in public-service media
-corporations*, Causal Data Science Meeting 2021, November 15–16, 2021. The workshop will be online, jointly organized by Maastricht University and Copenhagen Business School.
++ J. Mur, J.Vitrià. What's on the telly? Causality for recommender systems in public-service media
+corporations, Causal Data Science Meeting 2021, November 15–16, 2021. The workshop will be online, jointly organized by Maastricht University and Copenhagen Business School.
 
 + M. Pedemonte, J. Vitrià, and A. Parafita. "Algorithmic Causal Effect Identification with `causaleffect`." arXiv preprint arXiv:2107.04632 (2021).
 
