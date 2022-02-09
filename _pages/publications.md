@@ -9,21 +9,21 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlighs
 
-+ Alvaro Parafita, and Jordi Vitrià. "Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness." Artificial Intelligence Research and Development: Proceedings of the 23rd International Conference of the Catalan Association for Artificial Intelligence. Vol. 339. IOS Press, 2021.
++ Alvaro Parafita, and Jordi Vitrià. "Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness." Artificial Intelligence Research and Development: Proceedings of the **23rd International Conference of the Catalan Association for Artificial Intelligence**. Vol. 339. IOS Press, 2021.
 
 + Brando, Axel; Gimeno, Joan; Rodriguez-Serrano, Jose; Vitria, Jordi.
-<u><a href="https://arxiv.org/pdf/2201.12848.pdf">Deep Non-crossing Quantiles through the Partial Derivative</a></u>.  AISTATS 2022. arXiv preprint  arXiv:2201.12848. 
+<u><a href="https://arxiv.org/pdf/2201.12848.pdf">Deep Non-crossing Quantiles through the Partial Derivative</a></u>.  **AISTATS 2022**. arXiv preprint  arXiv:2201.12848. 
 
 + J. Mur, J.Vitrià. What's on the telly? Causality for recommender systems in public-service media
-corporations, Causal Data Science Meeting 2021, November 15–16, 2021. The workshop will be online, jointly organized by Maastricht University and Copenhagen Business School.
+corporations, **Causal Data Science Meeting** 2021, November 15–16, 2021. The workshop will be online, jointly organized by Maastricht University and Copenhagen Business School.
 
 + M. Pedemonte, J. Vitrià, and A. Parafita. "Algorithmic Causal Effect Identification with `causaleffect`." arXiv preprint arXiv:2107.04632 (2021).
 
-+ J. Mena, O. Pujol, and J. Vitrià. 2021. A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective. ACM Comput. Surv. 54, 9, DOI:https://doi.org/10.1145/3477140
++ J. Mena, O. Pujol, and J. Vitrià. 2021. A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective. **ACM Comput. Surv.** 54, 9, DOI:https://doi.org/10.1145/3477140
 
-+ Duran, P. G., Karatzoglou, A., Vitrià, J., Xin, X., & Arapakis, I. (2021). <u><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9481221">Graph Convolutional Embeddings for Recommender System</a></u>, in IEEE Access. 
++ Duran, P. G., Karatzoglou, A., Vitrià, J., Xin, X., & Arapakis, I. (2021). <u><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9481221">Graph Convolutional Embeddings for Recommender System</a></u>, in **IEEE Access**. 
 
-+ Parafita, Á., & Vitrià, J. (2021). Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness. CCIA 2021. 
++ Parafita, Á., & Vitrià, J. (2021). Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness. **2ond International Conference of the Catalan Association for Artificial Intelligence**, 2021. 
 
 + Parafita, Á., & Vitrià, J. (2020). <u><a href="https://arxiv.org/abs/2006.08380">Causal Inference with Deep Causal Graphs</a>.</u>. arXiv e-prints.
 
