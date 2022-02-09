@@ -29,6 +29,11 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
+**February 2022** - Accepted papers-
+
++ Alvaro Parafita, and Jordi Vitrià. "Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness." Artificial Intelligence Research and Development: Proceedings of the 23rd International Conference of the Catalan Association for Artificial Intelligence. Vol. 339. IOS Press, 2021.
++ Brando, Axel; Gimeno, Joan; Rodriguez-Serrano, Jose; Vitria, Jordi. [Deep Non-crossing Quantiles through the Partial Derivative](https://arxiv.org/pdf/2201.12848.pdf). AISTATS 2022. arXiv preprint  arXiv:2201.12848. 
+
 **October 2021** - Accepted papers-
 
 + J. Mur, J.Vitrià. *What's on the telly? Causality for recommender systems in public-service media
