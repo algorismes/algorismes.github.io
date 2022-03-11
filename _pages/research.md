@@ -21,8 +21,8 @@ I'm always interested to receive PhD student applications, so feel free to email
 + [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), PhD Student, Universitat de Barcelona. Working on Explainable Deep Learning.
 + [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Working on Context-Aware Recommenders.
 + [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), PhD Student, ICGC/Universitat de Barcelona. Deep Learning and LIDAR. Co-direction with S.Seguí (UB).
-+ [Anna Cascarano](https://es.linkedin.com/in/anna-maria-cascarano-194149187), PhD Student, Universitat de Barcelona. Working on prediction of disease risk from longitudinal data. Co-direction with Karim Lekadir(UB).
 + [Enrique Mora](https://es.linkedin.com/in/enrique-mora-ayala-4414131), PhD Student, Universitat de Barcelona. 
++ Alex Martínez, PhD Student, Eurecat.
 
 ## Past Students
 + [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Data Engineer Tech Lead at SCRM Lidl International Hub. 
