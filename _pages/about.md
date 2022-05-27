@@ -27,19 +27,12 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
-**February 2022** - Accepted papers-
+**May 2022** - Accepted papers-
 
-+ Alvaro Parafita, and Jordi Vitrià. "Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness." Artificial Intelligence Research and Development: Proceedings of the 23rd International Conference of the Catalan Association for Artificial Intelligence. Vol. 339. IOS Press, 2021.
-+ Brando, Axel; Gimeno, Joan; Rodriguez-Serrano, Jose; Vitria, Jordi. [Deep Non-crossing Quantiles through the Partial Derivative](https://arxiv.org/pdf/2201.12848.pdf). AISTATS 2022. arXiv preprint  arXiv:2201.12848. 
++ Brando, Axel, et al. <u><a href="https://proceedings.mlr.press/v151/brando22a.html"> Deep Non-Crossing Quantiles through the Partial Derivative</a></u>. International Conference on Artificial Intelligence and Statistics. PMLR, 2022.
 
-**October 2021** - Accepted papers-
++ Pascual, Guillem, et al. <u><a href="https://authors.elsevier.com/c/1f8F62OYd01i7"> Time-based Self-supervised Learning for Wireless Capsule Endoscopy.</a></u> Computers in Biology and Medicine, Volume 146, 2022.
 
-+ J. Mur, J.Vitrià. *What's on the telly? Causality for recommender systems in public-service media
-corporations*, Causal Data Science Meeting 2021, November 15–16, 2021. The workshop will be online, jointly organized by Maastricht University and Copenhagen Business School.
-
-+ M. Pedemonte, J. Vitrià, and A. Parafita. "Algorithmic Causal Effect Identification with `causaleffect`." arXiv preprint arXiv:2107.04632 (2021).
-
-+ J. Mena, O. Pujol, and J. Vitrià. 2021. A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective. ACM Comput. Surv. 54, 9, DOI:https://doi.org/10.1145/3477140
 
 **July 2021** - We are part of one of the 38 winning projects of the [Artificial Intelligence in Health & Care NHS Award](https://www.gov.uk/government/news/36-million-boost-for-ai-technologies-to-revolutionise-nhs-care): Detecting bowel cancer – using AI to analyse video recordings of the gastrointestinal tract, taken from a swallowable camera, to target bowel cancer and other gastrointestinal diseases.
 
