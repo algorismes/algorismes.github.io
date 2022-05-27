@@ -9,6 +9,10 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlighs
 
++ Brando, Axel, et al. <u><a href="https://proceedings.mlr.press/v151/brando22a.html"> Deep Non-Crossing Quantiles through the Partial Derivative</a></u>. International Conference on Artificial Intelligence and Statistics. PMLR, 2022.
+
++ 
+
 + Alvaro Parafita, and Jordi Vitrià. "Deep Causal Graphs for Causal Inference, Black-Box Explainability and Fairness." Artificial Intelligence Research and Development: Proceedings of the **23rd International Conference of the Catalan Association for Artificial Intelligence**. Vol. 339. IOS Press, 2021.
 
 + Brando, Axel; Gimeno, Joan; Rodriguez-Serrano, Jose; Vitria, Jordi.
