@@ -16,14 +16,15 @@ I'm always interested to receive PhD student applications, so feel free to email
 
 ## Present PhD Students
 + [Guillem Pascual](https://github.com/gpascualg), Universitat de Barcelona. Working on Road Detection from Remote Sensing Images. Co-direction with S.Seguí (UB).
-+ [Àxel Brando](http://axelbrando.github.io/). PhD Student, BBVA/Universitat de Barcelona. Working on Prediction of Times Series using Deep Learning. Co-direction with J.A.Rodriguez (BBVA).
-+ Carlos Garcia, PhD Student, ICGC/Universitat de Barcelona. Working on Deep Learning for Remote Sensing Applications. Co-direction with O.Mora(ICGC).
++ [Àxel Brando](http://axelbrando.github.io/). Industrial PhD Student, BBVA/Universitat de Barcelona. Working on Prediction of Times Series using Deep Learning. Co-direction with J.A.Rodriguez (BBVA).
++ Carlos Garcia, Industrial PhD Student, ICGC/Universitat de Barcelona. Working on Deep Learning for Remote Sensing Applications. Co-direction with O.Mora(ICGC).
 + [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), PhD Student, Universitat de Barcelona. Working on Explainable Deep Learning.
 + [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Working on Context-Aware Recommenders.
-+ [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), PhD Student, ICGC/Universitat de Barcelona. Deep Learning and LIDAR. Co-direction with S.Seguí (UB).
++ [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), Industrial PhD Student, ICGC/Universitat de Barcelona. Deep Learning and LIDAR. Co-direction with S.Seguí (UB).
 + [Enrique Mora](https://es.linkedin.com/in/enrique-mora-ayala-4414131), PhD Student, Universitat de Barcelona. 
-+ Alex Martínez, PhD Student, Eurecat.
-
++ Alex Martínez, Industrial PhD Student, Eurecat.
++ Roger Pros, Industrial PhD Student, 8wires.
++ 
 ## Past Students
 + [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Data Engineer Tech Lead at SCRM Lidl International Hub. 
 + [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Engineer at SportPesa Racing Point F1 Team, UK.
