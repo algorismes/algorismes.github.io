@@ -22,9 +22,9 @@ I'm always interested to receive PhD student applications, so feel free to email
 + [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Working on Context-Aware Recommenders.
 + [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), Industrial PhD Student, ICGC/Universitat de Barcelona. Deep Learning and LIDAR. Co-direction with S.Seguí (UB).
 + [Enrique Mora](https://es.linkedin.com/in/enrique-mora-ayala-4414131), PhD Student, Universitat de Barcelona. 
-+ Alex Martínez, Industrial PhD Student, Eurecat.
-+ Roger Pros, Industrial PhD Student, 8wires.
-+ 
++ Alex Martínez, Industrial PhD Student, Eurecat. Algorithmic Bias in Graph Neural Network through the lenses of Explainability. Co-direction with F.Bonchi and F. Fabbri.
++ Roger Pros, Industrial PhD Student, 8wires. Churn prevention and causal inference.
+
 ## Past Students
 + [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Data Engineer Tech Lead at SCRM Lidl International Hub. 
 + [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Engineer at SportPesa Racing Point F1 Team, UK.
