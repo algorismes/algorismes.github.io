@@ -27,6 +27,10 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
+**July 2022** - Accepted papers-
+
+Á. Parafita and J. Vitrià, <u><a href="https://ieeexplore.ieee.org/document/9815055"> Estimand-Agnostic Causal Query Estimation with Deep Causal Graphs,</a></u> in IEEE Access, 2022, doi: 10.1109/ACCESS.2022.3188395.
+
 **May 2022** - Accepted papers-
 
 + Brando, Axel, et al. <u><a href="https://proceedings.mlr.press/v151/brando22a.html"> Deep Non-Crossing Quantiles through the Partial Derivative</a></u>. International Conference on Artificial Intelligence and Statistics. PMLR, 2022.
