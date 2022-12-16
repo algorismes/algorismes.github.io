@@ -29,6 +29,15 @@ He has been always interested in connecting his academic work to the local techn
 
 **December 2022**: Keynote Speaker at the 2022 <u><a href="https://www.ai4es.com/">AI4ES</a></u> Summit. Topic: Causal Artificial Intelligence. 
 
+**November 2022**: Curso de Big Data e Inteligencia Artificial para gestores de salud, 18 de Noviembre, 2022, 
+Santiago de Compostela. Salón de Actos de la Consellería de Sanidade. Organizado por Bioinformatics BCN.
+
+**November 2022**: Curso semipresencial sobre las nuevas tecnologías bioinformáticas y de análisis de datos masivos en el ámbito biomédico: Big Data &
+Inteligencia Artificial para gestores de la Salud". Madrid.  Hospital Universitario Ramón y Cajal. 11 de noviembre, 2022. Organizado por Bioinformatics BCN.
+
+**October 2022**: Jornadas formativas sobre las nuevas tecnologías bioinformáticas y de análisis de datos masivos en el ámbito biomédico. Las Palmas de Gran Canaria
+Hospital Doctor Negrín.  17 de octubre, 2022. Organizado por Bioinformatics BCN.
+
 **July 2022** - Accepted papers-
 + García, C., Mora, O., Pérez-Aragüés, F. et al. CatLC: Catalonia Multiresolution Land Cover Dataset. Sci Data 9, 554 (2022). https://doi.org/10.1038/s41597-022-01674-y
 
