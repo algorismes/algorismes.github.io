@@ -27,10 +27,10 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
+**December 2022**: Keynote Speaker at the 2022 <u><a href="https://www.ai4es.com/>AI4ES</a></u> Summit. Topic: Causal Artificial Intelligence. 
+
 **July 2022** - Accepted papers-
 + García, C., Mora, O., Pérez-Aragüés, F. et al. CatLC: Catalonia Multiresolution Land Cover Dataset. Sci Data 9, 554 (2022). https://doi.org/10.1038/s41597-022-01674-y
-
-> The availability of large annotated image datasets represented one of the tipping points in the progress of object recognition in the realm of natural images, but other important visual spaces are still lacking this asset. In the case of remote sensing, only a few richly annotated datasets covering small areas are available. In this paper, we present the Catalonia Multiresolution Land Cover Dataset (CatLC), a remote sensing dataset corresponding to a mid-size geographical area which has been carefully annotated with a large variety of land cover classes.
 
 **July 2022** - Accepted papers-
 
