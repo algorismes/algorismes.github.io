@@ -27,7 +27,7 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
-**December 2022**: Keynote Speaker at the 2022 <u><a href="https://www.ai4es.com/>AI4ES</a></u> Summit. Topic: Causal Artificial Intelligence. 
+**December 2022**: Keynote Speaker at the 2022 <u><a href="https://www.ai4es.com/">AI4ES</a></u> Summit. Topic: Causal Artificial Intelligence. 
 
 **July 2022** - Accepted papers-
 + García, C., Mora, O., Pérez-Aragüés, F. et al. CatLC: Catalonia Multiresolution Land Cover Dataset. Sci Data 9, 554 (2022). https://doi.org/10.1038/s41597-022-01674-y
