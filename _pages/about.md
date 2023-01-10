@@ -27,7 +27,7 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
-**December 2022**: Keynote Speaker at the 2022 <u><a href="https://www.ai4es.com/">AI4ES</a></u> Summit. Topic: Causal Artificial Intelligence. <u><a href="[https://www.ai4es.com/](https://www.youtube.com/watch?v=gdCE59IKiyA&t=1s)">Video (in Spanish)</a></u>
+**December 2022**: Keynote Speaker at the 2022 <u><a href="https://www.ai4es.com/">AI4ES</a></u> Summit. Topic: Causal Artificial Intelligence. <u><a href="https://www.youtube.com/watch?v=gdCE59IKiyA&t=1s">Video</a></u> (in Spanish). 
 
 **November 2022**: 
 + Curso de Big Data e Inteligencia Artificial para gestores de salud, 18 de Noviembre, 2022, 
