@@ -20,7 +20,7 @@ redirect_from:
 + Roger Pros, Industrial PhD Student, 8wires. Churn prevention and causal inference.
 
 ## Past Students
-+ [Guillem Pascual]([https://github.com/gpascualg](https://www.linkedin.com/in/gpascualg/)), Co-direction with S.Seguí (UB). Engineering Team Lead at Guardsquare. 
++ [Guillem Pascual](https://www.linkedin.com/in/gpascualg/), Co-direction with S.Seguí (UB). Engineering Team Lead at Guardsquare. 
 + [Àxel Brando](http://axelbrando.github.io/), Barcelona Supercomputing Center.
 + [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Data Engineer Tech Lead at SCRM Lidl International Hub. 
 + [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Engineer at SportPesa Racing Point F1 Team, UK.
