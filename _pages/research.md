@@ -12,10 +12,10 @@ redirect_from:
 
 ## Present PhD Students
 + Carlos Garcia, Industrial PhD Student, ICGC/Universitat de Barcelona. Working on Deep Learning for Remote Sensing Applications. Co-direction with O.Mora(ICGC).
-+ [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), PhD Student, Universitat de Barcelona. Working on Explainable Deep Learning.
++ [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), PhD Student, Universitat de Barcelona. Working on Estimand-free causal inference.
 + [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Working on Context-Aware Recommenders.
 + [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), Industrial PhD Student, ICGC/Universitat de Barcelona. Deep Learning and LIDAR. Co-direction with S.Seguí (UB).
-+ [Enrique Mora](https://es.linkedin.com/in/enrique-mora-ayala-4414131), PhD Student, Universitat de Barcelona. 
++ [Enrique Mora](https://es.linkedin.com/in/enrique-mora-ayala-4414131), PhD Student, Working on Causal Reinforcement Learning. Universitat de Barcelona. 
 + Alex Martínez, Industrial PhD Student, Eurecat. Algorithmic Bias in Graph Neural Network through the lenses of Explainability. Co-direction with F.Bonchi and F. Fabbri.
 + Roger Pros, Industrial PhD Student, 8wires. Churn prevention and causal inference.
 
