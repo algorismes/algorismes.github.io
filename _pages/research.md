@@ -11,7 +11,6 @@ redirect_from:
 ## PhD Positions
 
 ## Present PhD Students
-+ [Guillem Pascual](https://github.com/gpascualg), Universitat de Barcelona. Working on Road Detection from Remote Sensing Images. Co-direction with S.Seguí (UB).
 + Carlos Garcia, Industrial PhD Student, ICGC/Universitat de Barcelona. Working on Deep Learning for Remote Sensing Applications. Co-direction with O.Mora(ICGC).
 + [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), PhD Student, Universitat de Barcelona. Working on Explainable Deep Learning.
 + [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Working on Context-Aware Recommenders.
@@ -21,6 +20,7 @@ redirect_from:
 + Roger Pros, Industrial PhD Student, 8wires. Churn prevention and causal inference.
 
 ## Past Students
++ [Guillem Pascual]([https://github.com/gpascualg](https://www.linkedin.com/in/gpascualg/)), Co-direction with S.Seguí (UB). Engineering Team Lead at Guardsquare. 
 + [Àxel Brando](http://axelbrando.github.io/), Barcelona Supercomputing Center.
 + [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Data Engineer Tech Lead at SCRM Lidl International Hub. 
 + [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Engineer at SportPesa Racing Point F1 Team, UK.
