@@ -31,7 +31,7 @@ He has been always interested in connecting his academic work to the local techn
 
 **May 2023**: Invited Talk: **El rol de la IA en la nueva medicina**, Jornadas para Alta Dirección en Salud, San Telmo Business School, Sevilla. Organizado por Bioinformatics BCN, San Telmo Business School y Junta de Andaluacía.
 
-**April 2023**: Tutorial: **An interoduction to Causal Inference for ML practitioners**. Openbank, Madrid.
+**April 2023**: Tutorial: **An introduction to Causal Inference for ML practitioners**. Openbank, Madrid.
 
 **December 2022**: Keynote Speaker at the 2022 <u><a href="https://www.ai4es.com/">AI4ES</a></u> Summit. Topic: **Causal Artificial Intelligence**. <u><a href="https://www.youtube.com/watch?v=gdCE59IKiyA&t=1s">Video</a></u> (in Spanish). 
 
