@@ -27,11 +27,11 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
-**May 2023**: **AI is broken**. Club Business Innovation & Technologies Esade Alumni.
+**May 2023**: Invited Talk: **AI is broken**. Club Business Innovation & Technologies Esade Alumni.
 
-**May 2023**: **El rol de la IA en la nueva medicina**, Jornadas para Alta Dirección en Salud, San Telmo Business School, Sevilla. Organizado por Bioinformatics BCN, San Telmo Business School y Junta de Andaluacía.
+**May 2023**: Invited Talk: **El rol de la IA en la nueva medicina**, Jornadas para Alta Dirección en Salud, San Telmo Business School, Sevilla. Organizado por Bioinformatics BCN, San Telmo Business School y Junta de Andaluacía.
 
-**April 2023**: **An interoduction to Causal Inference for ML practitioners**. Openbank, Madrid.
+**April 2023**: Tutorial: **An interoduction to Causal Inference for ML practitioners**. Openbank, Madrid.
 
 **December 2022**: Keynote Speaker at the 2022 <u><a href="https://www.ai4es.com/">AI4ES</a></u> Summit. Topic: **Causal Artificial Intelligence**. <u><a href="https://www.youtube.com/watch?v=gdCE59IKiyA&t=1s">Video</a></u> (in Spanish). 
 
@@ -44,7 +44,7 @@ Inteligencia Artificial para gestores de la Salud". Madrid.  Hospital Universita
 **October 2022**: Jornadas formativas sobre las nuevas tecnologías bioinformáticas y de análisis de datos masivos en el ámbito biomédico. Las Palmas de Gran Canaria
 Hospital Doctor Negrín.  17 de octubre, 2022. Organizado por Bioinformatics BCN.
 
-**September 2022**: Invited Talk: Causality without Estimands: Application to Black-Box Explainability. September 26, 2022, Umea University, Sweden.
+**September 2022**: Invited Talk: **Causality without Estimands: Application to Black-Box Explainability**. September 26, 2022, Umea University, Sweden.
 
 **July 2022** - Accepted papers-
 + García, C., Mora, O., Pérez-Aragüés, F. et al. CatLC: Catalonia Multiresolution Land Cover Dataset. Sci Data 9, 554 (2022). https://doi.org/10.1038/s41597-022-01674-y
