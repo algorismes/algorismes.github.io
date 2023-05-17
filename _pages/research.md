@@ -22,14 +22,14 @@ redirect_from:
 + [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), Lead Data Scientist at Shimoku.
 + [Guillem Pascual](https://www.linkedin.com/in/gpascualg/), Co-direction with S.Seguí (UB). Engineering Team Lead at Guardsquare. 
 + [Àxel Brando](http://axelbrando.github.io/), Barcelona Supercomputing Center.
-+ [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Data Engineer Tech Lead at SCRM Lidl International Hub. 
++ [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Head of MLOps en Openbank. 
 + [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Engineer at SportPesa Racing Point F1 Team, UK.
 + Mario Rojas, Post-doctoral research assistant, Dublin City University.
-+ [Àgata Lapedriza](http://sunai.uoc.edu/~agata/). Associate Profesor, Universitat Oberta de Catalunya & Visiting researcher at the Massachusetts Institute of Technology (MIT).
++ [Àgata Lapedriza](http://sunai.uoc.edu/~agata/). Principal Research Scientist (Institute for Experiential AI @ Northeastern University); Professor (Universitat Oberta de Catalunya).
 + [Xavier Baró](http://sunai.uoc.edu/), Associate Profesor, Universitat Oberta de Catalunya.
 + [David Masip](http://www.cvc.uab.es/~davidm/), Associate Profesor, Universitat Oberta de Catalunya.
 + [David Guillamet](https://www.linkedin.com/in/davidguillamet/?ppe=1), Chief Data Scientist, [Bodas.net](https://www.bodas.net/), Barcelona.
-+ [Marco Bressan](https://www.linkedin.com/in/mbressan/?ppe=1), Group Head of Data & Analytics at UniCredit, Former Chief Data Scientist, [Satellogic](https://www.satellogic.com/). Former Chief Data Scientist at [BBVA](https://www.bbva.com/en/). 
++ [Marco Bressan](https://www.linkedin.com/in/mbressan/?ppe=1),  ,Former Head of Data & Analytics at UniCredit, Former Chief Data Scientist, [Satellogic](https://www.satellogic.com/). Former Chief Data Scientist at [BBVA](https://www.bbva.com/en/). 
 + [Aleix Martinez](http://www2.ece.ohio-state.edu/~aleix/), Professor, Ohio State University/Amazon, USA.
 + [Xavier Roca](https://www.linkedin.com/in/xavierroca/?ppe=1), Associate Professor, Computer Science Dept. UAB, CEO & Co-Founder [Visual Tagging](https://visual-tagging.com/en). 
 + [Santi Seguí](http://www.cvc.uab.es/people/ssegui/),  Associate Professor, Universitat de Barcelona.
