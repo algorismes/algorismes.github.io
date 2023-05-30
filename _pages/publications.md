@@ -9,6 +9,8 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlighs
 
++ Laiz, P., Vitrià, J., Gilabert, P., Wenzek, H., Malagelada, C., Watson, A. J., & Seguí, S. (2023). Anatomical landmarks localization for capsule endoscopy studies. Computerized Medical Imaging and Graphics, 102243.
+
 + García, C., Mora, O., Pérez-Aragüés, F. et al. CatLC: Catalonia Multiresolution Land Cover Dataset. Sci Data 9, 554 (2022). https://doi.org/10.1038/s41597-022-01674-y
 
 + Brando, Axel, et al. <u><a href="https://proceedings.mlr.press/v151/brando22a.html"> Deep Non-Crossing Quantiles through the Partial Derivative</a></u>. International Conference on Artificial Intelligence and Statistics. PMLR, 2022.
