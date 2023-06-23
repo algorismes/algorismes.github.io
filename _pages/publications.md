@@ -10,7 +10,7 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 ## Current Highlighs
 
 + Arnau Quindós, Pablo Laiz, Jordi Vitrià, Santi Seguí, Self-supervised out-of-distribution detection in wireless capsule endoscopy images,
-Artificial Intelligence in Medicine, 2023, 102606, ISSN 0933-3657, href="https://doi.org/10.1016/j.artmed.2023.102606
+Artificial Intelligence in Medicine, 2023, 102606, ISSN 0933-3657, https://doi.org/10.1016/j.artmed.2023.102606
 
 + Laiz, P., Vitrià, J., Gilabert, P., Wenzek, H., Malagelada, C., Watson, A. J., & Seguí, S. (2023). <u><a href="https://doi.org/10.1016/j.compmedimag.2023.102243"> Anatomical landmarks localization for capsule endoscopy studies</a></u>. Computerized Medical Imaging and Graphics, 102243.
 
