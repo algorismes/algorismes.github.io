@@ -27,6 +27,10 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
+**June 2023**:
++ Arnau Quindós, Pablo Laiz, Jordi Vitrià, Santi Seguí, Self-supervised out-of-distribution detection in wireless capsule endoscopy images,
+Artificial Intelligence in Medicine, 2023, 102606, ISSN 0933-3657, https://doi.org/10.1016/j.artmed.2023.102606
+
 **May 2023**: Invited Talk: **AI is broken**. Club Business Innovation & Technologies Esade Alumni.
 
 **May 2023**: Invited Talk: **El rol de la IA en la nueva medicina**, Jornadas para Alta Dirección en Salud, San Telmo Business School, Sevilla. Organizado por Bioinformatics BCN, San Telmo Business School y Junta de Andaluacía.
