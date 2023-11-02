@@ -29,7 +29,7 @@ He has been always interested in connecting his academic work to the local techn
 ---
 
 **October 2023**:
-+ Pros, Roger, Vitrià, J. **Exploiting causal knowledge during CATE estimation using tree based metalearners**. ECML/PKDD’23
++ Pros, R., Vitrià, J. **Exploiting causal knowledge during CATE estimation using tree based metalearners**. ECML/PKDD’23
 Workshop on Uplift Modeling and Causal Machine Learning for Operational Decision Making, 2023.
 + Vitrià, Jordi, Oriol Pujol, and Pilar Dellunde. **Cerrando una brecha: una reflexión multidisciplinar sobre la discriminación algorítmica.** Daimon Revista Internacional de Filosofia 90 (2023): 63-80.
 + Laiz, P., Vitrià, J., Gilabert, P., Wenzek, H., Malagelada, C., Watson, A. J., & Seguí, S. (2023). **Anatomical landmarks localization for capsule endoscopy studies**. Computerized Medical Imaging and Graphics, 108, 102243.
