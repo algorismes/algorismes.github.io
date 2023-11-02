@@ -22,6 +22,8 @@ He has been always interested in connecting his academic work to the local techn
 + Member of the Advisory Committee for Unique Infrastructures, Ministerio de Ciencia e Innovación, Spain.
 + Member of the Advisory Committee for Next Generation EU Strategy at the Universitat de Barcelona.
 + Member of the Advisory Board, Universitat de Barcelona.
++ Member of the Advisory Board of the AI4ES project.
++ Member of the Advisory Board of the Euhubs4data project. 
 
 # Highlights
 
