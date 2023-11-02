@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Jordi Vitrià is a Full Professor at the University of Barcelona (UB), which he joined in 2007, and where he teaches an introductory course on Algorithms and advanced courses on Data Science and Deep Learning. From April 2011 to January 2016 he served as UB'a Head of the Applied Mathematics and Analysis Department. He is now a member of the new Mathematics & Computer Science Department at UB. He is also the director of the [Master in Fundamental Principles of Data Science](https://www.ub.edu/web/ub/en/estudis/oferta_formativa/master_universitari/fitxa/F/MD901/index.html?) and co-director of the [Data Science and Machine Learning](http://www.ub.edu/datascience/postgraduate/) Postgraduate course at UB.
+Jordi Vitrià is a Full Professor at the University of Barcelona (UB), which he joined in 2007, and where he teaches an introductory course on **Algorithms for Data Analysis** and advanced courses on **AI Ethics**, **Data Science** and **Deep Learning**. 
 
-From 1991 to 2006, he taught Computer Vision and Artificial Intelligence in the Computer Science Department at the Universitat Autònoma de Barcelona (UAB). He was also in charge of doctoral and master studies in that department until September 2007. He was one of the founding members of the Computer Vision Center (UAB), a non-profit research center with an independent legal status, established in 1995 by the Generalitat de Catalunya and the Universitat Autònoma de Barcelona (UAB).
+From April 2011 to January 2016 he served as UB'a Head of the Applied Mathematics and Analysis Department. He is now a member of the new Mathematics & Computer Science Department at UB. He is also the director of the [Master in Fundamental Principles of Data Science](https://www.ub.edu/web/ub/en/estudis/oferta_formativa/master_universitari/fitxa/F/MD901/index.html?) and co-director of the [Data Science and Machine Learning](http://www.ub.edu/datascience/postgraduate/) Postgraduate course at UB.
 
 His research, when personal computers had 128KB of memory, was originally oriented towards digital image analysis and how to extract quantitative information from them, but soon evolved towards computer vision problems. After a postdoctoral year at the University of California at Berkeley in 1993, he focused on Bayesian methods for computer vision methods. Now, he is leading a research group working in deep learning, machine learning and causal inference. He has authored more than 100 peer-reviewed papers and holds several international patents. He has directed 15 PhD theses in the area of machine learning and computer vision. He has been the leader of a large number of research projects at international and national level.
 
@@ -26,6 +26,21 @@ He has been always interested in connecting his academic work to the local techn
 # Highlights
 
 ---
+
+**October 2023**:
+
++ Pros, Roger, Vitrià, J. **Exploiting causal knowledge during CATE estimation using tree based metalearners**. ECML/PKDD’23
+Workshop on Uplift Modeling and Causal Machine Learning for Operational Decision Making, 2023.
+
++ Vitrià, Jordi, Oriol Pujol, and Pilar Dellunde. **Cerrando una brecha: una reflexión multidisciplinar sobre la discriminación algorítmica.** Daimon Revista Internacional de Filosofia 90 (2023): 63-80.
+
++ Laiz, P., Vitrià, J., Gilabert, P., Wenzek, H., Malagelada, C., Watson, A. J., & Seguí, S. (2023). **Anatomical landmarks localization for capsule endoscopy studies**. Computerized Medical Imaging and Graphics, 108, 102243.
+
++ Carós, Mariona, et al. **Self-Supervised Pre-Training Boosts Semantic Scene Segmentation on LiDAR data.** 2023 18th International Conference on Machine Vision and Applications (MVA). IEEE, 2023.
+
++ P Gilabert, C Malagelada, H Wenzek, J Vitrià, S Seguí, **Leveraging Embedding Information to Create Video Capsule Endoscopy Datasets**, 2023 18th International Conference on Machine Vision and Applications (MVA). IEEE, 2023.
+
++ A Quindós, P Laiz, J Vitrià, S Seguí. **Self-supervised out-of-distribution detection in wireless capsule endoscopy images**. Artificial Intelligence in Medicine, 2023
 
 **June 2023**:
 + Arnau Quindós, Pablo Laiz, Jordi Vitrià, Santi Seguí, Self-supervised out-of-distribution detection in wireless capsule endoscopy images,
