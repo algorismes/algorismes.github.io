@@ -31,7 +31,7 @@ He has been always interested in connecting his academic work to the local techn
 **October 2023**:
 + Pros, R., Vitrià, J. **Exploiting causal knowledge during CATE estimation using tree based metalearners**. ECML/PKDD’23
 Workshop on Uplift Modeling and Causal Machine Learning for Operational Decision Making, 2023.
-+ Vitrià, Jordi, Oriol Pujol, and Pilar Dellunde. **Cerrando una brecha: una reflexión multidisciplinar sobre la discriminación algorítmica.** Daimon Revista Internacional de Filosofia 90 (2023): 63-80.
++ Vitrià, Jordi, Oriol Pujol, and Pilar Dellunde. <u><a href="https://proceedings.mlr.press/v151/brando22a.html"> **Cerrando una brecha: una reflexión multidisciplinar sobre la discriminación algorítmica.** </a></u> Daimon Revista Internacional de Filosofia 90 (2023): 63-80.
 + Laiz, P., Vitrià, J., Gilabert, P., Wenzek, H., Malagelada, C., Watson, A. J., & Seguí, S. (2023). **Anatomical landmarks localization for capsule endoscopy studies**. Computerized Medical Imaging and Graphics, 108, 102243.
 + Carós, Mariona, et al. **Self-Supervised Pre-Training Boosts Semantic Scene Segmentation on LiDAR data.** 2023 18th International Conference on Machine Vision and Applications (MVA). IEEE, 2023.
 + P Gilabert, C Malagelada, H Wenzek, J Vitrià, S Seguí, **Leveraging Embedding Information to Create Video Capsule Endoscopy Datasets**, 2023 18th International Conference on Machine Vision and Applications (MVA). IEEE, 2023.
