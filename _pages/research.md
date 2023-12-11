@@ -11,11 +11,11 @@ redirect_from:
 ## PhD Positions
 
 ## Present PhD Students
-+ [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Working on Context-Aware Recommenders.
++ [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Responsible Recommenders.
 + [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), Industrial PhD Student, ICGC/Universitat de Barcelona. Deep Learning and LIDAR. Co-direction with S.Seguí (UB).
 + [Enrique Mora](https://es.linkedin.com/in/enrique-mora-ayala-4414131), PhD Student, Working on Causal Reinforcement Learning. Universitat de Barcelona. 
 + Alex Martínez, Industrial PhD Student, Eurecat. Algorithmic Bias in Graph Neural Network through the lenses of Explainability. Co-direction with F.Bonchi and F. Fabbri.
-+ Roger Pros, Industrial PhD Student, 8wires. Churn prevention and causal inference.
++ Roger Pros, Industrial PhD Student, Zenital. Causal Inference and Machine Learning for CATE estimation.
 
 ## Past Students
 + Carlos Garcia. 
