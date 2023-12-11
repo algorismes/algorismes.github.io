@@ -18,7 +18,7 @@ redirect_from:
 + Roger Pros, Industrial PhD Student, Zenital. Causal Inference and Machine Learning for CATE estimation.
 
 ## Past Students
-+ [Carlos Garcia](https://www.linkedin.com/in/carlos-garcia-rodriguez/). High School Mathematics Teacher.  
++ [Carlos Garcia](https://www.linkedin.com/in/carlos-garcia-rodriguez/), High School Mathematics Teacher.  
 + [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), Data Scientist at Barcelona Supercomputing Center.
 + [Guillem Pascual](https://www.linkedin.com/in/gpascualg/), Co-direction with S.Seguí (UB). Engineering Team Lead at Guardsquare. 
 + [Àxel Brando](http://axelbrando.github.io/), Barcelona Supercomputing Center.
