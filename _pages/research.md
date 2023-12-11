@@ -11,7 +11,6 @@ redirect_from:
 ## PhD Positions
 
 ## Present PhD Students
-+ Carlos Garcia, Industrial PhD Student, ICGC/Universitat de Barcelona. Working on Deep Learning for Remote Sensing Applications. Co-direction with O.Mora(ICGC).
 + [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), PhD Student, Universitat de Barcelona. Working on Context-Aware Recommenders.
 + [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), Industrial PhD Student, ICGC/Universitat de Barcelona. Deep Learning and LIDAR. Co-direction with S.Seguí (UB).
 + [Enrique Mora](https://es.linkedin.com/in/enrique-mora-ayala-4414131), PhD Student, Working on Causal Reinforcement Learning. Universitat de Barcelona. 
@@ -19,7 +18,8 @@ redirect_from:
 + Roger Pros, Industrial PhD Student, 8wires. Churn prevention and causal inference.
 
 ## Past Students
-+ [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), Lead Data Scientist at Shimoku.
++ Carlos Garcia. 
++ [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), Data Scientist at Barcelona Supercomputing Center.
 + [Guillem Pascual](https://www.linkedin.com/in/gpascualg/), Co-direction with S.Seguí (UB). Engineering Team Lead at Guardsquare. 
 + [Àxel Brando](http://axelbrando.github.io/), Barcelona Supercomputing Center.
 + [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Head of MLOps en Openbank. 
