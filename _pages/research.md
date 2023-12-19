@@ -19,7 +19,7 @@ redirect_from:
 
 ## Past Students
 
-+ [Pablo Laiz](https://www.linkedin.com/in/pablo-laiz/?originalSubdomain=es), Lead AI Software Engineer, GI Digital.
++ [Pablo Laiz](https://www.linkedin.com/in/pablo-laiz/?originalSubdomain=es), Co-direction with S.Seguí (UB). Lead AI Software Engineer, GI Digital.
 + [Carlos Garcia](https://www.linkedin.com/in/carlos-garcia-rodriguez/), High School Mathematics Teacher.  
 + [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), Data Scientist at Barcelona Supercomputing Center.
 + [Guillem Pascual](https://www.linkedin.com/in/gpascualg/), Co-direction with S.Seguí (UB). Engineering Team Lead at Guardsquare. 
