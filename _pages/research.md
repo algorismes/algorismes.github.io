@@ -24,7 +24,7 @@ redirect_from:
 + [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), Data Scientist at Barcelona Supercomputing Center.
 + [Guillem Pascual](https://www.linkedin.com/in/gpascualg/), Co-direction with S.Seguí (UB). Engineering Team Lead at Guardsquare. 
 + [Àxel Brando](http://axelbrando.github.io/), Barcelona Supercomputing Center.
-+ [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), Head of MLOps en Openbank. 
++ [José Mena](https://www.linkedin.com/in/jose-mena-2312645/), , Co-direction with O.Pujol (UB). Head of MLOps en Openbank. 
 + [Ekaterina Zaytseva](https://www.linkedin.com/in/ekaterina-zaytseva-758b5311/), Engineer at SportPesa Racing Point F1 Team, UK.
 + Mario Rojas, Post-doctoral research assistant, Dublin City University.
 + [Àgata Lapedriza](http://sunai.uoc.edu/~agata/). Principal Research Scientist (Institute for Experiential AI @ Northeastern University); Professor (Universitat Oberta de Catalunya).
