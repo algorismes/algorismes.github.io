@@ -17,6 +17,7 @@ His research, when personal computers had 128KB of memory, was originally orient
 He has been always interested in connecting his academic work to the local technological ecosystem, and since 1993 he has been involved in a large number of projects to transfer academic knowledge to industrial production, medical diagnoses and media applications. He is now director of the [DataScience@UB](https://datascience.ub.edu/tecnio/) group technology transfer group that is supported by the Generalitat de Catalunya (TECNIO Center). During the last years the [DataScience@UB](https://datascience.ub.edu/tecnio/) group has been actively collaborating with companies such as Driving01, DegustaBox, Nestle, CorporateHealth, Eurecat, BBVA, IBM, TUV Rheinland, Telefonica, Vodafone, ICGC, Bodas.net, Given Imaging, correYvuela, Ajuntament de Barcelona, 7ideas, etc. 
 
 ## Public service and other activities
++ Organizing Committee, [KDD 2024](https://kdd2024.kdd.org/).
 + Member of the Executive Board of the Institute of Marthematics, Universitat de Barcelona.
 + Member of the Advisory Committee for Unique Infrastructures, Ministerio de Ciencia e Innovación, Spain.
 + Member of the Advisory Committee for Next Generation EU Strategy at the Universitat de Barcelona.
