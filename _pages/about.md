@@ -14,6 +14,8 @@ From April 2011 to January 2016 he served as UB'a Head of the Applied Mathematic
 
 His research, when personal computers had 128KB of memory, was originally oriented towards digital image analysis and how to extract quantitative information from them, but soon evolved towards computer vision problems. After a postdoctoral year at the University of California at Berkeley in 1993, he focused on Bayesian methods for computer vision methods. Now, he is leading a research group working in deep learning, machine learning and causal inference. He has authored more than 100 peer-reviewed papers and holds several international patents. He has directed 15 PhD theses in the area of machine learning and computer vision. He has been the leader of a large number of research projects at international and national level.
 
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+
 He has been always interested in connecting his academic work to the local technological ecosystem, and since 1993 he has been involved in a large number of projects to transfer academic knowledge to industrial production, medical diagnoses and media applications. He is now director of the [DataScience@UB](https://datascience.ub.edu/tecnio/) group technology transfer group that is supported by the Generalitat de Catalunya (TECNIO Center). During the last years the [DataScience@UB](https://datascience.ub.edu/tecnio/) group has been actively collaborating with companies such as Driving01, DegustaBox, Nestle, CorporateHealth, Eurecat, BBVA, IBM, TUV Rheinland, Telefonica, Vodafone, ICGC, Bodas.net, Given Imaging, correYvuela, Ajuntament de Barcelona, 7ideas, etc. 
 
 ## Public service and other activities
