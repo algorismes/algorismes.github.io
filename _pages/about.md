@@ -13,11 +13,9 @@ Jordi Vitrià is a Full Professor at the University of Barcelona (UB), which he 
 From April 2011 to January 2016 he served as UB'a Head of the Applied Mathematics and Analysis Department. He is now a member of the new Mathematics & Computer Science Department at UB. He is also the director of the [Master in Fundamental Principles of Data Science](https://www.ub.edu/web/ub/en/estudis/oferta_formativa/master_universitari/fitxa/F/MD901/index.html?) and co-director of the [Data Science and Machine Learning](http://www.ub.edu/datascience/postgraduate/) Postgraduate course at UB.
 
 His research, when personal computers had 128KB of memory, was originally oriented towards digital image analysis and how to extract quantitative information from them, but soon evolved towards computer vision problems. After a postdoctoral year at the University of California at Berkeley in 1993, he focused on Bayesian methods for computer vision methods. Now, he is leading a research group working in deep learning, machine learning and causal inference. He has authored more than 100 peer-reviewed papers and holds several international patents. He has directed 15 PhD theses in the area of machine learning and computer vision. He has been the leader of a large number of research projects at international and national level.
-
 <center>
 <img src="https://hackmd.io/_uploads/rky5hb2KT.png" alt="My Research" style="width:1000px">
 </center>
-
 He has been always interested in connecting his academic work to the local technological ecosystem, and since 1993 he has been involved in a large number of projects to transfer academic knowledge to industrial production, medical diagnoses and media applications. He is now director of the [DataScience@UB](https://datascience.ub.edu/tecnio/) group technology transfer group that is supported by the Generalitat de Catalunya (TECNIO Center). During the last years the [DataScience@UB](https://datascience.ub.edu/tecnio/) group has been actively collaborating with companies such as Driving01, DegustaBox, Nestle, CorporateHealth, Eurecat, BBVA, IBM, TUV Rheinland, Telefonica, Vodafone, ICGC, Bodas.net, Given Imaging, correYvuela, Ajuntament de Barcelona, 7ideas, etc. 
 
 ## Public service and other activities
