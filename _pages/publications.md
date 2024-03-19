@@ -9,7 +9,7 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlighs
 
-+ Paula G. Duran, Pere Gilabert, Santi Seguí, and Jordi Vitrià. 2024. <u><a href="https://dl.acm.org/doi/pdf/10.1145/3643857"> Overcoming Diverse Undesired Effects in Recommender Systems: A Deontological Approach</a></u>. ACM Trans. Intell. Syst. Technol. Just Accepted (February 2024). https://doi.org/10.1145/3643857
++ Paula G. Duran, Pere Gilabert, Santi Seguí, and Jordi Vitrià. 2024. Overcoming Diverse Undesired Effects in Recommender Systems: A Deontological Approach. ACM Trans. Intell. Syst. Technol. Just Accepted (February 2024). https://doi.org/10.1145/3643857
   
 + Arnau Quindós, Pablo Laiz, Jordi Vitrià, Santi Seguí, Self-supervised out-of-distribution detection in wireless capsule endoscopy images,
 Artificial Intelligence in Medicine, 2023, 102606, ISSN 0933-3657, https://doi.org/10.1016/j.artmed.2023.102606
