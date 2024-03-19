@@ -32,6 +32,10 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
+**February 2024**:
+
++ Paula G. Duran, Pere Gilabert, Santi Seguí, and Jordi Vitrià. 2024. **Overcoming Diverse Undesired Effects in Recommender Systems: A Deontological Approach**. ACM Trans. Intell. Syst. Technol. Just Accepted (February 2024). https://doi.org/10.1145/3643857
+
 **October 2023**:
 + Pros, R., Vitrià, J. **Exploiting causal knowledge during CATE estimation using tree based metalearners**. ECML/PKDD’23
 Workshop on Uplift Modeling and Causal Machine Learning for Operational Decision Making, 2023.
