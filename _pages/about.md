@@ -36,6 +36,7 @@ He has been always interested in connecting his academic work to the local techn
 **June 2024**:
 
 + Director of the **Chair in Artificial Intelligence and Media**, which is supported by 3Cat.
++ Busy organizing the <u><a href="https://kdd2024.kdd.org/call-for-undergraduate-consortium/">**Undergraduate Consortium at KDD 2024**</a></u>. 
 
 **February 2024**:
 
