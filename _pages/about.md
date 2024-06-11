@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Jordi Vitrià is a Full Professor at the University of Barcelona (UB), which he joined in 2007, and where he teaches an introductory course on **Algorithms for Data Analysis** and advanced courses on **AI Ethics**, **Data Science** and **Deep Learning**. 
+Jordi Vitrià is a Full Professor at the University of Barcelona (UB), which he joined in 2007, and where he teaches an introductory course on **Algorithms for Data Analysis** and advanced courses on **AI Ethics**, **Data Science** and **Deep Learning**. Additionally, he serves as the Director of the **Chair in Artificial Intelligence and Media**, which is supported by 3Cat.
 
 From April 2011 to January 2016 he served as UB'a Head of the Applied Mathematics and Analysis Department. He is now a member of the new Mathematics & Computer Science Department at UB. He is also the director of the [Master in Fundamental Principles of Data Science](https://www.ub.edu/web/ub/en/estudis/oferta_formativa/master_universitari/fitxa/F/MD901/index.html?) and co-director of the [Data Science and Artificial Intelligence](http://www.ub.edu/datascience/postgraduate/) Postgraduate course at UB.
 
