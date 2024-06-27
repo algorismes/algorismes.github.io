@@ -36,10 +36,10 @@ He has been always interested in connecting his academic work to the local techn
 **June 2024**:
 
 + Director of the **Chair in Artificial Intelligence and Media**, which is supported by 3Cat.
-+ Busy organizing the <u><a href="https://kdd2024.kdd.org/call-for-undergraduate-consortium/">**Undergraduate Consortium at KDD 2024**</a></u>.
++ Busy organizing the <u><a href="https://kdd2024.kdd.org/call-for-undergraduate-consortium/">Undergraduate Consortium at KDD 2024</a></u>.
 + Accepted paper: **Industrial-Grade Time-Dependent Counterfactual Root Cause Analysis through the Unanticipated Point of Incipient Failure: a Proof of Concept**, by Alexandre Trilla, Rajesh Rajendran, Ossee Yiboe, Quentin Possamaï, Nenad Mijatovic & Jordi Vitria, at Workshop on Causal Inference for Time Series Data at UAI, 2024.
 + Accepted paper: **Preventing spurious interactions in tree-based metalearners**, by Roger Pros and Jordi Vitrià, 9th Causal Inference Workshop at UAI, 2024.
-+ Accepted paper: <u><a href="https://doi.org/10.3390/rs16122153">**Effective Training and Inference Strategies for Point Classification in LiDAR Scenes**</a></u>, Mariona Carós, Ariadna Just, Santi Seguí and Jordi Vitrià. Remote Sens. 2024, 16, 2153. 
++ Accepted paper: <u><a href="https://doi.org/10.3390/rs16122153">Effective Training and Inference Strategies for Point Classification in LiDAR Scenes</a></u>, Mariona Carós, Ariadna Just, Santi Seguí and Jordi Vitrià. Remote Sens. 2024, 16, 2153. 
 
 **February 2024**:
 
