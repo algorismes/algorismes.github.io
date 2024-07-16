@@ -38,7 +38,6 @@ He has been always interested in connecting his academic work to the local techn
 + Accepted paper: **Industrial-Grade Time-Dependent Counterfactual Root Cause Analysis through the Unanticipated Point of Incipient Failure: a Proof of Concept**, by Alexandre Trilla, Rajesh Rajendran, Ossee Yiboe, Quentin Possamaï, Nenad Mijatovic & Jordi Vitria, at Workshop on Causal Inference for Time Series Data at UAI, 2024.
 + Accepted paper: **Preventing spurious interactions in tree-based metalearners**, by Roger Pros and Jordi Vitrià, 9th Causal Inference Workshop at UAI, 2024.
 + Accepted paper: <u><a href="https://doi.org/10.3390/rs16122153">Effective Training and Inference Strategies for Point Classification in LiDAR Scenes</a></u>, Mariona Carós, Ariadna Just, Santi Seguí and Jordi Vitrià. **Remote Sensing** 2024, 16, 2153.
-+ Accepted oral paper: **Industrial-Grade Smart Troubleshooting through Causal Technical Language Processing: a Proof of Concept**, by Alexandre Trilla, Rajesh Rajendran, Ossee Yiboe, Quentin Possamaï, Nenad Mijatovic & Jordi Vitria, at 2024 KDD workshop “Causal Inference and Machine Learning in Practice”. 
 
 **February 2024**:
 
