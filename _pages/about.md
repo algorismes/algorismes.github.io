@@ -33,7 +33,7 @@ He has been always interested in connecting his academic work to the local techn
 
 **June 2024**:
 
-+ Director of the **Chair in Artificial Intelligence and Media**, which is supported by 3Cat.
++ Director of the [Chair in Artificial Intelligence and Media](https://www.ub.edu/catedres/ca/catedres/catedra-ub-en-intelligencia-artificial-i-mitjans), which is supported by 3Cat.
 + Busy organizing the <u><a href="https://kdd2024.kdd.org/call-for-undergraduate-consortium/">Undergraduate Consortium at KDD 2024</a></u>.
 + Accepted paper:  <u><a href="https://arxiv.org/abs/2407.11056"> Industrial-Grade Time-Dependent Counterfactual Root Cause Analysis through the Unanticipated Point of Incipient Failure: a Proof of Concept </a></u>, by Alexandre Trilla, Rajesh Rajendran, Ossee Yiboe, Quentin Possamaï, Nenad Mijatovic & Jordi Vitria, at Workshop on Causal Inference for Time Series Data at UAI, 2024.
 + Accepted paper: <u><a href="https://openreview.net/pdf?id=Nx7YoLkLW9"> Preventing spurious interactions in tree-based metalearners</a></u>, by Roger Pros and Jordi Vitrià, 9th Causal Inference Workshop at UAI, 2024.
