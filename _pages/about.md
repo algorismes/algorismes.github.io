@@ -30,6 +30,13 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
+**October 2024**:
+
++ Alexandre Trilla*, Ossee Yiboe, Nenad Mijatovic (Alstom), Jordi Vitria (Universitat de Barcelona). [Industrial-Grade Smart Troubleshooting through Causal Technical Language Processing: a Proof of Concept](https://arxiv.org/pdf/2407.20700), 2nd Workshop on Causal Inference and Machine Learning in Practice, KDD 2024.
++ Arturo Fredes, Jordi Vitrià. [Using LLMs for Explaining Sets of Counterfactual Examples to Final Users](https://arxiv.org/pdf/2408.15133?). 2nd Workshop on Causal Inference and Machine Learning in Practice, KDD 2024.
++ Jordi Vitrià, [¿Cómo pueden las máquinas tener en cuenta las consecuencias de sus acciones?](https://theconversation.com/como-pueden-las-maquinas-tener-en-cuenta-las-consecuencias-de-sus-acciones-239103), The Conversation, 2024.
++ + Jordi Vitrià, [Los Nobel de este año: qué tiene que ver la física con la inteligencia artificial](https://theconversation.com/los-nobel-de-este-ano-que-tiene-que-ver-la-fisica-con-la-inteligencia-artificial-240932), The Conversation, 2024.
+
 **June 2024**:
 
 + Director of the [Chair in Artificial Intelligence and Media](https://www.ub.edu/catedres/ca/catedres/catedra-ub-en-intelligencia-artificial-i-mitjans), which is supported by 3Cat.
