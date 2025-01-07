@@ -30,6 +30,10 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
+**January 2025**:
+
++ Pros, R., Vitrià, J. (2025). [Exploiting Causal Knowledge During CATE Estimation Using Tree Based Metalearners](https://link.springer.com/chapter/10.1007/978-3-031-74640-6_19). In: Meo, R., Silvestri, F. (eds) Machine Learning and Principles and Practice of Knowledge Discovery in Databases. ECML PKDD 2023. Communications in Computer and Information Science, vol 2136. Springer, Cham. https://doi.org/10.1007/978-3-031-74640-6_19
+
 **October 2024**:
 
 + Alexandre Trilla*, Ossee Yiboe, Nenad Mijatovic (Alstom), Jordi Vitria (Universitat de Barcelona). [Industrial-Grade Smart Troubleshooting through Causal Technical Language Processing: a Proof of Concept](https://arxiv.org/pdf/2407.20700), 2nd Workshop on Causal Inference and Machine Learning in Practice, KDD 2024.
