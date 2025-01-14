@@ -32,21 +32,12 @@ He has been always interested in connecting his academic work to the local techn
 
 **January 2025**:
 
-+ [DataScienceUB](https://datascience.ub.edu/research/), in collaboration with [Nextus](https://nextus.global/en), is pleased to announce the launch of an innovative Generative AI project aimed at revolutionizing the use of multimedia in education. This project focuses on using pre-trained foundational models to significantly improve the ability to analyze and interpret visual content.
-  
-Large predictive models based on generative AI have notably advanced computer vision, a field that has evolved from simple pattern recognition to sophisticated systems capable of complexly analyzing the visual elements of a video. Advances in neural networks, especially deep learning, have accelerated this evolution by enhancing applications' ability to interpret and interact with the visual world.
-
-With the emergence of foundational models—large-scale AI models trained with extensive datasets—there is a shift towards more adaptable and scalable solutions in computer vision. These models, such as OpenAI's GPT-4 or Google's Gemini 2, are already trained to recognize many visual patterns. They can perform various tasks, such as image classification, object detection, and image captioning, with minimal additional training.
-
-This project aims to extend the use of pre-trained foundational models with multimedia data to a series of critical tasks:
++ [DataScienceUB](https://datascience.ub.edu/research/), in collaboration with [Nextus](https://nextus.global/en), is pleased to announce the launch of an innovative Generative AI project aimed at revolutionizing the use of multimedia in education. This project focuses on using pre-trained foundational models to significantly improve the ability to analyze and interpret visual content. Large predictive models based on generative AI have notably advanced computer vision, a field that has evolved from simple pattern recognition to sophisticated systems capable of complexly analyzing the visual elements of a video. Advances in neural networks, especially deep learning, have accelerated this evolution by enhancing applications' ability to interpret and interact with the visual world. With the emergence of foundational models—large-scale AI models trained with extensive datasets—there is a shift towards more adaptable and scalable solutions in computer vision. These models, such as OpenAI's GPT-4 or Google's Gemini 2, are already trained to recognize many visual patterns. They can perform various tasks, such as image classification, object detection, and image captioning, with minimal additional training. This project aims to extend the use of pre-trained foundational models with multimedia data to a series of critical tasks:
   + Automatic transcription of documentary audio and its indexing.
   + Detection and indexing of visual elements in documentaries.
   + Automatic selection of short clips within a long-duration video.
   + Description and summarization of selected clips.
   + Support for experts in generating educational material related to the clips.
-Foundational models are changing how AI is developed because they are flexible and efficient. Multiple tasks can be performed with a single comprehensive model, saving developers time and money. This method simplifies work and helps models perform better in different tasks, laying the groundwork for major advances in computer vision.
-
-Participation in this project is distributed between DataScienceUB (50%) and Nextus (50%), ensuring close and effective collaboration to achieve the proposed objectives.
 
 + Pros, R., Vitrià, J. (2025). [Exploiting Causal Knowledge During CATE Estimation Using Tree Based Metalearners](https://link.springer.com/chapter/10.1007/978-3-031-74640-6_19). In: Meo, R., Silvestri, F. (eds) Machine Learning and Principles and Practice of Knowledge Discovery in Databases. ECML PKDD 2023. Communications in Computer and Information Science, vol 2136. Springer, Cham. https://doi.org/10.1007/978-3-031-74640-6_19
 
