@@ -11,7 +11,9 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 + Arturo Fredes, Jordi Vitria. Using LLMs for Explaining Sets of Counterfactual Examples to Final Users. 2nd Workshop on Causal Inference and Machine Learning in Practice. KDD 2024. https://causal-machine-learning.github.io/kdd2024-workshop/
 
-+ Paula G. Duran, Pere Gilabert, Santi Seguí, and Jordi Vitrià. 2024. Overcoming Diverse Undesired Effects in Recommender Systems: A Deontological Approach. ACM Trans. Intell. Syst. Technol. Just Accepted (February 2024). https://doi.org/10.1145/3643857
++ A Trilla, O Yiboe, N Mijatovic, J Vitrià. Industrial-grade smart troubleshooting through causal technical language processing: a proof of concept. 2nd Workshop on Causal Inference and Machine Learning in Practice. https://causal-machine-learning.github.io/kdd2024-workshop/
+
++ Paula G. Duran, Pere Gilabert, Santi Seguí, and Jordi Vitrià. 2024. Overcoming Diverse Undesired Effects in Recommender Systems: A Deontological Approach. ACM Trans. Intell. Syst. Technol (February 2024). https://doi.org/10.1145/3643857
   
 + Arnau Quindós, Pablo Laiz, Jordi Vitrià, Santi Seguí, Self-supervised out-of-distribution detection in wireless capsule endoscopy images,
 Artificial Intelligence in Medicine, 2023, 102606, ISSN 0933-3657, https://doi.org/10.1016/j.artmed.2023.102606
