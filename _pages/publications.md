@@ -9,7 +9,9 @@ You can find most of my articles on <u><a href="https://scholar.google.com/citat
 
 ## Current Highlighs
 
-+ Arturo Fredes, Jordi Vitria. Using LLMs for Explaining Sets of Counterfactual Examples to Final Users. 2nd Workshop on Causal Inference and Machine Learning in Practice. KDD 2024. https://causal-machine-learning.github.io/kdd2024-workshop/
++ Carós, M., Just, A., Seguí, S., & Vitrià, J. (2024). Effective Training and Inference Strategies for Point Classification in LiDAR Scenes. Remote Sensing, 16(12), 2153.
+
++ + Arturo Fredes, Jordi Vitria. Using LLMs for Explaining Sets of Counterfactual Examples to Final Users. 2nd Workshop on Causal Inference and Machine Learning in Practice. KDD 2024. https://causal-machine-learning.github.io/kdd2024-workshop/
 
 + A Trilla, O Yiboe, N Mijatovic, J Vitrià. Industrial-grade smart troubleshooting through causal technical language processing: a proof of concept. 2nd Workshop on Causal Inference and Machine Learning in Practice. https://causal-machine-learning.github.io/kdd2024-workshop/
 
