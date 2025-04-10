@@ -32,7 +32,7 @@ He has been always interested in connecting his academic work to the local techn
 
 **April 2025**:
 
-+ PAULA GÓMEZ DURAN, AXEL BRANDO, and JORDI VITRIÀ. 2025. Solving the Contextual Pure Cold-Start Problem under Uncertainty. ACM Trans. Recomm. Syst. Just Accepted (April 2025). https://doi.org/10.1145/3729245
++ P.Gómez, A.Brando, and J.Vitrià. 2025. **Solving the Contextual Pure Cold-Start Problem under Uncertainty**. ACM Trans. Recomm. Syst. Just Accepted (April 2025). https://doi.org/10.1145/3729245
 + 
 **January 2025**:
 
