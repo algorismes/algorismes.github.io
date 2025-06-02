@@ -39,7 +39,6 @@ He has been always interested in connecting his academic work to the local techn
 **April 2025**:
 
 + P.Gómez, A.Brando, and J.Vitrià. 2025. **Solving the Contextual Pure Cold-Start Problem under Uncertainty**. ACM Trans. Recomm. Syst. Just Accepted (April 2025). https://doi.org/10.1145/3729245
-+ 
 **January 2025**:
 
 + [DataScienceUB](https://datascience.ub.edu/research/), in collaboration with [Nextus](https://nextus.global/en), is pleased to announce the launch of an innovative Generative AI project (Nuclis 2024, Generalitat de Catalunya) aimed at revolutionizing the use of multimedia in education. This project focuses on using pre-trained foundational models to significantly improve the ability to analyze and interpret visual content. Large predictive models based on generative AI have notably advanced computer vision, a field that has evolved from simple pattern recognition to sophisticated systems capable of complexly analyzing the visual elements of a video. The project will focus on several key areas to improve educational outcomes:
