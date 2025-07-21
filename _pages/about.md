@@ -52,6 +52,8 @@ If you read it, I’d love to hear your feedback!
 
 ![How to Make Responsible Use of Artificial Intelligence in Education](book.png)
 
+<img src="book.png" alt="How to Make Responsible Use of Artificial Intelligence in Education" width="200"/>
+
 **May 2025**:
 
 + R. Pros and J. Vitrià,["Preventing Spurious Interactions: A New Inductive Bias for Accurate Treatment Effect Estimation,"](https://ieeexplore.ieee.org/document/11016676) in IEEE Access, doi: 10.1109/ACCESS.2025.3574547.
