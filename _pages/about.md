@@ -43,8 +43,8 @@ I’m thrilled to announce “How to Make Responsible Use of Artificial Intellig
 📖 The book is available open access to maximize its reach and impact.
 
 👉 Download it here: 
-+ Catalan: https://octaedro.com/libro/com-fer-un-us-responsable-de-la-intel%c2%b7ligencia-artificial-en-educacio/
-+ Spànish: https://octaedro.com/libro/como-hacer-un-uso-responsable-de-la-inteligencia-artificial-en-educacion/
++ [Catalan Version](https://octaedro.com/libro/com-fer-un-us-responsable-de-la-intel%c2%b7ligencia-artificial-en-educacio/)
++ [Spànish Version](https://octaedro.com/libro/como-hacer-un-uso-responsable-de-la-inteligencia-artificial-en-educacion/)
 
 The key isn’t to ban AI, but to learn how to use it wisely. I invite the entire education community to read, share, and—most importantly—discuss how we can turn AI into a responsible ally for better learning outcomes.
 Special thanks to Octaedro Editorial and everyone who contributed their ideas and experiences during the writing process.
