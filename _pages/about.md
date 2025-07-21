@@ -34,7 +34,7 @@ He has been always interested in connecting his academic work to the local techn
 
 I’m thrilled to announce “How to Make Responsible Use of Artificial Intelligence in Education” (Octaedro Publishing) (In Catalan and Spanish). This practical guide is designed to help teachers, school leaders, and content creators integrate AI into the classroom in an ethical, safe, and thoughtful way.
 
-[<img src="book.png" width="400"/>](book.png)
+[<img src="[book.png](https://github.com/algorismes/algorismes.github.io/blob/master/_pages/book.png)" width="400"/>](book.png)
 
 🔍 What’s inside?
 + Core principles of predictive and generative AI tailored to educational settings
