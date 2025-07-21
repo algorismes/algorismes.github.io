@@ -36,11 +36,6 @@ I’m thrilled to announce “How to Make Responsible Use of Artificial Intellig
 
 [<img src="book.png" width="250"/>](book.png)
 
-
-<center>
-<img src="book.png" alt="How to Make Responsible Use of Artificial Intelligence in Education" width="400"/>
-</center>
-
 🔍 What’s inside?
 + Core principles of predictive and generative AI tailored to educational settings
 + Risks, opportunities, and best practices for protecting students and their privacy
