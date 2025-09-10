@@ -28,11 +28,12 @@ He has been always interested in connecting his academic work to the local techn
 
 # Highlights
 
+---
+
 **September 2025**
 
 New substack newsletter: [Jordi's Substack](https://jordivitria.substack.com/)
 
----
 
 **July 2025**:
 
