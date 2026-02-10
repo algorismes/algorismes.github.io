@@ -17,8 +17,8 @@ redirect_from:
 
 ## Past Students
 
-+ [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), Co-direction with S.Seguí (UB). Institut Cartogràfic i Geològic de Catalunya.
-+ [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), Institut Cartogràfic i Geològic de Catalunya.
++ [Mariona Carós](https://www.linkedin.com/in/mariona-c-a7bb91105), Co-direction with S.Seguí (UB). AI Engineer at Institut Cartogràfic i Geològic de Catalunya.
++ [Paula Gómez](https://www.linkedin.com/in/paulagd-1995), AI Engineer at Institut Cartogràfic i Geològic de Catalunya.
 + [Pablo Laiz](https://www.linkedin.com/in/pablo-laiz/?originalSubdomain=es), Co-direction with S.Seguí (UB). Lead AI Software Engineer, GI Digital.
 + [Carlos Garcia](https://www.linkedin.com/in/carlos-garcia-rodriguez/), High School Mathematics Teacher.  
 + [Álvaro Parafita](https://www.linkedin.com/in/alvaroparafita/), Data Scientist at Barcelona Supercomputing Center.
