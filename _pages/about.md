@@ -20,7 +20,7 @@ Part of my work is conceptual: developing frameworks to think about epistemic au
 
 Part of it is practical: building tools, datasets, and evaluation methods that make these ideas operational in real settings—from media analysis to clinical AI.
 
-I collaborate with journalists, enterpreneurs, and public institutions to turn philosophical questions about knowledge into working systems, educational tools, and open-source software.
+I collaborate with journalists, enterpreneurs, and public institutions to turn philosophical questions about knowledge into working systems and educational tools.
 
 Right now, as AI becomes part of how societies produce and evaluate knowledge, this feels like one of the most intellectually urgent and exciting problems to work on.
 
