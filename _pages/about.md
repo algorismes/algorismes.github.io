@@ -10,7 +10,7 @@ redirect_from:
 
 ## What I do
 
-I design tools for knowing in the age of algorithms. I try to understand how ideas about knowledge translate into decision-making in a world increasingly mediated by algorithms, and how we can design systems that support responsible judgment rather than replace it.
+I design **tools for knowing in the age of algorithms**. I try to understand how ideas about knowledge translate into decision-making in a world increasingly mediated by algorithms, and how we can design systems that support responsible judgment rather than replace it.
 
 I work at the intersection of artificial intelligence, causal reasoning, and ethics. My research asks how predictive models, recommender systems, and generative AI shape the epistemic environments in which people—journalists, teachers, doctors, policymakers, and citizens—form beliefs and make decisions.
 
