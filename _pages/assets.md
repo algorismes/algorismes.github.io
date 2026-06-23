@@ -5,4 +5,4 @@ layout: single
 author_profile: true
 ---
 
-./descens_gradient.html
+[Descens del gradient](descens_gradient.html)
