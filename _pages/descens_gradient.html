@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Descens del gradient — visualització interactiva</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: #f9f9f7; color: #1a1a18; padding: 2rem; }
+  h1 { font-size: 22px; font-weight: 500; margin-bottom: 0.4rem; }
+  .subtitle { font-size: 14px; color: #666; margin-bottom: 2.5rem; }
+  h2 { font-size: 16px; font-weight: 500; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 0.5px solid #ddd; }
+  section { background: #fff; border-radius: 12px; border: 0.5px solid #ddd; padding: 1.5rem; margin-bottom: 2rem; }
+  .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1rem; }
+  .ctrl-block { display: flex; flex-direction: column; gap: 6px; }
+  .ctrl-label { font-size: 13px; color: #666; display: flex; justify-content: space-between; }
+  .ctrl-val { font-size: 13px; font-weight: 500; color: #1a1a18; }
+  input[type=range] { width: 100%; accent-color: #3266ad; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 1rem; }
+  .stat { background: #f3f3f0; border-radius: 8px; padding: 10px 12px; }
+  .stat-label { font-size: 11px; color: #888; margin-bottom: 2px; }
+  .stat-val { font-size: 16px; font-weight: 500; }
+  .tabs, .fn-tabs { display: flex; gap: 4px; margin-bottom: 1.2rem; }
+  .tab, .fn-tab { font-size: 12px; padding: 5px 14px; border-radius: 8px; border: 0.5px solid #ccc; background: transparent; color: #666; cursor: pointer; }
+  .tab.active, .fn-tab.active { background: #f0f0ed; color: #1a1a18; font-weight: 500; }
+  .canvas-wrap { position: relative; width: 100%; height: 280px; margin-bottom: 8px; }
+  .warning { font-size: 12px; color: #a32d2d; height: 18px; margin-bottom: 4px; }
+  .legend { display: flex; gap: 16px; font-size: 12px; color: #666; flex-wrap: wrap; margin-bottom: 1rem; }
+  .legend span { display: flex; align-items: center; gap: 5px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .result-bar { display: flex; align-items: center; gap: 12px; margin-bottom: 1rem; padding: 10px 14px; border-radius: 8px; border: 0.5px solid #ccc; background: #f3f3f0; font-size: 13px; }
+  .badge { font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 8px; }
+  .badge-global { background: #E1F5EE; color: #0F6E56; }
+  .badge-local  { background: #FAECE7; color: #993C1D; }
+  .badge-div    { background: #FCEBEB; color: #A32D2D; }
+  .section-title { font-size: 11px; font-weight: 500; color: #888; margin: 1.2rem 0 0.6rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .multirun-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-bottom: 1rem; }
+  .run-cell { border-radius: 8px; border: 0.5px solid #e0e0dc; padding: 7px 8px; font-size: 11px; background: #fafaf8; }
+  .run-x0 { color: #888; margin-bottom: 2px; }
+  .run-res { font-weight: 500; font-size: 12px; }
+  .run-global { color: #0F6E56; }
+  .run-local  { color: #993C1D; }
+  .run-div    { color: #A32D2D; }
+
+  @media (max-width: 600px) {
+    .controls, .stats { grid-template-columns: 1fr 1fr; }
+    .stats { grid-template-columns: 1fr 1fr; }
+    .multirun-grid { grid-template-columns: repeat(5, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<h1>Descens del gradient</h1>
+<p class="subtitle">Visualització interactiva — mida del pas, gradient i mínims locals</p>
+
+<!-- WIDGET 1 -->
+<section>
+  <h2>Efecte de la mida del pas i el gradient</h2>
+
+  <div class="tabs">
+    <button class="tab active" onclick="setFn1('quadratic')">Paràbola</button>
+    <button class="tab" onclick="setFn1('double_well')">Doble pou</button>
+    <button class="tab" onclick="setFn1('steep')">Asimètrica</button>
+  </div>
+
+  <div class="controls">
+    <div class="ctrl-block">
+      <div class="ctrl-label"><span>Mida del pas (η)</span><span class="ctrl-val" id="lr-val">0.10</span></div>
+      <input type="range" id="lr" min="0.01" max="1.5" step="0.01" value="0.10" oninput="update1()">
+      <div style="font-size:11px;color:#888">Petit → lent &nbsp;|&nbsp; Gran → inestable</div>
+    </div>
+    <div class="ctrl-block">
+      <div class="ctrl-label"><span>Punt inicial (x₀)</span><span class="ctrl-val" id="x0-val">2.50</span></div>
+      <input type="range" id="x0" min="-3.5" max="3.5" step="0.05" value="2.5" oninput="update1()">
+      <div style="font-size:11px;color:#888">Determina el gradient inicial</div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="stat-label">Passos fins conv.</div><div class="stat-val" id="s-steps">—</div></div>
+    <div class="stat"><div class="stat-label">Valor final f(x)</div><div class="stat-val" id="s-fval">—</div></div>
+    <div class="stat"><div class="stat-label">Gradient inicial</div><div class="stat-val" id="s-grad">—</div></div>
+    <div class="stat"><div class="stat-label">Pas efectiu η·|∇|</div><div class="stat-val" id="s-effstep">—</div></div>
+  </div>
+
+  <div class="warning" id="warn1"></div>
+  <div class="canvas-wrap"><canvas id="c1" role="img" aria-label="Descens del gradient sobre funció de cost"></canvas></div>
+  <div class="legend">
+    <span><span class="dot" style="background:#3266ad"></span>f(x)</span>
+    <span><span class="dot" style="background:#D85A30"></span>trajectòria GD</span>
+    <span><span class="dot" style="background:#1D9E75"></span>mínim</span>
+  </div>
+</section>
+
+<!-- WIDGET 2 -->
+<section>
+  <h2>Mínims locals — trampes del gradient</h2>
+
+  <div class="fn-tabs">
+    <button class="fn-tab active" onclick="setFn2(0)">2 mínims</button>
+    <button class="fn-tab" onclick="setFn2(1)">3 mínims</button>
+    <button class="fn-tab" onclick="setFn2(2)">Paisatge caòtic</button>
+  </div>
+
+  <div class="controls">
+    <div class="ctrl-block">
+      <div class="ctrl-label"><span>Punt d'inici (x₀)</span><span class="ctrl-val" id="x0-v">1.50</span></div>
+      <input type="range" id="x0s" min="-5" max="5" step="0.05" value="1.5" oninput="update2()">
+    </div>
+    <div class="ctrl-block">
+      <div class="ctrl-label"><span>Mida del pas (η)</span><span class="ctrl-val" id="lr-v">0.05</span></div>
+      <input type="range" id="lrs" min="0.005" max="0.4" step="0.005" value="0.05" oninput="update2()">
+    </div>
+  </div>
+
+  <div class="result-bar" id="res-bar">
+    <span id="res-badge" class="badge">—</span>
+    <span id="res-text">Ajusta els controls</span>
+    <span id="res-detail" style="margin-left:auto;color:#888"></span>
+  </div>
+
+  <div class="canvas-wrap"><canvas id="c2" role="img" aria-label="Mínims locals en descens del gradient"></canvas></div>
+  <div class="legend">
+    <span><span class="dot" style="background:#3266ad"></span>f(x)</span>
+    <span><span class="dot" style="background:#D85A30"></span>trajectòria</span>
+    <span><span class="dot" style="background:#1D9E75"></span>mínim global</span>
+    <span><span class="dot" style="background:#BA7517"></span>mínim local</span>
+    <span><span class="dot" style="background:#534AB7"></span>punt d'inici x₀</span>
+  </div>
+
+  <div class="section-title">Barrida de punts d'inici — η fix</div>
+  <div style="font-size:12px;color:#888;margin-bottom:8px">10 punts d'inici equiespaiats al rang [-5, 5] amb el mateix η</div>
+  <div class="multirun-grid" id="grid2"></div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+/* ---- WIDGET 1 ---- */
+let chart1 = null;
+let fn1 = 'quadratic';
+const FNS1 = {
+  quadratic:  { f: x=>x*x,                      df: x=>2*x,                          range:[-3.5,3.5] },
+  double_well:{ f: x=>0.25*x**4-x*x+0.1*x,     df: x=>x**3-2*x+0.1,                range:[-2.5,2.5] },
+  steep:      { f: x=>x*x+2*Math.sin(x*1.5),    df: x=>2*x+3*Math.cos(x*1.5),       range:[-3,3] }
+};
+function setFn1(name){ fn1=name; document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',['quadratic','double_well','steep'][i]===name)); update1(); }
+function runGD1(f,df,x0,lr){ let x=x0; const p=[{x,y:f(x)}]; for(let i=0;i<300;i++){ const g=df(x),xn=x-lr*g; if(!isFinite(xn)||Math.abs(xn)>1e5) return {path:p,diverged:true}; p.push({x:xn,y:f(xn)}); if(Math.abs(xn-x)<1e-6) break; x=xn; } return {path:p,diverged:false}; }
+function update1(){
+  const cfg=FNS1[fn1],{f,df,range}=cfg;
+  const lr=parseFloat(document.getElementById('lr').value);
+  const x0=parseFloat(document.getElementById('x0').value);
+  document.getElementById('lr-val').textContent=lr.toFixed(2);
+  document.getElementById('x0-val').textContent=x0.toFixed(2);
+  const g0=df(x0), eff=lr*Math.abs(g0);
+  const {path,diverged}=runGD1(f,df,x0,lr);
+  document.getElementById('s-steps').textContent=diverged?'∞':(path.length-1);
+  document.getElementById('s-fval').textContent=diverged?'∞':f(path[path.length-1].x).toFixed(4);
+  document.getElementById('s-grad').textContent=g0.toFixed(3);
+  document.getElementById('s-effstep').textContent=eff.toFixed(3);
+  const w=document.getElementById('warn1');
+  if(diverged) w.textContent='⚠ El pas és massa gran — el gradient divergeix!';
+  else if(lr>0.8) w.textContent='⚠ Pas gran: el mètode oscil·la al voltant del mínim.';
+  else w.textContent='';
+  const N=200,[xlo,xhi]=range;
+  const curve=Array.from({length:N},(_,i)=>({x:xlo+(xhi-xlo)*i/(N-1)})).map(p=>({x:p.x,y:f(p.x)}));
+  const pp=path.map(p=>({x:p.x,y:p.y}));
+  const pc=pp.map((_,i)=>i===0?'#534AB7':(i===pp.length-1?'#1D9E75':'#D85A30'));
+  const ps=pp.map((_,i)=>(i===0||i===pp.length-1)?5:2);
+  const ds=[
+    {label:'f(x)',data:curve,borderColor:'#3266ad',backgroundColor:'transparent',pointRadius:0,borderWidth:2.5,tension:0.3,parsing:false,type:'line'},
+    {label:'GD',data:pp,borderColor:'#D85A30',backgroundColor:'transparent',pointRadius:ps,pointBackgroundColor:pc,borderWidth:1.5,tension:0,showLine:true,parsing:false,type:'scatter'}
+  ];
+  const opts={responsive:true,maintainAspectRatio:false,animation:{duration:200},plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>{if(ctx.datasetIndex===1){const g=df(ctx.parsed.x);return[`x=${ctx.parsed.x.toFixed(3)}`,`f(x)=${ctx.parsed.y.toFixed(4)}`,`∇f=${g.toFixed(3)}`,`pas efectiu=${(lr*Math.abs(g)).toFixed(4)}`];}return`f(${ctx.parsed.x.toFixed(2)})=${ctx.parsed.y.toFixed(3)}`;}}}},scales:{x:{type:'linear',min:xlo,max:xhi,grid:{color:'rgba(0,0,0,0.06)'},ticks:{maxTicksLimit:8},title:{display:true,text:'x',font:{size:12}}},y:{grid:{color:'rgba(0,0,0,0.06)'},ticks:{maxTicksLimit:6},title:{display:true,text:'f(x)',font:{size:12}}}}};
+  const canvas=document.getElementById('c1');
+  if(chart1){chart1.data.datasets=ds;chart1.options=opts;chart1.update('none');}
+  else chart1=new Chart(canvas,{type:'scatter',data:{datasets:ds},options:opts});
+}
+
+/* ---- WIDGET 2 ---- */
+let chart2=null, fnIdx2=0;
+const FNS2=[
+  {f:x=>0.25*x**4-1.5*x*x+0.3*x, df:x=>x**3-3*x+0.3, range:[-2.8,2.8], globalMin:-1.72, threshold:0.1},
+  {f:x=>0.1*x**4-0.8*x*x+Math.sin(2.5*x)*0.5, df:x=>0.4*x**3-1.6*x+1.25*Math.cos(2.5*x), range:[-3.2,3.2], globalMin:-2.0, threshold:0.4},
+  {f:x=>Math.sin(x)*x*0.4+Math.sin(2.3*x)*1.2+Math.sin(3.7*x)*0.6, df:x=>Math.cos(x)*0.4+2.3*Math.cos(2.3*x)*1.2+3.7*Math.cos(3.7*x)*0.6, range:[-5,5], globalMin:null, threshold:0.3}
+];
+function setFn2(i){ fnIdx2=i; document.querySelectorAll('.fn-tab').forEach((t,j)=>t.classList.toggle('active',j===i)); update2(); }
+function runGD2(f,df,x0,lr){ let x=x0; const p=[{x,y:f(x)}]; for(let i=0;i<500;i++){ const g=df(x),xn=x-lr*g; if(!isFinite(xn)||Math.abs(xn)>1e5) return{path:p,diverged:true}; p.push({x:xn,y:f(xn)}); if(Math.abs(xn-x)<1e-7) break; x=xn; } return{path:p,diverged:false}; }
+function classify2(cfg,xf,div){ if(div) return 'div'; if(cfg.globalMin===null) return 'ok'; return Math.abs(xf-cfg.globalMin)<cfg.threshold?'global':'local'; }
+function update2(){
+  const cfg=FNS2[fnIdx2],{f,df,range}=cfg;
+  const lr=parseFloat(document.getElementById('lrs').value);
+  const x0=parseFloat(document.getElementById('x0s').value);
+  document.getElementById('lr-v').textContent=lr.toFixed(3);
+  document.getElementById('x0-v').textContent=x0.toFixed(2);
+  const {path,diverged}=runGD2(f,df,x0,lr);
+  const xf=path[path.length-1].x, cls=classify2(cfg,xf,diverged);
+  const bar=document.getElementById('res-bar'),badge=document.getElementById('res-badge'),txt=document.getElementById('res-text'),det=document.getElementById('res-detail');
+  if(diverged){badge.className='badge badge-div';badge.textContent='Divergeix';txt.textContent='El pas és massa gran — x → ∞';det.textContent='';}
+  else if(cls==='global'){badge.className='badge badge-global';badge.textContent='Mínim global ✓';txt.textContent=`Convergeix a x=${xf.toFixed(3)}, f(x)=${f(xf).toFixed(4)}`;det.textContent=`${path.length-1} passos`;}
+  else if(cls==='local'){badge.className='badge badge-local';badge.textContent='Mínim local !';txt.textContent=`Atrapat a x=${xf.toFixed(3)}, f(x)=${f(xf).toFixed(4)}`;det.textContent=`${path.length-1} passos`;}
+  else{badge.className='badge';badge.textContent='Convergeix';txt.textContent=`x=${xf.toFixed(3)}, f(x)=${f(xf).toFixed(4)}`;det.textContent=`${path.length-1} passos`;}
+  const N=300,[xlo,xhi]=range;
+  const curve=Array.from({length:N},(_,i)=>({x:xlo+(xhi-xlo)*i/(N-1),y:f(xlo+(xhi-xlo)*i/(N-1))}));
+  const pp=path.map(p=>({x:p.x,y:p.y}));
+  const pc=pp.map((_,i)=>i===0?'#534AB7':(i===pp.length-1?(diverged?'#E24B4A':(cls==='global'?'#1D9E75':'#BA7517')):'#D85A30'));
+  const ps=pp.map((_,i)=>(i===0||i===pp.length-1)?6:2);
+  const ds=[
+    {label:'f(x)',data:curve,borderColor:'#3266ad',backgroundColor:'transparent',pointRadius:0,borderWidth:2.5,tension:0.3,parsing:false,type:'line'},
+    {label:'GD',data:pp,borderColor:'#D85A30',backgroundColor:'transparent',pointRadius:ps,pointBackgroundColor:pc,borderWidth:1.5,tension:0,showLine:true,parsing:false,type:'scatter'}
+  ];
+  const opts={responsive:true,maintainAspectRatio:false,animation:{duration:200},plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>{if(ctx.datasetIndex===1){const idx=ctx.dataIndex,lbl=idx===0?'Inici':(idx===pp.length-1?'Final':`Pas ${idx}`);return[`${lbl}: x=${ctx.parsed.x.toFixed(3)}`,`f(x)=${ctx.parsed.y.toFixed(4)}`,`∇f=${df(ctx.parsed.x).toFixed(3)}`];}return`f(${ctx.parsed.x.toFixed(2)})=${ctx.parsed.y.toFixed(3)}`;}}}},scales:{x:{type:'linear',min:xlo,max:xhi,grid:{color:'rgba(0,0,0,0.06)'},ticks:{maxTicksLimit:8},title:{display:true,text:'x',font:{size:12}}},y:{grid:{color:'rgba(0,0,0,0.06)'},ticks:{maxTicksLimit:6},title:{display:true,text:'f(x)',font:{size:12}}}}};
+  const canvas=document.getElementById('c2');
+  if(chart2){chart2.data.datasets=ds;chart2.options=opts;chart2.update('none');}
+  else chart2=new Chart(canvas,{type:'scatter',data:{datasets:ds},options:opts});
+  const x0list=Array.from({length:10},(_,i)=>-5+10*i/9);
+  document.getElementById('grid2').innerHTML=x0list.map(sx0=>{
+    const{path:p,diverged:d}=runGD2(f,df,sx0,lr),xf2=p[p.length-1].x,c=classify2(cfg,xf2,d);
+    const[cls2,label]=c==='global'?['run-global','global ✓']:c==='local'?['run-local','local ✗']:c==='div'?['run-div','div ∞']:['run-global',`x=${xf2.toFixed(2)}`];
+    return`<div class="run-cell"><div class="run-x0">x₀=${sx0.toFixed(1)}</div><div class="run-res ${cls2}">${label}</div><div style="font-size:10px;color:#999">${d?'—':p.length-1+' pas'}</div></div>`;
+  }).join('');
+}
+
+update1();
+update2();
+</script>
+</body>
+</html>
