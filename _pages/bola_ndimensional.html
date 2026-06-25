@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bola N-dimensional — geometria i distàncies</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: #f9f9f7; color: #1a1a18; padding: 2rem; max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 22px; font-weight: 500; margin-bottom: 0.4rem; }
+  .subtitle { font-size: 14px; color: #666; margin-bottom: 2.5rem; }
+  h2 { font-size: 16px; font-weight: 500; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 0.5px solid #ddd; }
+  section { background: #fff; border-radius: 12px; border: 0.5px solid #ddd; padding: 1.5rem; margin-bottom: 2rem; }
+  .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1rem; align-items: start; }
+  .ctrl-block { display: flex; flex-direction: column; gap: 6px; }
+  .ctrl-label { font-size: 13px; color: #666; display: flex; justify-content: space-between; align-items: baseline; }
+  .ctrl-val { font-size: 18px; font-weight: 600; color: #1a1a18; }
+  input[type=range] { width: 100%; accent-color: #3266ad; cursor: pointer; }
+  .ctrl-hint { font-size: 11px; color: #888; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 1rem; }
+  .stat { background: #f3f3f0; border-radius: 8px; padding: 10px 12px; }
+  .stat-label { font-size: 11px; color: #888; margin-bottom: 2px; }
+  .stat-val { font-size: 15px; font-weight: 500; font-family: 'SF Mono', Consolas, monospace; }
+  .canvas-wrap { position: relative; width: 100%; height: 280px; margin-bottom: 8px; }
+  .canvas-wrap canvas { display: block; width: 100%; height: 100%; }
+  .legend { display: flex; gap: 16px; font-size: 12px; color: #666; flex-wrap: wrap; margin-top: 6px; }
+  .legend span { display: flex; align-items: center; gap: 5px; }
+  .swatch { width: 24px; height: 3px; border-radius: 2px; display: inline-block; }
+  .swatch-dash { width: 18px; height: 0; border-top: 2px dashed; display: inline-block; }
+  .section-note { font-size: 12px; color: #888; line-height: 1.6; margin-top: 0.8rem; background: #f9f9f7; border-radius: 8px; padding: 10px 14px; border: 0.5px solid #e8e8e4; }
+  .section-note strong { color: #3266ad; }
+  .btn { font-size: 12px; padding: 6px 16px; border-radius: 8px; border: 0.5px solid #ccc; background: #f3f3f0; color: #444; cursor: pointer; font-family: inherit; }
+  .btn:hover { background: #e8e8e4; }
+  @media (max-width: 600px) {
+    .controls { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Bola N-dimensional</h1>
+<p class="subtitle">Densitat radial de punts aleatoris i distribució de distàncies — com la geometria canvia amb la dimensió</p>
+
+<!-- ── Control global ── -->
+<section>
+  <h2>Paràmetres</h2>
+  <div class="controls">
+    <div class="ctrl-block">
+      <div class="ctrl-label">
+        <span>Dimensió &nbsp;<em>n</em></span>
+        <span class="ctrl-val" id="nval">10</span>
+      </div>
+      <input type="range" id="nSlider" min="2" max="200" value="10" step="1">
+      <div class="ctrl-hint">Bola unitària B<sup>n</sup> = { x ∈ ℝ<sup>n</sup> : |x| ≤ 1 }</div>
+    </div>
+    <div class="stats" style="margin:0">
+      <div class="stat">
+        <div class="stat-label">Volum V<sub>n</sub>(1)</div>
+        <div class="stat-val" id="sVol" style="color:#3266ad">—</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Radi esperat E[R]</div>
+        <div class="stat-val" id="sER">—</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">P(R &gt; 0.9)</div>
+        <div class="stat-val" id="sP09" style="color:#D85A30">—</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">D característica</div>
+        <div class="stat-val" id="sDrms" style="color:#1D9E75">—</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Densitat radial ── -->
+<section>
+  <h2>Densitat radial — on viu un punt aleatori?</h2>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-label">E[R] = n/(n+1)</div>
+      <div class="stat-val" id="rER">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Mediana = 2<sup>−1/n</sup></div>
+      <div class="stat-val" id="rMed">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Std[R]</div>
+      <div class="stat-val" id="rStd">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">P(R &gt; 0.9) = 1 − 0.9<sup>n</sup></div>
+      <div class="stat-val" id="rP09" style="color:#D85A30">—</div>
+    </div>
+  </div>
+  <div class="canvas-wrap" style="height:330px">
+    <canvas id="cvRad"></canvas>
+  </div>
+  <div class="legend">
+    <span><span class="dot" style="background:hsl(215,75%,50%);width:8px;height:8px;border-radius:50%;display:inline-block"></span>prop del centre</span>
+    <span><span class="dot" style="background:hsl(20,75%,50%);width:8px;height:8px;border-radius:50%;display:inline-block"></span>prop de la superfície</span>
+    <span><span class="swatch-dash" style="border-color:#1D9E75"></span>mediana (cercle verd)</span>
+    <span><span class="swatch-dash" style="border-color:#D85A30"></span>r = 0.9 (cercle taronja)</span>
+    <span><span class="swatch" style="background:#3266ad"></span>f(r) = n·r<sup>n−1</sup> (PDF, banda dreta)</span>
+  </div>
+  <div class="section-note">
+    Un punt uniforme a B<sup>n</sup> té radi <em>R</em> amb PDF <strong>f(r) = n·r<sup>n−1</sup></strong>.
+    En dimensions altes, la massa es concentra a la superfície: E[R] → 1 i P(R&nbsp;&gt;&nbsp;0.9) → 1 quan n → ∞.
+    El centre de la bola queda pràcticament buit — la <em>maleïció de la dimensionalitat</em>.
+  </div>
+</section>
+
+<!-- ── Distribució de distàncies ── -->
+<section>
+  <h2>Distribució de distàncies entre dos punts aleatoris</h2>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:8px">
+    <div style="font-size:13px;color:#666">
+      Simulació Monte Carlo — <span id="nSamples">3000</span> parelles de punts uniformes a B<sup>n</sup>
+    </div>
+    <button class="btn" id="recomputeBtn">&#8635; Regenera mostres</button>
+  </div>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-label">Mitjana empírica Ē[D]</div>
+      <div class="stat-val" id="dEmpMean">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Std empírica Std̂[D]</div>
+      <div class="stat-val" id="dEmpStd">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">√(E[D²]) = √(2n/(n+2))</div>
+      <div class="stat-val" id="dDrms" style="color:#1D9E75">—</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">CV = Std/Mitjana</div>
+      <div class="stat-val" id="dCV" style="color:#3266ad">—</div>
+    </div>
+  </div>
+  <div class="canvas-wrap">
+    <canvas id="cvDist"></canvas>
+  </div>
+  <div class="legend">
+    <span><span class="swatch" style="background:rgba(50,102,173,0.45);height:10px"></span>histograma (densitat)</span>
+    <span><span class="swatch" style="background:#3266ad"></span>KDE suavitzat</span>
+    <span><span class="swatch-dash" style="border-color:#1D9E75"></span>√(2n/(n+2))</span>
+    <span><span class="swatch-dash" style="border-color:#D85A30"></span>Ē[D] (empíric)</span>
+    <span><span class="swatch-dash" style="border-color:#aaa;border-style:dotted"></span>√2 ≈ 1.414 (límit n→∞)</span>
+  </div>
+  <div class="section-note">
+    La distància D entre dos punts uniformes a B<sup>n</sup> té <strong>E[D²] = 2n/(n+2)</strong> → 2 quan n → ∞.
+    Per tant D es concentra al voltant de <strong>√2 ≈ 1.414</strong>. El coeficient de variació CV = Std/Mitjana
+    decreix com O(1/√n), il·lustrant la <em>concentració de mesura</em>: totes les distàncies s'assemblen.
+  </div>
+</section>
+
+<script>
+'use strict';
+
+// ─── Funció gamma (Lanczos) ────────────────────────────────────────────────
+function logGamma(z) {
+  const g = 7;
+  const p = [0.99999999999980993, 676.5203681218851, -1259.1392167224028,
+    771.32342877765313, -176.61502916214059, 12.507343278686905,
+    -0.13857109526572012, 9.9843695780195716e-6, 1.5056327351493116e-7];
+  if (z < 0.5) return Math.log(Math.PI / Math.sin(Math.PI * z)) - logGamma(1 - z);
+  z -= 1;
+  let x = p[0];
+  for (let i = 1; i < g + 2; i++) x += p[i] / (z + i);
+  const t = z + g + 0.5;
+  return 0.5 * Math.log(2 * Math.PI) + (z + 0.5) * Math.log(t) - t + Math.log(x);
+}
+function volume(n) { return Math.exp((n / 2) * Math.log(Math.PI) - logGamma(n / 2 + 1)); }
+
+// ─── Aleatorietat ─────────────────────────────────────────────────────────
+let _spare = null;
+function randn() {
+  if (_spare !== null) { const v = _spare; _spare = null; return v; }
+  let u, v, s;
+  do { u = Math.random() * 2 - 1; v = Math.random() * 2 - 1; s = u*u + v*v; } while (s >= 1 || s === 0);
+  const m = Math.sqrt(-2 * Math.log(s) / s);
+  _spare = v * m;
+  return u * m;
+}
+
+// Mostra la distància entre dos punts uniformes a B^n usant cos(angle) entre vectors unitaris
+function sampleDistance(n) {
+  const r1 = Math.pow(Math.random(), 1 / n);
+  const r2 = Math.pow(Math.random(), 1 / n);
+  let dot = 0, n1 = 0, n2 = 0;
+  for (let j = 0; j < n; j++) {
+    const a = randn(), b = randn();
+    dot += a * b; n1 += a * a; n2 += b * b;
+  }
+  const cosT = dot / Math.sqrt(n1 * n2);
+  return Math.sqrt(Math.max(0, r1*r1 + r2*r2 - 2*r1*r2*cosT));
+}
+
+function computeDistances(n, N) {
+  return Array.from({ length: N }, () => sampleDistance(n));
+}
+
+// ─── Canvas helpers ───────────────────────────────────────────────────────
+function prepCtx(id) {
+  const cv = document.getElementById(id);
+  const wrap = cv.parentElement;
+  const dpr = window.devicePixelRatio || 1;
+  const w = wrap.clientWidth;
+  const h = wrap.clientHeight;
+  cv.width = w * dpr;
+  cv.height = h * dpr;
+  const ctx = cv.getContext('2d');
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, w, h);
+  return { w, h, ctx };
+}
+
+function drawGrid(ctx, pad, pw, ph, yMax, xMax, xLabel, yLabel, xStep, yTicks) {
+  ctx.strokeStyle = '#e8e8e4'; ctx.lineWidth = 1;
+  for (let i = 0; i <= (yTicks || 4); i++) {
+    const yy = pad.t + i / (yTicks || 4) * ph;
+    ctx.beginPath(); ctx.moveTo(pad.l, yy); ctx.lineTo(pad.l + pw, yy); ctx.stroke();
+    ctx.fillStyle = '#bbb'; ctx.font = '10px monospace'; ctx.textAlign = 'right';
+    ctx.fillText(((1 - i / (yTicks || 4)) * yMax).toFixed(yMax < 0.1 ? 3 : yMax < 10 ? 2 : 1), pad.l - 5, yy + 3);
+  }
+  ctx.fillStyle = '#bbb'; ctx.textAlign = 'center'; ctx.font = '10px monospace';
+  for (let x = 0; x <= xMax + 1e-9; x += xStep) {
+    const px = pad.l + x / xMax * pw;
+    ctx.fillText(x.toFixed(x === Math.floor(x) ? 0 : 1), px, pad.t + ph + 16);
+  }
+  ctx.fillStyle = '#999'; ctx.font = '11px sans-serif';
+  ctx.fillText(xLabel, pad.l + pw / 2, pad.t + ph + 32);
+  ctx.save();
+  ctx.translate(13, pad.t + ph / 2);
+  ctx.rotate(-Math.PI / 2); ctx.textAlign = 'center';
+  ctx.fillText(yLabel, 0, 0);
+  ctx.restore();
+  ctx.strokeStyle = '#d0d0cc'; ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(pad.l, pad.t); ctx.lineTo(pad.l, pad.t + ph); ctx.lineTo(pad.l + pw, pad.t + ph);
+  ctx.stroke();
+}
+
+function vline(ctx, x, y0, y1, color, dash) {
+  ctx.strokeStyle = color; ctx.lineWidth = 1.5;
+  ctx.setLineDash(dash || []);
+  ctx.beginPath(); ctx.moveTo(x, y0); ctx.lineTo(x, y1); ctx.stroke();
+  ctx.setLineDash([]);
+}
+
+// ─── Mostreig de radis per a la bola 2D ──────────────────────────────────
+// R = U^{1/n} on U ~ Uniform[0,1] té PDF f(r) = n·r^{n-1}
+function sampleRadii(n, N) {
+  return Array.from({ length: N }, () => ({
+    r: Math.pow(Math.random(), 1 / n),
+    theta: Math.random() * 2 * Math.PI
+  }));
+}
+
+// ─── Dibuix 1: Bola 2D + PDF strip ───────────────────────────────────────
+function drawRadialBall(n, pts) {
+  const { w, h, ctx } = prepCtx('cvRad');
+  if (!w || !h || !pts || pts.length === 0) return;
+
+  const splitX = Math.round(w * 0.60); // disc ocupa el 60% esquerre
+  const rMed = Math.pow(0.5, 1 / n);
+
+  // ── Disc 2D (esquerra) ────────────────────────────────────────
+  const margin = 28;
+  const cx = splitX / 2;
+  const cy = h / 2;
+  const R = Math.min(cx - margin, cy - margin - 10);
+
+  // Fons disc
+  ctx.fillStyle = '#fafaf8';
+  ctx.beginPath(); ctx.arc(cx, cy, R, 0, 2 * Math.PI); ctx.fill();
+
+  // Zona exterior r > 0.9 lleugera
+  const p09 = 1 - Math.pow(0.9, n);
+  ctx.fillStyle = `rgba(216,90,48,${Math.min(0.12, p09 * 0.15)})`;
+  ctx.beginPath();
+  ctx.arc(cx, cy, R, 0, 2 * Math.PI);
+  ctx.arc(cx, cy, R * 0.9, 0, 2 * Math.PI, true);
+  ctx.fill();
+
+  // Creu tènue
+  ctx.strokeStyle = '#eaeae6'; ctx.lineWidth = 0.8;
+  ctx.beginPath();
+  ctx.moveTo(cx - R, cy); ctx.lineTo(cx + R, cy);
+  ctx.moveTo(cx, cy - R); ctx.lineTo(cx, cy + R);
+  ctx.stroke();
+
+  // Cercle mediana (verd)
+  ctx.strokeStyle = 'rgba(29,158,117,0.55)'; ctx.lineWidth = 1.2;
+  ctx.setLineDash([5, 5]);
+  ctx.beginPath(); ctx.arc(cx, cy, R * rMed, 0, 2 * Math.PI); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Cercle r=0.9 (taronja)
+  ctx.strokeStyle = 'rgba(216,90,48,0.6)'; ctx.lineWidth = 1.2;
+  ctx.setLineDash([5, 4]);
+  ctx.beginPath(); ctx.arc(cx, cy, R * 0.9, 0, 2 * Math.PI); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Contorn exterior
+  ctx.strokeStyle = '#ccc'; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.arc(cx, cy, R, 0, 2 * Math.PI); ctx.stroke();
+
+  // Punts aleatoris — color per radi: blau (centre) → taronja (superfície)
+  pts.forEach(({ r, theta }) => {
+    const hue = Math.round(215 - r * 195); // 215=blau → 20=taronja
+    const px = cx + r * R * Math.cos(theta);
+    const py = cy + r * R * Math.sin(theta);
+    ctx.beginPath();
+    ctx.arc(px, py, 2.3, 0, 2 * Math.PI);
+    ctx.fillStyle = `hsla(${hue},75%,50%,0.62)`;
+    ctx.fill();
+  });
+
+  // Llegenda interna (baix esquerra del disc)
+  const lx = cx - R + 6, ly = cy + R - 6;
+  ctx.fillStyle = 'rgba(255,255,255,0.82)';
+  ctx.fillRect(lx - 3, ly - 38, 130, 42);
+  // mediana
+  ctx.strokeStyle = 'rgba(29,158,117,0.8)'; ctx.lineWidth = 1.5;
+  ctx.setLineDash([4, 4]);
+  ctx.beginPath(); ctx.moveTo(lx, ly - 26); ctx.lineTo(lx + 16, ly - 26); ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle = '#555'; ctx.font = '10px sans-serif'; ctx.textAlign = 'left';
+  ctx.fillText(`mediana r=${rMed.toFixed(3)}`, lx + 20, ly - 22);
+  // r=0.9
+  ctx.strokeStyle = 'rgba(216,90,48,0.8)'; ctx.lineWidth = 1.5;
+  ctx.setLineDash([5, 4]);
+  ctx.beginPath(); ctx.moveTo(lx, ly - 10); ctx.lineTo(lx + 16, ly - 10); ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle = '#555';
+  ctx.fillText(`r = 0.9  (${(p09 * 100).toFixed(1)}% pts)`, lx + 20, ly - 6);
+
+  // Títol baix
+  ctx.fillStyle = '#aaa'; ctx.font = '10px sans-serif'; ctx.textAlign = 'center';
+  ctx.fillText(`${pts.length} punts uniformes ∈ B^${n}`, cx, h - 5);
+
+  // ── Separador ─────────────────────────────────────────────────
+  ctx.strokeStyle = '#e4e4e0'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(splitX, 8); ctx.lineTo(splitX, h - 8); ctx.stroke();
+
+  // ── PDF strip (dreta) ─────────────────────────────────────────
+  // Eix Y = r (0 baix → 1 dalt), Eix X = f(r) (esquerra=0)
+  const pp = { l: 22, r: 10, t: 14, b: 28 };
+  const ppw = w - splitX - pp.l - pp.r;
+  const pph = h - pp.t - pp.b;
+  const ox = splitX + pp.l; // origin X
+  const oy = pp.t + pph;    // origin Y (r=0)
+
+  const fMax = Math.min(n, 20); // cap visual
+  const pfx = f => ox + Math.min(f, fMax) / fMax * ppw;
+  const pfy = r => oy - r * pph;
+
+  // Grid horitzontal
+  ctx.strokeStyle = '#f0f0ec'; ctx.lineWidth = 0.8;
+  ctx.fillStyle = '#bbb'; ctx.font = '9px monospace'; ctx.textAlign = 'right';
+  for (let r = 0; r <= 1.001; r += 0.2) {
+    const yy = pfy(r);
+    ctx.beginPath(); ctx.moveTo(ox, yy); ctx.lineTo(ox + ppw, yy); ctx.stroke();
+    ctx.fillText(r.toFixed(1), ox - 2, yy + 3);
+  }
+
+  // Etiquetes eix Y
+  ctx.save();
+  ctx.translate(splitX + 7, pp.t + pph / 2);
+  ctx.rotate(-Math.PI / 2); ctx.textAlign = 'center';
+  ctx.fillStyle = '#bbb'; ctx.font = '10px sans-serif';
+  ctx.fillText('r', 0, 0);
+  ctx.restore();
+
+  // Títol strip
+  ctx.fillStyle = '#3266ad'; ctx.font = '10px sans-serif'; ctx.textAlign = 'center';
+  ctx.fillText('f(r)', ox + ppw / 2, pp.t - 2);
+
+  // Àrea ombrejada sota la corba
+  const S = 300;
+  ctx.beginPath();
+  ctx.moveTo(pfx(0), pfy(0));
+  for (let i = 0; i <= S; i++) {
+    ctx.lineTo(pfx(n * Math.pow(i / S, n - 1)), pfy(i / S));
+  }
+  ctx.lineTo(ox, pfy(1));
+  ctx.closePath();
+  ctx.fillStyle = 'rgba(50,102,173,0.13)';
+  ctx.fill();
+
+  // Corba PDF
+  ctx.beginPath();
+  ctx.strokeStyle = '#3266ad'; ctx.lineWidth = 2;
+  for (let i = 0; i <= S; i++) {
+    const r = i / S;
+    i === 0 ? ctx.moveTo(pfx(n * Math.pow(r, n - 1)), pfy(r))
+            : ctx.lineTo(pfx(n * Math.pow(r, n - 1)), pfy(r));
+  }
+  ctx.stroke();
+
+  // Línies de referència (mediana i r=0.9) — coordenades strip
+  ctx.strokeStyle = 'rgba(29,158,117,0.55)'; ctx.lineWidth = 1; ctx.setLineDash([4, 5]);
+  ctx.beginPath(); ctx.moveTo(ox, pfy(rMed)); ctx.lineTo(ox + ppw, pfy(rMed)); ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.strokeStyle = 'rgba(216,90,48,0.55)'; ctx.lineWidth = 1; ctx.setLineDash([5, 4]);
+  ctx.beginPath(); ctx.moveTo(ox, pfy(0.9)); ctx.lineTo(ox + ppw, pfy(0.9)); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Marc eix
+  ctx.strokeStyle = '#d4d4d0'; ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(ox, pp.t); ctx.lineTo(ox, oy); ctx.lineTo(ox + ppw, oy);
+  ctx.stroke();
+}
+
+// ─── Dibuix 2: Histograma de distàncies ───────────────────────────────────
+function drawDistanceHist(n, samples) {
+  const { w, h, ctx } = prepCtx('cvDist');
+  if (!w || !h || !samples || samples.length === 0) return;
+  const pad = { l: 52, r: 18, t: 18, b: 42 };
+  const pw = w - pad.l - pad.r;
+  const ph = h - pad.t - pad.b;
+
+  const BINS = 60;
+  const maxD = 2;
+  const binW = maxD / BINS;
+
+  // Histograma
+  const counts = new Array(BINS).fill(0);
+  for (const d of samples) {
+    const b = Math.min(Math.floor(d / binW), BINS - 1);
+    counts[b]++;
+  }
+  const density = counts.map(c => c / (samples.length * binW));
+  const maxDens = Math.max(...density) * 1.08;
+
+  const px = d => pad.l + d / maxD * pw;
+  const py = f => pad.t + ph - f / maxDens * ph;
+
+  drawGrid(ctx, pad, pw, ph, maxDens, maxD, 'distància d = |X − Y|', 'densitat', 0.5, 4);
+
+  // Barres histograma
+  for (let b = 0; b < BINS; b++) {
+    const x0 = px(b * binW) + 0.5;
+    const x1 = px((b + 1) * binW) - 0.5;
+    const barH = density[b] / maxDens * ph;
+    ctx.fillStyle = 'rgba(50,102,173,0.38)';
+    ctx.fillRect(x0, pad.t + ph - barH, x1 - x0, barH);
+  }
+
+  // KDE suavitzat (smoothing sobre l'histograma)
+  const SIGMA_BINS = Math.max(1.5, BINS * 0.025);
+  const kR = Math.ceil(3 * SIGMA_BINS);
+  const smooth = new Array(BINS).fill(0);
+  for (let i = 0; i < BINS; i++) {
+    let wSum = 0;
+    for (let k = -kR; k <= kR; k++) {
+      const j = i + k;
+      if (j < 0 || j >= BINS) continue;
+      const w = Math.exp(-0.5 * (k / SIGMA_BINS) ** 2);
+      smooth[i] += density[j] * w; wSum += w;
+    }
+    smooth[i] /= wSum;
+  }
+  ctx.beginPath();
+  ctx.strokeStyle = '#3266ad'; ctx.lineWidth = 2;
+  smooth.forEach((v, i) => {
+    const xc = px((i + 0.5) * binW);
+    const yc = py(v);
+    i === 0 ? ctx.moveTo(xc, yc) : ctx.lineTo(xc, yc);
+  });
+  ctx.stroke();
+
+  // Estadística empírica
+  const empMean = samples.reduce((s, v) => s + v, 0) / samples.length;
+  const empVar = samples.reduce((s, v) => s + (v - empMean) ** 2, 0) / samples.length;
+  const empStd = Math.sqrt(empVar);
+
+  // Línia √(2n/(n+2)) — concentració teòrica
+  const Drms = Math.sqrt(2 * n / (n + 2));
+  vline(ctx, px(Drms), pad.t, pad.t + ph, '#1D9E75', [7, 4]);
+  ctx.fillStyle = '#1D9E75'; ctx.font = '10px monospace';
+  const drmsLabelX = Drms < 1.5 ? px(Drms) + 4 : px(Drms) - 4;
+  ctx.textAlign = Drms < 1.5 ? 'left' : 'right';
+  ctx.fillText(`√(2n/(n+2))=${Drms.toFixed(3)}`, drmsLabelX, pad.t + 13);
+
+  // Línia mitjana empírica
+  vline(ctx, px(empMean), pad.t, pad.t + ph, '#D85A30', [5, 4]);
+  ctx.fillStyle = '#D85A30'; ctx.font = '10px monospace';
+  const empLabelX = empMean < 1.5 ? px(empMean) + 4 : px(empMean) - 4;
+  ctx.textAlign = empMean < 1.5 ? 'left' : 'right';
+  ctx.fillText(`Ē[D]=${empMean.toFixed(3)}`, empLabelX, pad.t + 27);
+
+  // Límit √2
+  vline(ctx, px(Math.SQRT2), pad.t, pad.t + ph, '#aaa', [3, 6]);
+  ctx.fillStyle = '#aaa'; ctx.font = '10px monospace'; ctx.textAlign = 'left';
+  ctx.fillText('√2', px(Math.SQRT2) + 3, pad.t + ph - 6);
+
+  // Banda ±1 std
+  const x0b = Math.max(pad.l, px(empMean - empStd));
+  const x1b = Math.min(pad.l + pw, px(empMean + empStd));
+  ctx.fillStyle = 'rgba(216,90,48,0.07)';
+  ctx.fillRect(x0b, pad.t, x1b - x0b, ph);
+
+  // Actualitzar stats empíriques
+  document.getElementById('dEmpMean').textContent = empMean.toFixed(4);
+  document.getElementById('dEmpStd').textContent = empStd.toFixed(4);
+  document.getElementById('dCV').textContent = (empStd / empMean).toFixed(4);
+}
+
+// ─── Estat global ─────────────────────────────────────────────────────────
+let N = 10;
+let distSamples = null;
+let radiiPts = null;       // [{r, theta}] per a la bola 2D
+const NUM_SAMPLES = 3000;
+const NUM_RADII = 700;
+let recomputeTimer = null;
+
+function updateTopStats(n) {
+  const v = volume(n);
+  document.getElementById('nval').textContent = n;
+  document.getElementById('sVol').textContent = v < 1e-5 ? v.toExponential(2) : v < 0.001 ? v.toExponential(3) : v.toFixed(5);
+  const ER = n / (n + 1);
+  document.getElementById('sER').textContent = ER.toFixed(4);
+  const p09 = 1 - Math.pow(0.9, n);
+  document.getElementById('sP09').textContent = (p09 * 100).toFixed(1) + '%';
+  const Drms = Math.sqrt(2 * n / (n + 2));
+  document.getElementById('sDrms').textContent = Drms.toFixed(4);
+  document.getElementById('dDrms').textContent = Drms.toFixed(4);
+
+  document.getElementById('rER').textContent = ER.toFixed(4);
+  const rMed = Math.pow(0.5, 1 / n);
+  document.getElementById('rMed').textContent = rMed.toFixed(4);
+  const varR = n / (n + 2) - (n / (n + 1)) ** 2;
+  document.getElementById('rStd').textContent = Math.sqrt(Math.max(0, varR)).toFixed(4);
+  document.getElementById('rP09').textContent = (p09 * 100).toFixed(1) + '%';
+}
+
+function showComputingMessage() {
+  const cv = document.getElementById('cvDist');
+  const w = cv.parentElement.clientWidth;
+  const h = cv.parentElement.clientHeight;
+  cv.width = w; cv.height = h;
+  const ctx = cv.getContext('2d');
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.clearRect(0, 0, w, h);
+  ctx.fillStyle = '#bbb'; ctx.font = '13px sans-serif';
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText('Computant mostres…', w / 2, h / 2);
+}
+
+function fullUpdate() {
+  updateTopStats(N);
+  radiiPts = sampleRadii(N, NUM_RADII);
+  drawRadialBall(N, radiiPts);
+  distSamples = computeDistances(N, NUM_SAMPLES);
+  drawDistanceHist(N, distSamples);
+}
+
+// ─── Events ───────────────────────────────────────────────────────────────
+document.getElementById('nSlider').addEventListener('input', e => {
+  N = parseInt(e.target.value);
+  updateTopStats(N);
+  // Mostreig de radis: molt ràpid, sense debounce
+  radiiPts = sampleRadii(N, NUM_RADII);
+  drawRadialBall(N, radiiPts);
+  // Mostreig de distàncies: costós per a n gran, amb debounce
+  distSamples = null;
+  showComputingMessage();
+  clearTimeout(recomputeTimer);
+  recomputeTimer = setTimeout(() => {
+    distSamples = computeDistances(N, NUM_SAMPLES);
+    drawDistanceHist(N, distSamples);
+  }, 180);
+});
+
+document.getElementById('recomputeBtn').addEventListener('click', () => {
+  radiiPts = sampleRadii(N, NUM_RADII);
+  drawRadialBall(N, radiiPts);
+  distSamples = computeDistances(N, NUM_SAMPLES);
+  drawDistanceHist(N, distSamples);
+});
+
+window.addEventListener('resize', () => {
+  if (radiiPts) drawRadialBall(N, radiiPts);
+  if (distSamples) drawDistanceHist(N, distSamples);
+});
+
+// Arrencada
+requestAnimationFrame(fullUpdate);
+</script>
+</body>
+</html>
