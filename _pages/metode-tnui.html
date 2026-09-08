@@ -1,0 +1,804 @@
+<title>El mètode TNUI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&display=swap">
+
+<style>
+  :root {
+    /* Paleta heretada del material del curs (tutorial_monty_hall_genetica.ipynb) */
+    --ground:    #fcfcfb;
+    --surface:   #ffffff;
+    --sunken:    #f4f3ee;
+    --rule:      #e1e0d9;
+    --edge:      #c3c2b7;
+    --ink:       #0b0b0b;
+    --ink-2:     #52514e;
+    --ink-3:     #898781;
+    --blau:      #2a78d6;
+    --blau-soft: #e8f0fb;
+    --taronja:   #d1502a;
+    --taronja-soft: #fbeee8;
+    --aqua:      #14875f;
+    --aqua-soft: #e6f4ee;
+
+    --measure: 40rem;
+    --gutter: 8.5rem;
+
+    color-scheme: light dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:    #14140f;
+      --surface:   #1c1c17;
+      --sunken:    #222219;
+      --rule:      #302f28;
+      --edge:      #45443b;
+      --ink:       #f3f2ec;
+      --ink-2:     #b6b4a9;
+      --ink-3:     #8b897d;
+      --blau:      #74aaf0;
+      --blau-soft: #1a2534;
+      --taronja:   #f0906a;
+      --taronja-soft: #2e2019;
+      --aqua:      #4bc796;
+      --aqua-soft: #172a22;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:    #14140f;
+    --surface:   #1c1c17;
+    --sunken:    #222219;
+    --rule:      #302f28;
+    --edge:      #45443b;
+    --ink:       #f3f2ec;
+    --ink-2:     #b6b4a9;
+    --ink-3:     #8b897d;
+    --blau:      #74aaf0;
+    --blau-soft: #1a2534;
+    --taronja:   #f0906a;
+    --taronja-soft: #2e2019;
+    --aqua:      #4bc796;
+    --aqua-soft: #172a22;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- Estructura de pàgina ---------- */
+
+  .wrap {
+    max-width: calc(var(--gutter) + var(--measure) + 4rem);
+    margin: 0 auto;
+    padding: 0 1.5rem 6rem;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: var(--gutter) minmax(0, var(--measure));
+    gap: 0 2rem;
+    align-items: start;
+  }
+
+  .row > .side {
+    grid-column: 1;
+    padding-top: 0.35rem;
+  }
+
+  .row > .main {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    min-width: 0;
+  }
+
+  @media (max-width: 760px) {
+    .row { grid-template-columns: minmax(0, 1fr); gap: 0.6rem; }
+    .row > .side, .row > .main { grid-column: 1; }
+    :root { --gutter: 0rem; }
+  }
+
+  section { padding: 2.6rem 0; border-top: 1px solid var(--rule); }
+  section:first-of-type { border-top: 0; }
+
+  /* ---------- Tipografia ---------- */
+
+  h1, h2, h3, .label, .num, .eyebrow {
+    font-family: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: clamp(2.1rem, 6.2vw, 3.4rem);
+    line-height: 1.04;
+    font-weight: 600;
+    letter-spacing: -0.022em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  h2 {
+    font-size: clamp(1.4rem, 3.4vw, 1.85rem);
+    line-height: 1.15;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  h3 {
+    font-size: 1.06rem;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    margin: 0;
+  }
+
+  p { margin: 0; }
+  p + p { margin-top: 0.9rem; }
+
+  .lede {
+    font-size: 1.2rem;
+    line-height: 1.55;
+    color: var(--ink-2);
+  }
+
+  .eyebrow, .label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    font-weight: 600;
+    color: var(--ink-3);
+  }
+
+  .num {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 1.55rem;
+    font-weight: 500;
+    color: var(--blau);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+
+  strong { font-weight: 600; }
+
+  code, .file {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.87em;
+  }
+
+  .file {
+    background: var(--sunken);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0.08em 0.36em;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+
+  a { color: var(--blau); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--blau); outline-offset: 3px; border-radius: 2px; }
+
+  ul, ol { margin: 0; padding-left: 1.2rem; }
+  li + li { margin-top: 0.42rem; }
+  ol.steps { padding-left: 1.35rem; }
+  ol.steps li::marker { font-family: "IBM Plex Mono", monospace; font-size: 0.85em; color: var(--ink-3); }
+
+  /* ---------- Portada ---------- */
+
+  .hero { padding-top: 3.4rem; padding-bottom: 2.2rem; }
+
+  .hero .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.1rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.76rem;
+    color: var(--ink-3);
+    letter-spacing: 0.02em;
+  }
+
+  .hero-rule {
+    height: 3px;
+    width: 4.5rem;
+    background: var(--taronja);
+    margin-top: 0.4rem;
+  }
+
+  .thesis {
+    font-size: 1.05rem;
+    border-left: 3px solid var(--blau);
+    padding-left: 1rem;
+    color: var(--ink);
+  }
+
+  /* ---------- Cadena d'artefactes ---------- */
+
+  .chain {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.5rem;
+    padding: 1.2rem 1.1rem 1rem;
+    background: var(--sunken);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+  }
+
+  .node {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.78rem;
+    padding: 0.34rem 0.6rem;
+    background: var(--surface);
+    border: 1px solid var(--edge);
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .node.you { border-color: var(--blau); color: var(--blau); font-weight: 500; }
+  .node.ai  { border-style: dashed; color: var(--ink-2); }
+
+  .arrow { color: var(--ink-3); font-size: 0.9rem; }
+
+  .chain-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1.2rem;
+    font-size: 0.82rem;
+    color: var(--ink-2);
+    margin-top: 0.1rem;
+  }
+  .swatch {
+    display: inline-block;
+    width: 0.75rem; height: 0.75rem;
+    border-radius: 2px;
+    vertical-align: -1px;
+    margin-right: 0.35rem;
+  }
+  .swatch.you { border: 1px solid var(--blau); background: var(--blau-soft); }
+  .swatch.ai  { border: 1px dashed var(--edge); background: var(--surface); }
+
+  .loopback {
+    font-size: 0.85rem;
+    color: var(--ink-2);
+    border-top: 1px dashed var(--edge);
+    padding-top: 0.7rem;
+    margin-top: 0.2rem;
+  }
+  .loopback::before { content: "↺  "; color: var(--taronja); font-weight: 700; }
+
+  /* ---------- Taules ---------- */
+
+  .scroller { overflow-x: auto; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.92rem;
+    min-width: 30rem;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.8rem 0.6rem 0;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+
+  thead th {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+    border-bottom: 1px solid var(--edge);
+    padding-bottom: 0.45rem;
+  }
+
+  tbody tr:last-child td { border-bottom: 0; }
+
+  td.was { color: var(--ink-3); }
+  td.now { color: var(--ink); }
+
+  table.cal { min-width: 26rem; }
+  table.cal td.d {
+    font-family: "IBM Plex Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.82rem;
+    color: var(--ink-2);
+    white-space: nowrap;
+    padding-right: 1.1rem;
+  }
+  table.cal td.pr { white-space: nowrap; font-size: 0.85rem; color: var(--ink-2); }
+  table.cal tr.exam td { background: var(--taronja-soft); }
+  table.cal tr.exam td.t { font-weight: 600; }
+
+  /* ---------- Jugades ---------- */
+
+  .play { padding: 2.6rem 0; border-top: 1px solid var(--rule); }
+
+  .play .side .num { display: block; }
+  .play .side .artifact {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.74rem;
+    color: var(--ink-3);
+    margin-top: 0.55rem;
+    line-height: 1.4;
+    word-break: break-all;
+  }
+
+  @media (max-width: 760px) {
+    .play .side { display: flex; align-items: baseline; gap: 0.9rem; }
+    .play .side .artifact { margin-top: 0; }
+  }
+
+  .play h2 .kicker {
+    display: block;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    color: var(--ink-3);
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+
+  .block { display: flex; flex-direction: column; gap: 0.45rem; }
+  .block .label { color: var(--blau); }
+
+  .warn {
+    border-left: 3px solid var(--taronja);
+    padding: 0.15rem 0 0.15rem 0.95rem;
+    font-size: 0.94rem;
+    color: var(--ink-2);
+  }
+  .warn .label { color: var(--taronja); display: block; margin-bottom: 0.2rem; }
+
+  .ok {
+    border-left: 3px solid var(--aqua);
+    padding: 0.15rem 0 0.15rem 0.95rem;
+    font-size: 0.94rem;
+    color: var(--ink-2);
+  }
+  .ok .label { color: var(--aqua); display: block; margin-bottom: 0.2rem; }
+
+  /* ---------- Apartats ---------- */
+
+  .aside {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--taronja);
+    border-radius: 0 4px 4px 0;
+    padding: 1.3rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .aside .label { color: var(--taronja); }
+  .aside h3 { font-size: 1.15rem; }
+
+  /* ---------- Prompts ---------- */
+
+  pre {
+    margin: 0;
+    background: var(--sunken);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 0.95rem 1.05rem;
+    overflow-x: auto;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.8rem;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  pre .c { color: var(--ink-3); }
+
+  /* ---------- Test de propietat ---------- */
+
+  .test {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .test div {
+    background: var(--surface);
+    padding: 0.9rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .test .v {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-weight: 600;
+    font-size: 1.02rem;
+  }
+  .test .d { font-size: 0.85rem; color: var(--ink-2); line-height: 1.45; }
+
+  /* ---------- Pràctiques ---------- */
+
+  .practices { display: flex; flex-direction: column; gap: 1px; background: var(--rule); border-block: 1px solid var(--rule); }
+  .prac {
+    background: var(--ground);
+    padding: 1.15rem 0;
+    display: grid;
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+    gap: 0.2rem 1.2rem;
+  }
+  @media (max-width: 560px) { .prac { grid-template-columns: minmax(0,1fr); } }
+  .prac .tag {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.76rem;
+    color: var(--blau);
+    padding-top: 0.22rem;
+  }
+  .prac .body { display: flex; flex-direction: column; gap: 0.35rem; }
+  .prac .body .t { font-family: "Familjen Grotesk", sans-serif; font-weight: 600; font-size: 1.02rem; }
+  .prac .body .d { font-size: 0.93rem; color: var(--ink-2); }
+  .prac .body .m {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.74rem;
+    color: var(--ink-3);
+    display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem;
+  }
+
+  /* ---------- Tancament ---------- */
+
+  .closing {
+    font-size: 1.28rem;
+    line-height: 1.42;
+    font-weight: 600;
+    font-family: "Familjen Grotesk", sans-serif;
+    letter-spacing: -0.012em;
+    text-wrap: balance;
+  }
+
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--rule);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.73rem;
+    color: var(--ink-3);
+    line-height: 1.7;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+
+<div class="wrap">
+
+  <!-- ============ PORTADA ============ -->
+  <header class="hero row">
+    <div class="side"></div>
+    <div class="main">
+      <div class="meta">
+        <span>TNUI 2026–2027</span>
+        <span>Taller de Nous Usos de la Informàtica</span>
+        <span>14.09</span>
+      </div>
+      <h2>Escriure codi ha deixat de ser la part que més temps consumeix d'aquesta assignatura.</h2>
+      <div class="hero-rule"></div>
+      <p class="lede">Un assistent d'IA et pot escriure en tres minuts el visualitzador de dades o el mètode d'anàlisi de dades que fa cinc anys ocupava una tarda sencera. <strong>El que no et pot fer és decidir què has de construir, si les dades diuen el que et penses, ni respondre per tu quan et preguntin per què funciona</strong>. Aquest document explica com treballarem durant el curs perquè aquesta diferència quedi clara des del primer dia.</p>
+      <p class="thesis">La regla del curs: <strong>l'especificació precedeix el codi, i la responsabilitat no es delega</strong>. Tu dissenyes i especifiques la solució; la IA la implementa; tu la verifiques i la defenses.</p>
+    </div>
+  </header>
+
+  <!-- ============ QUÈ VOL DIR ============ -->
+  <section class="row">
+    <div class="side"><span class="label">Marc</span></div>
+    <div class="main">
+      <h2>Què vol dir treballar amb IA en aquesta assignatura</h2>
+      <p>El mètode clàssic per resoldre un problema computacional era lineal: entenies el problema, escrivies codi, el provaves, l'entregaves. Escriure el codi era el pas més car (en temps), i tota la resta s'organitzava al seu voltant. Quan aquest pas passa a costar minuts, el coll d'ampolla es desplaça: ara el que costa és <strong>saber exactament què vols</strong> i <strong>comprovar que el que ha sortit és correcte</strong>.</p>
+      <p>Per això no treballarem escrivint codi i després documentant-lo. Treballarem escrivint <strong>artefactes versionats</strong> —fitxers de text que passen d'una etapa a la següent— i el codi n'és una conseqüència. Cada artefacte és teu; el codi el pot generar la IA.</p>
+
+      <div class="chain">
+        <span class="node ai">enunciat</span>
+        <span class="arrow">→</span>
+        <span class="node you">spec.md</span>
+        <span class="arrow">→</span>
+        <span class="node you">architecture.md</span>
+        <span class="arrow">→</span>
+        <span class="node you">tasks.md</span>
+        <span class="arrow">→</span>
+        <span class="node ai">codi</span>
+        <span class="arrow">→</span>
+        <span class="node you">verificació</span>
+        <span class="arrow">→</span>
+        <span class="node you">informe</span>
+      </div>
+      <div class="chain-legend">
+        <span><span class="swatch you"></span>l'escrius tu</span>
+        <span><span class="swatch ai"></span>el genera el professor o la IA sota les teves regles</span>
+      </div>
+      <p class="loopback">Quan la verificació falla, es torna a l'especificació, no al codi. Si demanes a la IA que «apedaci» un resultat que no compleix <span class="file">spec.md</span>, acabaràs amb codi que ningú ha decidit mai que existís.</p>
+    </div>
+  </section>
+
+  <!-- ============ TAULA DE CANVIS ============ -->
+  <section class="row">
+    <div class="side"><span class="label">El canvi</span></div>
+    <div class="main">
+      <h2>Què canvia respecte de com programaves amb IA fins ara</h2>
+      <div class="scroller">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:26%">&nbsp;</th>
+              <th style="width:37%">Com es feia</th>
+              <th style="width:37%">Com ho farem</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Punt de partida</strong></td><td class="was">Un editor obert i un enunciat</td><td class="now">Un enunciat i quatre fitxers <span class="file">.md</span> escrits abans de demanar res</td></tr>
+            <tr><td><strong>Qui decideix l'arquitectura</strong></td><td class="was">L'inventa la IA</td><td class="now">Tu, a <span class="file">architecture.md</span>, abans de la primera línia</td></tr>
+            <tr><td><strong>Mida del pas</strong></td><td class="was">«Fes-me el projecte»</td><td class="now">Una tasca de <span class="file">tasks.md</span>, verificada, i atura't</td></tr>
+            <tr><td><strong>Quan saps que has acabat</strong></td><td class="was">Quan et cansa</td><td class="now">Quan es compleixen els criteris d'acceptació</td></tr>
+            <tr><td><strong>On va la teva atenció</strong></td><td class="was">A teclejar sintaxi</td><td class="now">A especificar, verificar i interpretar</td></tr>
+            <tr><td><strong>Què t'avaluem</strong></td><td class="was">Que el codi corri</td><td class="now">Que puguis explicar-lo, criticar-lo i defensar-lo</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Cap de les dues columnes és una caricatura. La de l'esquerra és exactament com molta gent fa servir un assistent d'IA ara mateix, i funciona ... fins a la primera vegada que has de modificar alguna cosa.</p>
+    </div>
+  </section>
+
+  <!-- ============ ETAPES ============ -->
+  <section class="row" style="padding-bottom:0.8rem">
+    <div class="side"><span class="label">Les jugades</span></div>
+    <div class="main">
+      <h2>Sis etapes, en aquest ordre</h2>
+      <p>Cada etapa té un artefacte associat i una manera concreta de comprovar que l'has feta bé. Les sis són el mateix cicle a les tres pràctiques, canviant només el domini: una anàlisi del padró de Barcelona, un recomanador amb factorització de matrius, una anàlisi bayesiana de dades.</p>
+    </div>
+  </section>
+
+  <!-- 01 -->
+  <article class="play row">
+    <div class="side">
+      <span class="num">01</span>
+      <div class="artifact">preguntes<br>a l'enunciat</div>
+    </div>
+    <div class="main">
+      <h2><span class="kicker">Entendre</span>El problema, abans que qualsevol fitxer</h2>
+      <p>Abans d'escriure res, has de poder respondre una pregunta:</p>
+      <p class="thesis">Què ha de fer exactament aquest sistema?</p>
+      <div class="block">
+        <span class="label">Com s'executa</span>
+        <ol class="steps">
+          <li>Llegeix l'enunciat sencer i marca cada frase que amaga una decisió no presa. «Valoració mitjana per gènere»: una pel·lícula amb tres gèneres, compta en tots tres o en cap?</li>
+          <li>Escriu la llista de coses que <em>no</em> saps. És la llista de preguntes que faràs a classe.</li>
+          <li>Mira les dades reals abans de decidir res. Al padró de Barcelona hi ha valors emmascarats amb <span class="file">..</span> per privacitat, i codis numèrics que només tenen sentit amb <span class="file">pad_dimensions.csv</span> al costat.</li>
+        </ol>
+      </div>
+      <div class="warn">
+        <span class="label">Senyal d'alarma</span>
+        Si la teva primera acció ha estat obrir el xat i enganxar l'enunciat, t'has saltat aquesta jugada. La IA et donarà una resposta plausible a un problema que encara no has definit.
+      </div>
+    </div>
+  </article>
+
+  <!-- 02 -->
+  <article class="play row">
+    <div class="side">
+      <span class="num">02</span>
+      <div class="artifact">spec.md</div>
+    </div>
+    <div class="main">
+      <h2><span class="kicker">Especificar</span>Què ha de fer el sistema</h2>
+      <p>Els requisits funcionals i els criteris d'acceptació. Res de codi, res de llibreries: només <strong>comportament observable</strong>. Quines dades entren i amb quin format, què ha de poder fer la persona usuària, quins missatges d'error apareixen i quan, i com sabrem que està acabat.</p>
+      <div class="block">
+        <span class="label">Com s'executa</span>
+        <ol class="steps">
+          <li>Descriu el format d'entrada amb una taula de columnes i un exemple literal de dades vàlides.</li>
+          <li>Numera les funcionalitats. Si una en conté dues, separa-les.</li>
+          <li>Tanca amb <strong>criteris d'acceptació</strong> comprovables. «El RMSE sobre el test és inferior a 0,95» és un criteri; «el model funciona bé» no ho és.</li>
+        </ol>
+      </div>
+      <div class="ok">
+        <span class="label">Està bé quan</span>
+        Una persona que no ha vist mai l'enunciat pot llegir el teu <span class="file">spec.md</span> i dir-te si el resultat és correcte o no, sense preguntar-te res.
+      </div>
+    </div>
+  </article>
+
+  <!-- 03 -->
+  <article class="play row">
+    <div class="side">
+      <span class="num">03</span>
+      <div class="artifact">architecture.md</div>
+    </div>
+    <div class="main">
+      <h2><span class="kicker">Dissenyar</span>Com s'organitza el projecte</h2>
+      <p>El plànol: quins fitxers hi ha, de què és responsable cadascun, quines llibreries s'usen i per què. És la jugada que més gent es salta i la que més cara costa saltar-se, perquè si tu no decideixes l'estructura, la decidirà la IA —i te la trobaràs feta quan ja no la puguis canviar.</p>
+      <div class="block">
+        <span class="label">Com s'executa</span>
+        <ol class="steps">
+          <li>Dibuixa l'arbre de fitxers complet, amb un comentari per línia.</li>
+          <li>Per a cada mòdul, escriu les funcions que exposa amb la seva signatura. A la pràctica del recomanador això vol dir decidir, abans de programar, que <span class="file">data_loader.py</span> exporta <span class="file">build_index_maps</span> i què retorna.</li>
+          <li>Justifica cada llibreria en una frase. Si no saps per què hi és, no hi ha de ser.</li>
+          <li>Separa sempre entrenament d'inferència, càrrega de dades de model, i model d'avaluació.</li>
+        </ol>
+      </div>
+      <div class="warn">
+        <span class="label">Senyal d'alarma</span>
+        Si l'estructura del projecte té més fitxers dels que pots explicar de memòria, simplifica-la: encara ets a temps, no hi ha codi.
+      </div>
+    </div>
+  </article>
+
+  <!-- 04 -->
+  <article class="play row">
+    <div class="side">
+      <span class="num">04</span>
+      <div class="artifact">tasks.md</div>
+    </div>
+    <div class="main">
+      <h2><span class="kicker">Planificar</span>Què cal fer i en quin ordre</h2>
+      <p>L'especificació convertida en una llista de tasques petites, ordenades per fases, cadascuna <strong>independent i verificable</strong>. Aquest és el fitxer que converteix un projecte en una seqüència de passos que pots comprovar d'un en un.</p>
+      <div class="block">
+        <span class="label">La prova d'una bona tasca</span>
+        <ul>
+          <li>Té un identificador (<span class="file">T2.3</span>) i toca un sol fitxer.</li>
+          <li>Es pot verificar sense fer les següents.</li>
+          <li>Cap en una frase que comenci amb un verb: <em>«Implementar el bucle SGD dins de <span class="file">fit</span>: iterar per les valoracions del train, calcular l'error i actualitzar P, Q, b_u, b_i.»</em></li>
+          <li>Si has d'escriure «i després» dues vegades, són dues tasques.</li>
+        </ul>
+      </div>
+      <div class="ok">
+        <span class="label">Per què importa</span>
+        Quan alguna cosa falla, saps exactament on mirar. Si el gràfic no surt però la taula sí, el problema és a la fase 5, no a la 2.
+      </div>
+    </div>
+  </article>
+
+  <!-- 05 -->
+  <article class="play row">
+    <div class="side">
+      <span class="num">05</span>
+      <div class="artifact">reglesIA.md</div>
+    </div>
+    <div class="main">
+      <h2><span class="kicker">Construir</span>Una tasca a la vegada, i atura't</h2>
+      <p>Ara sí que parles amb l'assistent. El <span class="file">reglesIA.md</span> és el contracte que li poses: llegeix els tres documents, tria <em>una</em> tasca, explica què farà abans de fer-ho, implementa-la, i <strong>atura't fins que tu ho confirmis</strong>.</p>
+      <div class="block">
+        <span class="label">El bucle</span>
+        <ol class="steps">
+          <li>Demanes una tasca concreta, pel seu identificador.</li>
+          <li>La IA explica què tocarà i com es verificarà. Si el que explica no és el que volies, corregeix-ho <em>ara</em>.</li>
+          <li>Implementa. Tu llegeixes el codi. Cada línia.</li>
+          <li>Proves que funciona: obres l'HTML, executes la cel·la, mires la sortida.</li>
+          <li>Marques <span class="file">[x]</span> a <span class="file">tasks.md</span> i demanes la següent.</li>
+        </ol>
+      </div>
+      <div class="block">
+        <span class="label">Prompts que faràs servir</span>
+<pre><span class="c"># Començar una tasca</span>
+Llegeix spec.md, architecture.md i tasks.md.
+Implementa només la tasca T2.3 i atura't.
+
+<span class="c"># Entendre el que t'ha donat</span>
+Explica pas a pas què fa la funció build_index_maps
+i per què no podem fer servir movieId com a índex.
+
+<span class="c"># Corregir</span>
+El gràfic no es mostra. Revisa app.js i digues-me què falla.
+
+<span class="c"># Abans d'afegir res no planificat</span>
+Vull afegir [X]. És coherent amb architecture.md?
+Si ho és, quina tasca nova s'hauria de crear a tasks.md?
+
+<span class="c"># Control de coherència</span>
+Revisa tots els fitxers i digues-me si el codi és coherent
+amb spec.md i architecture.md.</pre>
+      </div>
+      <div class="warn">
+        <span class="label">El que no faràs</span>
+        No demanaràs el projecte sencer de cop. No acceptaràs codi que no entenguis. No et saltaràs tasques ni l'ordre de les fases. No ignoraràs un error esperant que desaparegui sol.
+      </div>
+    </div>
+  </article>
+
+  <!-- 06 -->
+  <article class="play row">
+    <div class="side">
+      <span class="num">06</span>
+      <div class="artifact">informe<br>+ rúbrica</div>
+    </div>
+    <div class="main">
+      <h2><span class="kicker">Verificar i defensar</span>Els casos que ningú havia previst</h2>
+      <p>Que el codi corri amb dades boniques no vol dir res. La verificació consisteix a buscar activament què el trenca i, sobretot, a saber què <em>no</em> has cobert.</p>
+      <div class="block">
+        <span class="label">Com s'executa</span>
+        <ol class="steps">
+          <li>Prova l'entrada vàlida, la que té capçaleres incorrectes i la que té dades invàlides.</li>
+          <li>Enumera els casos extrems i classifica'ls: contemplats, parcials i no contemplats. Un usuari nou sense cap valoració és <em>cold-start</em>, i el model retorna la mitjana global: això és una decisió, i l'has de saber explicar.</li>
+          <li>Escriu les limitacions. A la pràctica del recomanador, que <span class="file">ndcg_at_k</span> ignori els usuaris amb menys de <em>k</em> valoracions esbiaixa la mètrica cap als usuaris més actius. Saber-ho val més que amagar-ho.</li>
+          <li>Redacta la interpretació: què significa el resultat, què no significa, i què hauria de passar perquè fos fals.</li>
+        </ol>
+      </div>
+      <div class="ok">
+        <span class="label">La prova final</span>
+        A l'examen de pràctica et preguntarem coses com: per què guardem <span class="file">p_u = P[u].copy()</span> abans d'actualitzar <span class="file">P[u]</span>? Què passaria si λ = 0? Per què la corba d'aprenentatge mostra el MSE del train i no del test, i quan hauries d'aturar l'entrenament? Cap d'aquestes preguntes es respon mirant el codi corre o no corre.
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ DEUTE COGNITIU ============ -->
+  <section class="row">
+    <div class="side"><span class="label">Apartat</span></div>
+    <div class="main">
+      <div class="aside">
+        <span class="label">El risc real</span>
+        <h3>El deute cognitiu</h3>
+        <p>És molt fàcil deixar que l'assistent faci canvis cada cop més grans fins al punt que el codi funciona però ha deixat de ser teu. En aquell moment comences a acumular <strong>deute cognitiu</strong>: la distància entre el que fa el programa i el que n'entens es fa més gran a cada iteració.</p>
+        <p>A curt termini sembla eficient. A mitjà termini, quan apareix un error o cal afegir una funcionalitat, ja no tens els conceptes per decidir res —ni tan sols per escriure una bona especificació. Et limites a demanar canvis mal especificats, i el deute creix.</p>
+        <p>L'objectiu no és escriure tot el codi a mà. És mantenir el nivell de comprensió que et permet seguir participant. Davant de qualsevol solució que et doni la IA, hauries de poder dir <strong>per què funciona</strong>, <strong>quines decisions de disseny s'han pres</strong>, <strong>quines alternatives hi havia</strong> i <strong>quines limitacions té</strong>.</p>
+        <p>Delegar la feina repetitiva, sí. Delegar la comprensió, no.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEST DE PROPIETAT ============ -->
+  <section class="row">
+    <div class="side"><span class="label">Criteri</span></div>
+    <div class="main">
+      <h2>El test que aplicaràs a cada línia acceptada</h2>
+      <p>És el principi fonamental de <span class="file">reglesIA.md</span>. Accepta només codi que puguis:</p>
+      <div class="test">
+        <div><span class="v">Explicar</span><span class="d">Dir en veu alta què fa i per què funciona</span></div>
+        <div><span class="v">Modificar</span><span class="d">Canviar-ne el comportament sense trencar la resta</span></div>
+        <div><span class="v">Depurar</span><span class="d">Trobar-hi l'error quan la sortida no és la que esperaves</span></div>
+        <div><span class="v">Mantenir</span><span class="d">Fer-lo créixer d'aquí a tres setmanes</span></div>
+      </div>
+      <p>Si falla qualsevol de les quatre condicions: <strong>atura't</strong>. Pregunta, llegeix, refés l'especificació. No continuïs endavant acumulant deute.</p>
+    </div>
+  </section>
+
+  <!-- ============ ESCEPTICISME ============ -->
+  <section class="row">
+    <div class="side"><span class="label">El fil de fons</span></div>
+    <div class="main">
+      <h2>La part que cap assistent farà per tu</h2>
+      <p>La meitat del curs no va de programar: va d'entendre per què les dades poden enganyar. Un assistent d'IA t'escriurà un <span class="file">groupby</span> perfecte sobre una taula que no mesura el que et penses, i no et dirà res.</p>
+      <ul>
+        <li><strong>Les dades no són la realitat.</strong> Hi ha un fenomen, una mesura i una dada, i són tres coses diferents. Pensa-hi amb «temperatura», i després amb «dolor», «qualitat educativa» o «felicitat».</li>
+        <li><strong>Dades mancants.</strong> Per què falten? Els <span class="file">..</span> del padró no són nuls a l'atzar: són valors baixos emmascarats per privacitat. Tractar-los com a zeros canvia les conclusions.</li>
+        <li><strong>Mostres esbiaixades.</strong> Qui apareix a les dades i qui no. Enquestes en línia, dades hospitalàries, xarxes socials.</li>
+        <li><strong>Correlació i causalitat.</strong> Variables de confusió, i per què un model predictiu excel·lent pot dur a una decisió pèssima.</li>
+        <li><strong>Canvis en el temps.</strong> El <em>concept drift</em>: dades històriques que deixen de servir. La COVID com a exemple paradigmàtic.</li>
+        <li><strong>Agregació.</strong> Mitjanes que amaguen diferències que importen; la paradoxa de Simpson.</li>
+        <li><strong>Llei de Goodhart.</strong> Quan una mesura es converteix en objectiu, deixa de ser una bona mesura.</li>
+        <li><strong>La maledicció de la dimensionalitat.</strong> En moltes dimensions el centre és buit —el pacient mitjà no existeix— i totes les distàncies s'assemblen. Més variables no sempre és millor.</li>
+      </ul>
+      <p>Les preguntes que faràs sempre, abans de qualsevol anàlisi: qui ha recollit aquestes dades, amb quin objectiu, què hi falta, quina definició han fet servir, i si pots confiar-hi.</p>
+    </div>
+  </section>
+
+  <!-- ============ QUAN NO ============ -->
+  <section class="row">
+    <div class="side"><span class="label">Límits</span></div>
+    <div class="main">
+      <div class="aside">
+        <span class="label">Regla d'ús</span>
+        <h3>On acaba l'ajuda de la IA</h3>
+        <p>Pots fer servir un assistent per <strong>entendre</strong> un concepte, per <strong>desencallar-te</strong> amb un error i per <strong>implementar</strong> tasques que tu has especificat. Aquest és l'ús que aquest curs t'ensenya a fer.</p>
+        <p>El que ha de ser teu, sempre: les <strong>reflexions escrites</strong>, les <strong>interpretacions</strong> i la <strong>crítica de les limitacions</strong> de les dades i dels models. A les pràctiques amb notebooks, les cel·les marcades amb 🔧 són teves i les marcades amb ✅ són la guia. L'informe final i la reflexió crítica els escrius tu.</p>
+        <p>I la condició que ho travessa tot: <strong>has de poder explicar i defensar tot el codi que entreguis</strong>. Això no és una restricció moral, és el criteri d'avaluació.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+</div>
