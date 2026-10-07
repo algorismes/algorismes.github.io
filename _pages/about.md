@@ -12,7 +12,7 @@ redirect_from:
 
 I design **tools for knowing in the age of algorithms**. I try to understand how ideas about knowledge translate into decision-making in a world increasingly mediated by algorithms, and how we can design systems that support responsible judgment rather than replace it.
 
-I work at the intersection of artificial intelligence, causal reasoning, and ethics. My research asks how predictive models, recommender systems, and generative AI shape the epistemic environments in which people—journalists, teachers, doctors, policymakers, and citizens—form beliefs and make decisions.
+I work at the intersection of data science, causal reasoning, and responsible AI. My research asks how predictive models, recommender systems, and generative AI shape the epistemic environments in which people —journalists, teachers, doctors, policymakers, and citizens— form beliefs and make decisions.
 
 I’m interested in the gap between prediction and understanding: how statistical models detect patterns, but human institutions still need explanations, causal reasoning, and accountability.
 
@@ -20,7 +20,7 @@ Part of my work is conceptual: developing frameworks to think about epistemic au
 
 Part of it is practical: building tools, datasets, and evaluation methods that make these ideas operational in real settings—from media analysis to clinical AI.
 
-I collaborate with journalists, enterpreneurs, and public institutions to turn philosophical questions about knowledge into working systems and educational tools.
+I collaborate with knowledge workers, entrepreneurs, and public institutions to turn philosophical questions about knowledge into practical systems and educational tools.
 
 Right now, as AI becomes part of how societies produce and evaluate knowledge, this feels like one of the most intellectually urgent and exciting problems to work on.
 
