@@ -49,6 +49,26 @@ He has been always interested in connecting his academic work to the local techn
 
 ---
 
+**September 2026**
+
+- [**Learning instance-specific counterfactual models for continuous treatments using hypernetworks**](https://scholar.google.com/citations?view_op=view_citation&hl=ca&user=BZfj2c8AAAAJ&sortby=pubdate&citation_for_view=BZfj2c8AAAAJ:hvmnpdAuIbkC)  
+  R. Pros, J. Vitrià  
+  *Frontiers in Artificial Intelligence*, 9, 1819009, 2026
+
+- [**Enhancing point cloud semantic segmentation via scalable domain adaptation with LoRA-enabled PointNet++**](https://scholar.google.com/citations?view_op=view_citation&hl=ca&user=BZfj2c8AAAAJ&sortby=pubdate&citation_for_view=BZfj2c8AAAAJ:4aZ_i-5WJEQC)  
+  M. Carós, A. Just, S. Seguí, J. Vitrià  
+  *ISPRS Open Journal of Photogrammetry and Remote Sensing*, 100119, 2026
+
+- [**AI-Assisted Evaluation of Colon Cleanliness in Capsule Endoscopy Videos**](https://scholar.google.com/citations?view_op=view_citation&hl=ca&user=BZfj2c8AAAAJ&sortby=pubdate&citation_for_view=BZfj2c8AAAAJ:JP7YXuLIOvAC)  
+  P. Gilabert, C. Malagelada, H. Wenzek, A. Watson, A. R. Robertson, Á. Finta, et al.  
+  *Diagnostics*, 15(17), 2228, 2025
+
+- [**Optimizing Reachability in Graph-Based Recommender Systems**](https://scholar.google.com/citations?view_op=view_citation&hl=ca&user=BZfj2c8AAAAJ&sortby=pubdate&citation_for_view=BZfj2c8AAAAJ:__bU50VfleQC)  
+  A. Martínez, F. Cinus, F. Bonchi, J. Vitrià  
+  *ACM Transactions on Intelligent Systems and Technology*, 16(4), 1–23
+
+---
+
 **September 2025**
 
 New substack newsletter: [Jordi's Substack](https://jordivitria.substack.com/)
